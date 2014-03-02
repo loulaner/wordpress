@@ -1,0 +1,3673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: V1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-09 22:00+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: www.4mudi.com <zeusgeats@gmail.com>\n"
+"Language-Team: www.4mudi.com <zeusgeats@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Error 404, page, post or resource can not be found"
+msgstr "404错误、页面、文章或资源找不到"
+
+#: archive.php:14
+msgid "Portfolio archives"
+msgstr "组合归档"
+
+#: archive.php:16
+msgid "Daily archives"
+msgstr "每日归档"
+
+#: archive.php:18
+msgid "Monthly archives"
+msgstr "每月归档"
+
+#: archive.php:20
+msgid "Yearly archives"
+msgstr "每年归档"
+
+#: archive.php:22
+msgid "Blog archives"
+msgstr "博客归档"
+
+#: archive.php:28
+#: author.php:19
+#: category.php:14
+#: index.php:14
+msgid "Sorry, no posts found"
+msgstr "对不起，没有找到文章"
+
+#: author-box.php:15
+msgid "By"
+msgstr "作者："
+
+#: author.php:12
+msgid "Author archives: "
+msgstr "作者归档："
+
+#: category.php:12
+msgid "Category archives: "
+msgstr "分类归档："
+
+#: comments.php:26
+#, php-format
+msgid "%1$s&nbsp;&nbsp;%2$s"
+msgstr "%1$s&nbsp;&nbsp;%2$s"
+
+#: comments.php:28
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: comments.php:50
+#, fuzzy
+msgid "Pingback"
+msgstr "Pingback"
+
+#: comments.php:50
+#: entry-meta.php:145
+msgid "Edit"
+msgstr "编辑"
+
+#: comments.php:65
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: comments.php:83
+#: page.php:223
+#, php-format
+msgid "Leave a %s"
+msgstr "回复%s"
+
+#: comments.php:83
+#: entry-meta.php:59
+#: page.php:223
+msgid "comment"
+msgstr "评论"
+
+#: comments.php:96
+msgid "Comment"
+msgstr "评论"
+
+#: comments.php:96
+msgid "Comments"
+msgstr "评论"
+
+#: comments.php:129
+msgid "Be the first one to comment"
+msgstr "成为第一个评论者。"
+
+#: comments.php:145
+#: login.php:20
+msgid "Your name"
+msgstr "你的名字"
+
+#: comments.php:147
+#: login.php:23
+msgid "Your email"
+msgstr "你的邮箱"
+
+#: comments.php:149
+msgid "Website"
+msgstr "网站"
+
+#: comments.php:161
+msgid "Leave a reply"
+msgstr "发表回复"
+
+#: comments.php:163
+msgid "Your email address will not be published."
+msgstr "电子邮件地址不会被公开。"
+
+#: comments.php:164
+msgid "Logged in as"
+msgstr "登录为"
+
+#: comments.php:164
+msgid "Log out of this account"
+msgstr "退出此帐号"
+
+#: comments.php:164
+msgid "Log out?"
+msgstr "退出？"
+
+#: comments.php:167
+msgid "You must be <a href=\"javascript:void(0)\" onclick=\"get_login_box('')\" >logged in</a> to post a comment."
+msgstr "你必须<a href=\"javascript:void(0)\" onclick=\"get_login_box(\\'\\')\" >登录</a>才能评论。"
+
+#: comments.php:168
+msgid "Add comment"
+msgstr "添加评论"
+
+#: entry-meta.php:13
+#, php-format
+msgid "Project %s of %s"
+msgstr "项目%s 共 %s"
+
+#: entry-meta.php:43
+msgid "Replies"
+msgstr "回复"
+
+#: entry-meta.php:85
+#, fuzzy
+msgid "View"
+msgstr "查看"
+
+#: entry-meta.php:87
+#, fuzzy
+msgid "Views"
+msgstr "视图"
+
+#: entry-meta.php:102
+msgid "Client"
+msgstr "客户"
+
+#: entry-meta.php:119
+msgid "Services"
+msgstr "服务"
+
+#: entry-meta.php:134
+msgid "URL"
+msgstr "URL"
+
+#: entry-meta.php:143
+msgid "Edit post"
+msgstr "编辑文章"
+
+#: entry-meta.php:150
+msgid "Confirm to delete this post."
+msgstr "确认删除这篇文章。"
+
+#: entry-meta.php:152
+msgid "Remove post"
+msgstr "删除文章"
+
+#: entry-meta.php:154
+msgid "Delete"
+msgstr "删除"
+
+#: functions.php:163
+msgid "This is an example. Edit it or delete it."
+msgstr "这是一个例子。编辑或删除它。"
+
+#: functions.php:398
+msgid "There is no excerpt because this is a protected post."
+msgstr "无法提供摘要。这是一篇受保护的文章。"
+
+#: header.php:273
+msgid "Image"
+msgstr "图像"
+
+#: header.php:276
+msgid "Video"
+msgstr "视频"
+
+#: header.php:279
+msgid "Text"
+msgstr "文本"
+
+#: header.php:282
+msgid "Audio"
+msgstr "音频"
+
+#: header.php:285
+msgid "File"
+msgstr "文件"
+
+#: header.php:289
+msgid "My settings"
+msgstr "个人设置"
+
+#: header.php:294
+msgid "My profile"
+msgstr "我的资料"
+
+#: header.php:299
+msgid "My added posts"
+msgstr "我的文章"
+
+#: header.php:304
+msgid "My loved posts"
+msgstr "我最爱的文章"
+
+#: header.php:307
+msgid "Add post"
+msgstr "添加文章"
+
+#: header.php:309
+msgid "Log out"
+msgstr "退出"
+
+#: header.php:325
+msgid "Use advanced navigation for a better experience."
+msgstr "使用高级导航带来更好的体验。"
+
+#: header.php:327
+msgid "You can quickly scroll through posts by pressing the above keyboard keys. Now press <strong>the button in right corner</strong> to close this window."
+msgstr "按键盘可以快速滚动文章。现在按<strong>右下角的按钮</strong>关闭窗口。"
+
+#: index.php:11
+msgid "Blog page: "
+msgstr "博客页面："
+
+#: login.php:33
+#: login.php:59
+msgid "Already a member?"
+msgstr "已经是会员？"
+
+#: login.php:33
+#: login.php:59
+msgid "Log in here"
+msgstr "在这里登录"
+
+#: login.php:49
+msgid "Your username or email"
+msgstr "你的用户名或邮箱"
+
+#: login.php:74
+msgid "username"
+msgstr "用户名"
+
+#: login.php:77
+msgid "Password:"
+msgstr "密码："
+
+#: login.php:80
+msgid "Remember Me"
+msgstr "记住我"
+
+#: login.php:89
+msgid "You need to sign in to vote for a post."
+msgstr "你必须在登录后才能对文章投票。"
+
+#: login.php:90
+msgid "You need to sign in to see this post."
+msgstr "你需要登录才能看此文章。"
+
+#: login.php:107
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: login.php:111
+msgid "Register"
+msgstr "注册"
+
+#: login.php:125
+msgid "You are already logged in."
+msgstr "您已经登录。"
+
+#: loop-404.php:6
+msgid "Unfortunately we did not find any results for your request."
+msgstr "很遗憾，我们没有找到你请求的任何结果"
+
+#: loop-404.php:8
+msgid "We apologize but this page, post or resource does not exist or can not be found. Perhaps it is necessary to change the call method to this page, post or resource."
+msgstr "我们深表歉意，但此页面、文章或资源存在或无法找到。也许有必要改变此页面、文章或资源的调用方法。"
+
+#: page.php:51
+msgid "My posts"
+msgstr "我的文章"
+
+#: page.php:59
+msgid "by"
+msgstr "作者"
+
+#: pagination.php:24
+msgid "&laquo; Previous"
+msgstr "&laquo; 上一页"
+
+#: pagination.php:25
+msgid "Next &raquo;"
+msgstr "下一页 &raquo;"
+
+#: post_item.php:109
+msgid "Choose format"
+msgstr "选择格式"
+
+#: post_item.php:141
+#: post_item.php:286
+#: post_item.php:428
+#: post_item.php:574
+#: post_item.php:721
+msgid "Title"
+msgstr "标题"
+
+#: post_item.php:148
+#: post_item.php:293
+#: post_item.php:435
+#: post_item.php:581
+#: post_item.php:728
+msgid "Be descriptive or interesting!"
+msgstr "请添加一个标题"
+
+#: post_item.php:156
+#: post_item.php:345
+#: post_item.php:441
+#: post_item.php:590
+#: post_item.php:736
+msgid "Text content"
+msgstr "内容"
+
+#: post_item.php:184
+#: post_item.php:300
+#: post_item.php:469
+#: post_item.php:618
+#: post_item.php:765
+msgid "Category"
+msgstr "分类"
+
+#: post_item.php:217
+#: post_item.php:331
+#: post_item.php:501
+#: post_item.php:650
+#: post_item.php:799
+msgid "Portfolio"
+msgstr "组合"
+
+#: post_item.php:232
+#: post_item.php:374
+#: post_item.php:515
+#: post_item.php:664
+#: post_item.php:813
+msgid "Tags"
+msgstr "标签"
+
+#: post_item.php:232
+#: post_item.php:374
+#: post_item.php:515
+#: post_item.php:664
+#: post_item.php:813
+msgid "recommended"
+msgstr "推荐"
+
+#: post_item.php:237
+#: post_item.php:379
+#: post_item.php:520
+#: post_item.php:669
+#: post_item.php:818
+msgid "Use comma to separate each tag. E.g. design, wtf, awesome."
+msgstr "请使用逗号分隔每个标签。例如：食品,美食,西餐,中餐,糕点"
+
+#: post_item.php:244
+#: post_item.php:386
+#: post_item.php:527
+#: post_item.php:676
+#: post_item.php:825
+msgid "Source"
+msgstr "来源"
+
+#: post_item.php:249
+#: post_item.php:391
+#: post_item.php:532
+#: post_item.php:681
+#: post_item.php:830
+msgid "Example: http://cosmothemes.com"
+msgstr "例如：http://www.4mudi.com"
+
+#: post_item.php:259
+#: post_item.php:401
+#: post_item.php:542
+#: post_item.php:691
+#: post_item.php:840
+msgid "This is NSFW (Not Safe For Work)"
+msgstr "这是加密作品"
+
+#: post_item.php:272
+#: post_item.php:415
+#: post_item.php:556
+#: post_item.php:706
+#: post_item.php:854
+msgid "Update post"
+msgstr "更新文章"
+
+#: post_item.php:272
+#: post_item.php:415
+#: post_item.php:556
+#: post_item.php:706
+#: post_item.php:854
+msgid "Submit post"
+msgstr "提交文章"
+
+#: post_item.php:876
+msgid "You must be logged in to submit an post"
+msgstr "你必须在登录后提交文章！"
+
+#: post_item.php:888
+msgid "You must be <a href=\"#\" onclick=\"get_login_box(\\\"\\\")\" class=\" link\">logged in</a> to submit a post."
+msgstr "你必须<a href=\"#\" onclick=\"get_login_box(\\\"\\\")\" class=\" link\">登录</a>才能提交文章"
+
+#: related-posts.php:61
+#, php-format
+msgid "More projects by %s"
+msgstr "%s的更多项目"
+
+#: related-posts.php:69
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: search.php:12
+msgid "Search results: "
+msgstr "搜索结果："
+
+#: searchform.php:11
+msgid "to search, type and hit enter"
+msgstr "要搜索，输入并回车"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "搜索"
+
+#: single.php:59
+msgid "in"
+msgstr " "
+
+#: single.php:79
+msgid "replies"
+msgstr "回复"
+
+#: single.php:93
+msgid "reply"
+msgstr "回复"
+
+#: single.php:112
+#, fuzzy
+msgid "view"
+msgstr "视图"
+
+#: single.php:114
+#, fuzzy
+msgid "views"
+msgstr "视图"
+
+#: social-sharing.php:9
+msgid "Pin It"
+msgstr "采集"
+
+#: tag.php:11
+msgid "Tags archives"
+msgstr "标签归档"
+
+#: taxonomy-portfolio.php:12
+msgid "Portfolio archives: "
+msgstr "组合归档："
+
+#: user_profile.php:13
+#: user_profile_update.php:18
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr "您输入的密码不匹配。你的密码没有更新。"
+
+#: user_profile.php:15
+msgid "Your profile info was updated."
+msgstr "你的个人信息已更新。"
+
+#: user_profile.php:27
+msgid "You must be logged in to edit your profile."
+msgstr "你必须登录编辑您的个人资料。"
+
+#: user_profile.php:53
+msgid "Profile picture"
+msgstr "头像"
+
+#: user_profile.php:68
+msgid "Click on picture to change it"
+msgstr "点击图片更换"
+
+#: user_profile.php:69
+msgid "Remove avatar"
+msgstr "删除头像"
+
+#: user_profile.php:77
+msgid "Username"
+msgstr "用户名"
+
+#: user_profile.php:81
+msgid "First name"
+msgstr "名字"
+
+#: user_profile.php:85
+msgid "Last name"
+msgstr "姓"
+
+#: user_profile.php:89
+msgid "E-mail *"
+msgstr "邮箱*"
+
+#: user_profile.php:97
+msgid "Password *"
+msgstr "密码 *"
+
+#: user_profile.php:101
+msgid "Repeat password *"
+msgstr "重复密码*"
+
+#: user_profile.php:105
+msgid "Biographical information"
+msgstr "个人资料"
+
+#: user_profile.php:110
+msgid "Update"
+msgstr "更新"
+
+#: lib/php/actions.register.php:197
+msgid "Main Sidebar"
+msgstr "主侧边栏"
+
+#: lib/php/actions.register.php:206
+msgid "Footer First"
+msgstr "页脚第一栏"
+
+#: lib/php/actions.register.php:215
+msgid "Footer Second"
+msgstr "页脚第二栏"
+
+#: lib/php/actions.register.php:224
+msgid "Footer Third"
+msgstr "页脚第三栏"
+
+#: lib/php/audio-player.php:159
+msgid "Settings"
+msgstr "设置"
+
+#: lib/php/audio-player.php:492
+msgid "Download audio file"
+msgstr "下载音频文件"
+
+#: lib/php/audio-player.php:511
+#, php-format
+msgid "Audio clip: Adobe Flash Player (version 9 or above) is required to play this audio clip. Download the latest version <a href=\"%s\" title=\"Download Adobe Flash Player\">here</a>. You also need to have JavaScript enabled in your browser."
+msgstr "音频片段：需要Adobe Flash Player（9或以上版本）播放音频片段。下载最新版本 <a href=\"%s\" title=\"Download Adobe Flash Player\">点击这里</a>. 你还需要在您的浏览器中启用JavaScript。"
+
+#: lib/php/contact.class.php:11
+msgid "error, fill all required fields ( name )"
+msgstr "错误，请填写所有必填字段（名字）"
+
+#: lib/php/contact.class.php:20
+msgid "error, fill all required fields ( email )"
+msgstr "错误，请填写所有必填字段（邮箱）"
+
+#: lib/php/contact.class.php:27
+msgid "Contact name: "
+msgstr "联系名字："
+
+#: lib/php/contact.class.php:30
+msgid "Contact email: "
+msgstr "联系邮箱："
+
+#: lib/php/contact.class.php:33
+msgid "Contact phone: "
+msgstr "联系电话："
+
+#: lib/php/contact.class.php:41
+msgid "error, fill all required fields ( message )"
+msgstr "错误，请填写所有必填字段（信息）"
+
+#: lib/php/contact.class.php:50
+msgid "New email from"
+msgstr "新电子邮件"
+
+#: lib/php/contact.class.php:50
+msgid "Sent via contact form."
+msgstr "通过联系表发送。"
+
+#: lib/php/contact.class.php:52
+msgid "Email sent successfully "
+msgstr "电子邮件发送成功"
+
+#: lib/php/contact.class.php:54
+msgid "error, sending email failed"
+msgstr "错误，发送邮件失败"
+
+#: lib/php/contact.class.php:71
+msgid "Message"
+msgstr "信息"
+
+#: lib/php/contact.class.php:74
+msgid "Submit form"
+msgstr "提交表单"
+
+#: lib/php/CosmoUploader.class.php:205
+#: lib/php/CosmoUploader.class.php:287
+msgid "Upload a file."
+msgstr "上传一个文件"
+
+#: lib/php/CosmoUploader.class.php:208
+msgid "JPEG, GIF or PNG. "
+msgstr "JPEG, GIF 或 PNG文件。"
+
+#: lib/php/CosmoUploader.class.php:209
+#: lib/php/CosmoUploader.class.php:212
+msgid "Click on a thumbnail to make it featured. "
+msgstr "点击缩略图使其成为特色图片"
+
+#: lib/php/CosmoUploader.class.php:211
+msgid "MP4 only. "
+msgstr "仅限MP4格式  "
+
+#: lib/php/CosmoUploader.class.php:214
+msgid "MP3 only. "
+msgstr "仅限MP3格式."
+
+#: lib/php/CosmoUploader.class.php:216
+msgid "ZIP, RAR, PDF or DOC. "
+msgstr "ZIP, RAR, PDF 或 DOC格式。"
+
+#: lib/php/CosmoUploader.class.php:232
+#: lib/php/CosmoUploader.class.php:238
+#: lib/php/CosmoUploader.class.php:297
+#: lib/php/CosmoUploader.class.php:303
+msgid "Add URL"
+msgstr "添加网址"
+
+#: lib/php/CosmoUploader.class.php:287
+msgid "JPEG, GIF or PNG."
+msgstr "JPEG, GIF 或 PNG文件。"
+
+#: lib/php/CustomHeader.class.php:217
+msgid "Administrator"
+msgstr "管理员"
+
+#: lib/php/CustomHeader.class.php:218
+msgid "Editor"
+msgstr "编辑"
+
+#: lib/php/CustomHeader.class.php:219
+msgid "Author"
+msgstr "作者"
+
+#: lib/php/CustomHeader.class.php:220
+msgid "Contributor"
+msgstr "投稿者"
+
+#: lib/php/CustomHeader.class.php:221
+#: lib/php/CustomHeader.class.php:222
+#: lib/php/CustomHeader.class.php:245
+msgid "Subscriber"
+msgstr "订阅者"
+
+#: lib/php/CustomHeader.class.php:289
+#: lib/php/CustomHeader.class.php:317
+msgid "Members area"
+msgstr "会员区"
+
+#: lib/php/CustomHeader.class.php:300
+#: lib/php/CustomHeader.class.php:325
+#: lib/php/CustomHeader.class.php:357
+msgid "My liked posts"
+msgstr "我喜欢的文章"
+
+#: lib/php/CustomHeader.class.php:374
+#: lib/php/CustomHeader.class.php:382
+msgid "signin"
+msgstr "签到"
+
+#: lib/php/CustomHeader.class.php:374
+msgid "members area"
+msgstr "会员区域"
+
+#: lib/php/CustomHeader.class.php:390
+msgid "Login"
+msgstr "登录"
+
+#: lib/php/CustomHeader.class.php:445
+msgid "MENU"
+msgstr "菜单"
+
+#: lib/php/extra.class.php:127
+msgid "main sidebar"
+msgstr "主侧边栏"
+
+#: lib/php/extra.class.php:229
+msgid "Sorry, no results found."
+msgstr "很抱歉，结果没有发现。"
+
+#: lib/php/extra.class.php:649
+msgid "Start typing the post tile"
+msgstr "开始输入文章标题"
+
+#: lib/php/facebook.class.php:37
+msgid "Facebook"
+msgstr "脸谱"
+
+#: lib/php/fields.class.php:252
+msgid "Preview"
+msgstr "预览"
+
+#: lib/php/fields.class.php:362
+msgid "Yes"
+msgstr "是"
+
+#: lib/php/fields.class.php:363
+msgid "No"
+msgstr "否"
+
+#: lib/php/fields.class.php:417
+msgid "重置值"
+msgstr ""
+
+#: lib/php/fields.class.php:514
+msgid " Attached "
+msgstr "附件"
+
+#: lib/php/fields.class.php:528
+#: lib/php/fields.class.php:543
+#: lib/php/fields.class.php:636
+#: lib/php/fields.class.php:646
+msgid "Choose File"
+msgstr "选择文件"
+
+#: lib/php/fields.class.php:533
+msgid "Generate Key"
+msgstr "生成"
+
+#: lib/php/fields.class.php:770
+msgid "January"
+msgstr "一月"
+
+#: lib/php/fields.class.php:771
+msgid "February"
+msgstr "二月"
+
+#: lib/php/fields.class.php:772
+msgid "March"
+msgstr "三月"
+
+#: lib/php/fields.class.php:773
+msgid "April"
+msgstr "四月"
+
+#: lib/php/fields.class.php:774
+msgid "May"
+msgstr "五月"
+
+#: lib/php/fields.class.php:775
+msgid "June"
+msgstr "六月"
+
+#: lib/php/fields.class.php:776
+msgid "July"
+msgstr "七月"
+
+#: lib/php/fields.class.php:777
+msgid "August"
+msgstr "八月"
+
+#: lib/php/fields.class.php:778
+msgid "September"
+msgstr "九月"
+
+#: lib/php/fields.class.php:779
+msgid "October"
+msgstr "十月"
+
+#: lib/php/fields.class.php:780
+msgid "November"
+msgstr "十一月"
+
+#: lib/php/fields.class.php:781
+msgid "December"
+msgstr "十二月"
+
+#: lib/php/FrontpageBuilder.class.php:6
+#: lib/php/FrontpageElement.class.php:34
+msgid "New element"
+msgstr "新元素"
+
+#: lib/php/FrontpageBuilder.class.php:7
+msgid "显示"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:8
+msgid "小工具"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:9
+msgid "页面"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:10
+#: lib/php/FrontpageBuilder.class.php:11
+msgid "文章"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:12
+msgid "from"
+msgstr "自"
+
+#: lib/php/FrontpageBuilder.class.php:13
+msgid "分类"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:14
+msgid "category"
+msgstr "分类"
+
+#: lib/php/FrontpageBuilder.class.php:15
+msgid "什么都没有，请选择一些"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:16
+msgid "在"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:17
+msgid "的"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:18
+msgid "carousel"
+msgstr "轮播"
+
+#: lib/php/FrontpageBuilder.class.php:19
+msgid "tag"
+msgstr "标签"
+
+#: lib/php/FrontpageBuilder.class.php:20
+msgid "标签"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:21
+msgid "pagination"
+msgstr "页码"
+
+#: lib/php/FrontpageBuilder.class.php:22
+msgid "load more"
+msgstr "加载更多"
+
+#: lib/php/FrontpageBuilder.class.php:23
+msgid "图库"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:24
+msgid "portfolio"
+msgstr "组合"
+
+#: lib/php/FrontpageBuilder.class.php:25
+msgid "portfolios"
+msgstr "组合"
+
+#: lib/php/FrontpageBuilder.class.php:26
+msgid "个精选"
+msgstr ""
+
+#: lib/php/FrontpageBuilder.class.php:27
+msgid "最新"
+msgstr ""
+
+#: lib/php/FrontpageElement.class.php:99
+msgid "Here are the latest posts. Pick one or use the searchbar above"
+msgstr "这里是最新文章。选择一个或使用上面的搜索栏"
+
+#: lib/php/FrontpageElement.class.php:121
+#: lib/php/FrontpageElement.class.php:149
+msgid "There are no pages"
+msgstr "没有页面"
+
+#: lib/php/FrontpageElement.class.php:177
+msgid "There are no non-empty categories"
+msgstr "有没有非空的类别"
+
+#: lib/php/FrontpageElement.class.php:205
+msgid "There are no non-empty tags"
+msgstr "没有非空标签"
+
+#: lib/php/FrontpageElement.class.php:233
+msgid "There are no non-empty portfolios"
+msgstr "有没有非空组合"
+
+#: lib/php/FrontpageElement.class.php:428
+#: lib/php/FrontpageElement.class.php:489
+#: lib/php/FrontpageElement.class.php:571
+#, php-format
+msgid "Load %s more %s "
+msgstr "加载%s更多%s "
+
+#: lib/php/FrontpageElement.class.php:593
+msgid "No posts found"
+msgstr "没发现文章"
+
+#: lib/php/like.class.php:346
+msgid "Love"
+msgstr "喜欢"
+
+#: lib/php/like.class.php:350
+msgid "Hate"
+msgstr "讨厌"
+
+#: lib/php/localize-js.php:6
+msgid "Please check your email"
+msgstr "请检查你的邮箱"
+
+#: lib/php/login.class.php:9
+#: lib/php/login.class.php:55
+msgid "Login successful"
+msgstr "登录成功"
+
+#: lib/php/login.class.php:20
+#: lib/php/login.class.php:76
+msgid "Please enter a username"
+msgstr "请输入用户名"
+
+#: lib/php/login.class.php:30
+msgid "Please enter a password"
+msgstr "请输入密码"
+
+#: lib/php/login.class.php:42
+msgid "Lost your password"
+msgstr "忘记密码"
+
+#: lib/php/login.class.php:43
+msgid "Wrong password"
+msgstr "密码错误"
+
+#: lib/php/login.class.php:67
+msgid "You are logged in"
+msgstr "您已登录"
+
+#: lib/php/login.class.php:85
+msgid "Please enter a valid e-mail"
+msgstr "请输入有效的邮箱"
+
+#: lib/php/login.class.php:94
+#, php-format
+msgid "%s - Your user name and password"
+msgstr "%s - 你的用户名和密码"
+
+#: lib/php/login.class.php:96
+#, php-format
+msgid ""
+"User name: %s \n"
+"Password: %s \n"
+"%s"
+msgstr ""
+"用户名: %s \n"
+"密码: %s \n"
+"%s"
+
+#: lib/php/login.class.php:112
+msgid "Registration successful. Your password will be emailed to you"
+msgstr "注册成功。您的密码将通过电子邮件发送给您"
+
+#: lib/php/main.php:21
+#: lib/php/main.php:31
+msgid "组合"
+msgstr ""
+
+#: lib/php/main.php:23
+msgid "Search Portfolios"
+msgstr "搜索组合"
+
+#: lib/php/main.php:24
+msgid "所有组合"
+msgstr ""
+
+#: lib/php/main.php:25
+msgid "Parent Portfolio"
+msgstr "父组合"
+
+#: lib/php/main.php:26
+msgid "Parent Portfolio:"
+msgstr "父组合："
+
+#: lib/php/main.php:27
+msgid "Edit Portfolio"
+msgstr "编辑组合"
+
+#: lib/php/main.php:28
+msgid "Update Portfolio"
+msgstr "更新组合"
+
+#: lib/php/main.php:29
+msgid "Add New Portfolio"
+msgstr "添加组合"
+
+#: lib/php/main.php:30
+msgid "New Portfolio Name"
+msgstr "新组合名字"
+
+#: lib/php/main.php:246
+msgid "Status: "
+msgstr "状态："
+
+#: lib/php/main.php:301
+#: lib/php/menu.class.php:219
+#: lib/php/menu.class.php:223
+msgid "Home"
+msgstr "首页"
+
+#: lib/php/main.php:321
+msgid "Archive by category"
+msgstr "分类归档"
+
+#: lib/php/main.php:377
+msgid "Search results for"
+msgstr "搜索结果"
+
+#: lib/php/main.php:380
+msgid "Posts tagged"
+msgstr "文章标签"
+
+#: lib/php/main.php:385
+msgid "Articles posted by "
+msgstr "文章来自"
+
+#: lib/php/main.php:388
+msgid "Error 404"
+msgstr "404错误"
+
+#: lib/php/main.php:393
+msgid "Page"
+msgstr "页面"
+
+#: lib/php/main.php:398
+msgid "Blog"
+msgstr "博客"
+
+#: lib/php/main.php:649
+msgid "All"
+msgstr "全部"
+
+#: lib/php/map.class.php:27
+msgid "Phone 1 "
+msgstr "电话1"
+
+#: lib/php/map.class.php:28
+msgid "Phone 2 "
+msgstr "电话2"
+
+#: lib/php/map.class.php:29
+msgid "Fax "
+msgstr "传真"
+
+#: lib/php/map.class.php:30
+msgid "Email "
+msgstr "邮箱"
+
+#: lib/php/map.class.php:268
+msgid "Title Info"
+msgstr "标题信息"
+
+#: lib/php/map.class.php:275
+msgid "Description Info "
+msgstr "描述信息"
+
+#: lib/php/map.class.php:282
+msgid "Contact phone 1"
+msgstr "联系电话1"
+
+#: lib/php/map.class.php:288
+msgid "Contact phone 2"
+msgstr "联系电话2"
+
+#: lib/php/map.class.php:294
+msgid "Fax"
+msgstr "传真"
+
+#: lib/php/map.class.php:300
+#: lib/php/options.register.php:667
+msgid "Contact email"
+msgstr "联系邮箱"
+
+#: lib/php/map.class.php:306
+msgid "Aditional Info"
+msgstr "附加信息"
+
+#: lib/php/meta.class.php:267
+msgid "To change attachment click on the icon"
+msgstr "要更改附件点击图标"
+
+#: lib/php/meta.class.php:762
+msgid "Remove"
+msgstr "删除"
+
+#: lib/php/options.class.php:168
+msgid "Version"
+msgstr "版本"
+
+#: lib/php/options.class.php:225
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: lib/php/options.class.php:255
+msgid "Update Settings"
+msgstr "更新设置"
+
+#: lib/php/options.class.php:493
+msgid "Close"
+msgstr "关闭"
+
+#: lib/php/options.class.php:571
+msgid "version"
+msgstr "版本"
+
+#: lib/php/options.class.php:571
+msgid "is available, please update now."
+msgstr "可用，请立即更新。"
+
+#: lib/php/options.register.php:10
+msgid "General"
+msgstr "常规"
+
+#: lib/php/options.register.php:10
+msgid "General settings"
+msgstr "常规设置"
+
+#: lib/php/options.register.php:10
+msgid "General page description."
+msgstr "一般页面描述。"
+
+#: lib/php/options.register.php:11
+msgid "Custom Header"
+msgstr "自定义页眉"
+
+#: lib/php/options.register.php:11
+msgid "Custom header settings"
+msgstr "自定义标题设置"
+
+#: lib/php/options.register.php:11
+msgid "Custom page description."
+msgstr "自定义页面描述。"
+
+#: lib/php/options.register.php:12
+#: lib/php/options.register.php:295
+msgid "Front page"
+msgstr "首页"
+
+#: lib/php/options.register.php:12
+msgid "Front page settings"
+msgstr "首页设置"
+
+#: lib/php/options.register.php:12
+msgid "Front page description."
+msgstr "首页描述。"
+
+#: lib/php/options.register.php:13
+msgid "Layout"
+msgstr "布局"
+
+#: lib/php/options.register.php:13
+msgid "Layout page settings"
+msgstr "布局页面设置"
+
+#: lib/php/options.register.php:13
+msgid "Layout page description."
+msgstr "布局页面描述。"
+
+#: lib/php/options.register.php:14
+msgid "Styling"
+msgstr "风格"
+
+#: lib/php/options.register.php:14
+msgid "Styling settings"
+msgstr "风格设置"
+
+#: lib/php/options.register.php:14
+msgid "Styling page description."
+msgstr "风格页面描述。"
+
+#: lib/php/options.register.php:15
+msgid "Menus"
+msgstr "菜单"
+
+#: lib/php/options.register.php:15
+msgid "Menu settings"
+msgstr "菜单设置"
+
+#: lib/php/options.register.php:15
+msgid "Menu page description."
+msgstr "菜单页面描述。"
+
+#: lib/php/options.register.php:16
+msgid "Blogging"
+msgstr "博客"
+
+#: lib/php/options.register.php:16
+msgid "Blog post settings"
+msgstr "博客文章设置"
+
+#: lib/php/options.register.php:16
+msgid "Blog post page description."
+msgstr "博客文章页面描述。"
+
+#: lib/php/options.register.php:17
+msgid "Advertisement"
+msgstr "广告"
+
+#: lib/php/options.register.php:17
+msgid "Advertisement spaces"
+msgstr "广告位"
+
+#: lib/php/options.register.php:17
+#: lib/php/options.register.php:21
+msgid "Sidebar manager page description."
+msgstr "侧边栏管理页面描述。"
+
+#: lib/php/options.register.php:18
+msgid "Social networks"
+msgstr "社交网络"
+
+#: lib/php/options.register.php:18
+msgid "Social network settings"
+msgstr "社交网络设置"
+
+#: lib/php/options.register.php:18
+msgid "Social page description."
+msgstr "社交页面描述。"
+
+#: lib/php/options.register.php:19
+msgid "Slideshow"
+msgstr "幻灯片"
+
+#: lib/php/options.register.php:19
+msgid "Slideshow settings"
+msgstr "幻灯片设置"
+
+#: lib/php/options.register.php:19
+msgid "Slideshow page description."
+msgstr "幻灯片页面描述"
+
+#: lib/php/options.register.php:20
+msgid "Front-end posts"
+msgstr "前台文章"
+
+#: lib/php/options.register.php:20
+msgid "Front-end posts submission"
+msgstr "前台文章提交"
+
+#: lib/php/options.register.php:20
+msgid "Front end tabs settings."
+msgstr "前台选项卡设置。"
+
+#: lib/php/options.register.php:21
+msgid "Sidebars"
+msgstr "侧边栏"
+
+#: lib/php/options.register.php:21
+msgid "Sidebar manager"
+msgstr "侧边栏管理"
+
+#: lib/php/options.register.php:22
+msgid "Tooltips"
+msgstr "提示工具"
+
+#: lib/php/options.register.php:22
+msgid "Tooltips manager"
+msgstr "提示工具管理"
+
+#: lib/php/options.register.php:22
+msgid "Tooltips manager page description."
+msgstr "工具提示管理页面描述。"
+
+#: lib/php/options.register.php:23
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: lib/php/options.register.php:24
+msgid "CosmoThemes"
+msgstr "Cosmo主题"
+
+#: lib/php/options.register.php:24
+msgid "CosmoThemes notifications."
+msgstr "Cosmo主题通知"
+
+#: lib/php/options.register.php:44
+msgid "This article contains NSFW information. To read this information you need to be logged in."
+msgstr "此文章为加密信息，请登录查看。"
+
+#: lib/php/options.register.php:51
+msgid "My account"
+msgstr "我的帐户"
+
+#: lib/php/options.register.php:58
+msgid "Enable keyboard demo"
+msgstr "启用键盘演示"
+
+#: lib/php/options.register.php:58
+msgid "If enabled users can click on the keyboard icon to visualize keyboard hot-keys."
+msgstr "如果启用，用户可以点击键盘热键来点击键盘图标。"
+
+#: lib/php/options.register.php:59
+msgid "Enable keyboard hot keys"
+msgstr "启用键盘热键"
+
+#: lib/php/options.register.php:60
+msgid "Enable Love for posts"
+msgstr "为文章启用喜欢"
+
+#: lib/php/options.register.php:61
+msgid "Minimum number of Loves to set Featured"
+msgstr "设置功能的最小最爱数"
+
+#: lib/php/options.register.php:61
+msgid "Set minimum number of post likes to change it into a featured post"
+msgstr "设置最小数量文章喜欢在精选文章里改变它"
+
+#: lib/php/options.register.php:62
+msgid "生成"
+msgstr ""
+
+#: lib/php/options.register.php:62
+msgid "Generate random number of Loves for posts"
+msgstr "生成随机数量最爱文章"
+
+#: lib/php/options.register.php:62
+msgid "WARNING! This will reset all current Loves."
+msgstr "警告！这将重置所有当前的最爱。"
+
+#: lib/php/options.register.php:63
+msgid "重置"
+msgstr ""
+
+#: lib/php/options.register.php:63
+msgid "Reset likes"
+msgstr "重置喜欢"
+
+#: lib/php/options.register.php:63
+msgid "WARNING! This will reset all the likes for all the posts!"
+msgstr "警告！这将重置所有文章的所有喜欢！"
+
+#: lib/php/options.register.php:65
+msgid "Select My posts page"
+msgstr "选择我的文章页面"
+
+#: lib/php/options.register.php:65
+msgid "Select a blank page from the list to generate the My posts page. Choose \"Select item\" to disable this page."
+msgstr "从列表中选择一个空白的页面，生成“我的文章”页面。选择“选择项目”禁用此页面。"
+
+#: lib/php/options.register.php:66
+msgid "Select My account page"
+msgstr "选择我的帐户页面"
+
+#: lib/php/options.register.php:66
+msgid "Select a blank page from the list to generate the My account page. Choose \"Select item\" to disable this page."
+msgstr "从列表中选择一个空白的页面，生成“我的帐户”页面。选择“选择项目”禁用此页面。"
+
+#: lib/php/options.register.php:67
+msgid "Enable user login"
+msgstr "启用用户登录"
+
+#: lib/php/options.register.php:67
+msgid "Check to show \"register\" link\t"
+msgstr "选择此项显示“注册”链接"
+
+#: lib/php/options.register.php:68
+msgid "Registration is required to Love a post"
+msgstr "必须注册才能喜欢文章"
+
+#: lib/php/options.register.php:69
+msgid "Enable sticky bar"
+msgstr "启用吸附栏"
+
+#: lib/php/options.register.php:89
+msgid "Display featured image inside the post"
+msgstr "在文章显示特色图片"
+
+#: lib/php/options.register.php:89
+msgid "If enabled featured images will be displayed both on category and post page"
+msgstr "如果启用，特色图片会显示在分类和文章页"
+
+#: lib/php/options.register.php:90
+msgid "Enable pretty-photo ligthbox"
+msgstr "启用漂亮照片灯箱"
+
+#: lib/php/options.register.php:90
+msgid "Images inside posts will open inside a fancy lightbox"
+msgstr "文章内的图片将在一个独特的灯箱中打开"
+
+#: lib/php/options.register.php:91
+msgid "Show breadcrumbs"
+msgstr "显示面包屑导航"
+
+#: lib/php/options.register.php:92
+msgid "Show entry meta"
+msgstr "显示条目meta"
+
+#: lib/php/options.register.php:92
+msgid " In blog / archive / search / tag / category page"
+msgstr "在博客、归档、搜索、标签、分类页面"
+
+#: lib/php/options.register.php:93
+msgid "Horizontal"
+msgstr "横向"
+
+#: lib/php/options.register.php:93
+msgid "Vertical"
+msgstr "垂直"
+
+#: lib/php/options.register.php:94
+msgid "Use human time"
+msgstr "使用人类时间"
+
+#: lib/php/options.register.php:94
+msgid "If set No will use WordPress time format"
+msgstr "如果没有设定，使用WordPress的时间格式"
+
+#: lib/php/options.register.php:95
+msgid "Use Facebook comments"
+msgstr "使用Facebook评论"
+
+#: lib/php/options.register.php:96
+msgid "您可以设置Facebook应用程序ID"
+msgstr ""
+
+#: lib/php/options.register.php:96
+msgid "在这里"
+msgstr ""
+
+#: lib/php/options.register.php:97
+msgid "Show WordPress admin bar"
+msgstr "显示WordPress管理栏"
+
+#: lib/php/options.register.php:106
+msgid "Default text for NSFW posts"
+msgstr "默认NSFW文章文字"
+
+#: lib/php/options.register.php:106
+msgid "Type here the text that will warn non registered users that the post is marked NSFW"
+msgstr "在这里输入的文字会发出警告，非注册用户文章标记为NSFW"
+
+#: lib/php/options.register.php:107
+msgid "Tracking code"
+msgstr "跟踪代码"
+
+#: lib/php/options.register.php:107
+msgid "Paste your Google Analytics or other tracking code here.<br />It will be added into the footer of this theme"
+msgstr "请把您的Google Analytics（分析）或其他跟踪代码粘贴在这里。<br/>它将被添加到这个主题的页脚"
+
+#: lib/php/options.register.php:108
+msgid "Copyright text"
+msgstr "版权文字"
+
+#: lib/php/options.register.php:108
+msgid "Type here the Copyright text that will appear in the footer.<br />To display the current year use \"%year%\""
+msgstr "在此输入版权信息以显示到页脚<br />如果显示本年请使用\"%year%\""
+
+#: lib/php/options.register.php:122
+msgid "Select header type"
+msgstr "选择标题类型"
+
+#: lib/php/options.register.php:130
+msgid "Centered header"
+msgstr "中心标题"
+
+#: lib/php/options.register.php:131
+msgid "Header with searchbar"
+msgstr "带搜索栏的标题"
+
+#: lib/php/options.register.php:132
+msgid "Header with menu"
+msgstr "带菜单的标题"
+
+#: lib/php/options.register.php:133
+msgid "Header with social icons"
+msgstr "带社交图标标题"
+
+#: lib/php/options.register.php:140
+msgid "Select menu type"
+msgstr "选择菜单类型"
+
+#: lib/php/options.register.php:150
+msgid "Centered menu"
+msgstr "中心菜单"
+
+#: lib/php/options.register.php:151
+msgid "Text menu"
+msgstr "文字菜单"
+
+#: lib/php/options.register.php:152
+msgid "Colored menu"
+msgstr "彩色菜单"
+
+#: lib/php/options.register.php:153
+msgid "Menu with description"
+msgstr "带描述菜单"
+
+#: lib/php/options.register.php:154
+msgid "Buttons menu"
+msgstr "按钮菜单"
+
+#: lib/php/options.register.php:155
+msgid "Vertical menu"
+msgstr "垂直菜单"
+
+#: lib/php/options.register.php:160
+#: lib/php/options.register.php:165
+msgid "Color of the menu"
+msgstr "菜单颜色"
+
+#: lib/php/options.register.php:200
+msgid "Post item"
+msgstr "文章项目"
+
+#: lib/php/options.register.php:208
+msgid "Select categories"
+msgstr "选择分类"
+
+#: lib/php/options.register.php:208
+msgid "Shift-click or CTRL-click to select multiple items. Users will be able to choose the selected categories."
+msgstr "按住Shift键单击或按住Ctrl键单击选择多个项目。用户将能够选择选定的类别。"
+
+#: lib/php/options.register.php:209
+msgid "Select portfolios"
+msgstr "选择组合"
+
+#: lib/php/options.register.php:209
+msgid "Shift-click or CTRL-click to select multiple items. Users will be able to choose the selected portfolios."
+msgstr "按住Shift键单击或按住Ctrl键单击选择多个项目。用户将能够选择选定的组合。"
+
+#: lib/php/options.register.php:211
+msgid "Select front-end submission page"
+msgstr "选择前台提交页面"
+
+#: lib/php/options.register.php:211
+msgid "Select a blank page from the list to generate the Post item page"
+msgstr "从列表中选择一个空白的页面，生成文章项目页面"
+
+#: lib/php/options.register.php:211
+#: lib/php/options.register.php:911
+msgid "Select page"
+msgstr "选择页面"
+
+#: lib/php/options.register.php:212
+msgid "Enable image submission"
+msgstr "启用图片提交"
+
+#: lib/php/options.register.php:212
+msgid "If enabled users will be able to submit Image posts from front end"
+msgstr "如果启用，用户能从前台提交图片文章"
+
+#: lib/php/options.register.php:213
+msgid "Enable video submission"
+msgstr "启用视频提交"
+
+#: lib/php/options.register.php:213
+msgid "If enabled users will be able to submit Video posts from front end"
+msgstr "如果启用，用户能从前台提交视频文章"
+
+#: lib/php/options.register.php:214
+msgid "Enable text submission"
+msgstr "启用文本提交"
+
+#: lib/php/options.register.php:214
+msgid "If enabled users will be able to submit Text posts from front end"
+msgstr "如果启用，用户能从前台提交文本文章"
+
+#: lib/php/options.register.php:215
+msgid "Enable file submission"
+msgstr "启用文件提交"
+
+#: lib/php/options.register.php:215
+msgid "If enabled users will be able to submit File posts (attachments) from front end"
+msgstr "如果启用，用户能从前台提交文件文章（附件）"
+
+#: lib/php/options.register.php:216
+msgid "Enable audio submission"
+msgstr "启用音频提交"
+
+#: lib/php/options.register.php:216
+msgid "If enabled users will be able to submit Audio posts from front end"
+msgstr "如果启用，用户能从前台提交音频文章"
+
+#: lib/php/options.register.php:217
+msgid "Enable users to edit/delete own posts"
+msgstr "启用用户编辑、删除自己的文章"
+
+#: lib/php/options.register.php:219
+msgid "Published"
+msgstr "已发布"
+
+#: lib/php/options.register.php:219
+msgid "Pending"
+msgstr "待审"
+
+#: lib/php/options.register.php:220
+msgid "Default posts status"
+msgstr "默认文章状态"
+
+#: lib/php/options.register.php:220
+msgid "This is the status used for posts submited from front end"
+msgstr "此状态使用于从前台提交文章"
+
+#: lib/php/options.register.php:221
+msgid "Contact email for pending posts"
+msgstr "挂起文章的联系邮箱"
+
+#: lib/php/options.register.php:221
+msgid "Enter a valid email address if you want to be notified via email when a new post is awaiting moderation"
+msgstr "当一个新的文章正在等待审核时，如果你想通过电子邮件通知，请输入一个有效的电子邮件地址"
+
+#: lib/php/options.register.php:271
+msgid "Left sidebar"
+msgstr "左侧边栏"
+
+#: lib/php/options.register.php:271
+msgid "Right sidebar"
+msgstr "右侧边栏"
+
+#: lib/php/options.register.php:271
+msgid "Full width"
+msgstr "全宽"
+
+#: lib/php/options.register.php:272
+msgid "List view"
+msgstr "列表视图"
+
+#: lib/php/options.register.php:272
+msgid "Grid view"
+msgstr "网格视图"
+
+#: lib/php/options.register.php:272
+msgid "Thumbnails view"
+msgstr "缩略图视图"
+
+#: lib/php/options.register.php:284
+#: lib/php/options.register.php:290
+msgid "Three columns"
+msgstr "三栏"
+
+#: lib/php/options.register.php:285
+msgid "Nine columns"
+msgstr "九栏"
+
+#: lib/php/options.register.php:289
+msgid "Two columns"
+msgstr "两栏"
+
+#: lib/php/options.register.php:291
+msgid "Four columns"
+msgstr "四栏"
+
+#: lib/php/options.register.php:292
+msgid "Six columns"
+msgstr "六栏"
+
+#: lib/php/options.register.php:296
+#: lib/php/options.register.php:490
+msgid "Layout for front page"
+msgstr "首页布局"
+
+#: lib/php/options.register.php:297
+#: lib/php/options.register.php:499
+msgid "Select sidebar for front page template"
+msgstr "选择首页模板侧边栏"
+
+#: lib/php/options.register.php:304
+msgid "404"
+msgstr "404"
+
+#: lib/php/options.register.php:305
+msgid "Layout for 404 page"
+msgstr "404页面布局"
+
+#: lib/php/options.register.php:306
+msgid "Select sidebar for 404 template"
+msgstr "选择404页面模板侧边栏"
+
+#: lib/php/options.register.php:313
+msgid "Layout for author page"
+msgstr "作者页面布局"
+
+#: lib/php/options.register.php:314
+msgid "Select sidebar for author template"
+msgstr "选择作者模板侧边栏"
+
+#: lib/php/options.register.php:318
+msgid "View type for author page"
+msgstr "作者页视图类型"
+
+#: lib/php/options.register.php:319
+#: lib/php/options.register.php:320
+msgid "Number of columns for author page"
+msgstr "作者页栏数"
+
+#: lib/php/options.register.php:322
+msgid "Pages / single post"
+msgstr "页面、文章"
+
+#: lib/php/options.register.php:323
+msgid "Layout for pages"
+msgstr "页面布局"
+
+#: lib/php/options.register.php:324
+msgid "Select sidebar for page template"
+msgstr "选择页面模板侧边栏"
+
+#: lib/php/options.register.php:328
+msgid "Layout for single post"
+msgstr "文章单页布局"
+
+#: lib/php/options.register.php:329
+msgid "Select sidebar for single page template"
+msgstr "选择页面模板侧边栏"
+
+#: lib/php/options.register.php:333
+msgid "Blog page"
+msgstr "博客页面"
+
+#: lib/php/options.register.php:334
+msgid "Layout for blog page"
+msgstr "博客页面布局"
+
+#: lib/php/options.register.php:335
+msgid "Select sidebar for blog page template"
+msgstr "选择博客页面模板侧边栏"
+
+#: lib/php/options.register.php:339
+msgid "View type for blog page"
+msgstr "博客页视图类型"
+
+#: lib/php/options.register.php:340
+#: lib/php/options.register.php:341
+msgid "Number of columns for blog page"
+msgstr "博客页栏数"
+
+#: lib/php/options.register.php:344
+msgid "Layout for search page"
+msgstr "搜索页面布局"
+
+#: lib/php/options.register.php:345
+msgid "Select sidebar for search template"
+msgstr "选择搜索模板侧边栏"
+
+#: lib/php/options.register.php:349
+msgid "View type for search page"
+msgstr "搜索页视图类型"
+
+#: lib/php/options.register.php:350
+#: lib/php/options.register.php:351
+#: lib/php/options.register.php:361
+#: lib/php/options.register.php:362
+msgid "Number of columns for search page"
+msgstr "搜索页栏数"
+
+#: lib/php/options.register.php:354
+msgid "Archive"
+msgstr "归档"
+
+#: lib/php/options.register.php:355
+msgid "Layout for archive page"
+msgstr "归档页面布局"
+
+#: lib/php/options.register.php:356
+msgid "Select sidebar for archive template"
+msgstr "选择归档模板侧边栏"
+
+#: lib/php/options.register.php:360
+msgid "View type for archive page"
+msgstr "归档页视图类型"
+
+#: lib/php/options.register.php:365
+msgid "Layout for category page"
+msgstr "分布页面布局"
+
+#: lib/php/options.register.php:366
+msgid "Select sidebar for category template"
+msgstr "选择分类模板侧边栏"
+
+#: lib/php/options.register.php:370
+msgid "View type for category page"
+msgstr "分类页面视图类型"
+
+#: lib/php/options.register.php:371
+#: lib/php/options.register.php:372
+msgid "Number of columns for category page"
+msgstr "分布页面栏数"
+
+#: lib/php/options.register.php:375
+msgid "Layout for tags page"
+msgstr "标签页面布局"
+
+#: lib/php/options.register.php:376
+msgid "Select sidebar for tags template"
+msgstr "选择标签页模板侧边栏"
+
+#: lib/php/options.register.php:380
+msgid "View type for tags page"
+msgstr "标签页视图类型"
+
+#: lib/php/options.register.php:381
+#: lib/php/options.register.php:382
+#: lib/php/options.register.php:392
+#: lib/php/options.register.php:393
+msgid "Number of columns for tags page"
+msgstr "标签页栏数"
+
+#: lib/php/options.register.php:386
+msgid "Layout for portfolio page"
+msgstr "组合页布局"
+
+#: lib/php/options.register.php:387
+msgid "Select sidebar for portfolio template"
+msgstr "选择组合页模板侧边栏"
+
+#: lib/php/options.register.php:391
+msgid "View type for portfolio page"
+msgstr "组合页视图类型"
+
+#: lib/php/options.register.php:475
+msgid "Layout for attachment page"
+msgstr "附件页面布局"
+
+#: lib/php/options.register.php:476
+msgid "Select sidebar for attachment template"
+msgstr "选择附件模板侧边栏"
+
+#: lib/php/options.register.php:526
+msgid "Enable larger view port"
+msgstr "启用查看大图端口"
+
+#: lib/php/options.register.php:526
+msgid "If enabled, the content will be stretched up to 1170px"
+msgstr "如果启用，内容将向上扩展到1170px"
+
+#: lib/php/options.register.php:527
+msgid "Enable boxed layout"
+msgstr "启用框式布局"
+
+#: lib/php/options.register.php:535
+msgid "Select theme background"
+msgstr "选择主题背景"
+
+#: lib/php/options.register.php:540
+msgid "Set background color"
+msgstr "设置背景色"
+
+#: lib/php/options.register.php:542
+msgid "To set a background image go to"
+msgstr "设置一个背景图片去"
+
+#: lib/php/options.register.php:542
+msgid "Appearence - Background"
+msgstr "外观 - 背景"
+
+#: lib/php/options.register.php:546
+msgid "Error, please select \"ico\" type media file"
+msgstr "错误，请选择“ico”类型的媒体文件"
+
+#: lib/php/options.register.php:548
+msgid "Please select 'ico' type media file. Make sure you allow uploading 'ico' type in General Settings -> Upload file types"
+msgstr "请选择'ico' 类型的媒体文件。确定你允许上传'ico'类型，在 一般设置 -> 上传文件类型"
+
+#: lib/php/options.register.php:551
+msgid "Custom favicon"
+msgstr "自定义收藏图标"
+
+#: lib/php/options.register.php:552
+msgid "Enable stripes effect for post images"
+msgstr "启用文章图片条纹效果"
+
+#: lib/php/options.register.php:553
+msgid "Logo type "
+msgstr "LOGO类型"
+
+#: lib/php/options.register.php:553
+msgid "Enable text-based site title and tagline."
+msgstr "启用基于文本的网站标题和描述。"
+
+#: lib/php/options.register.php:556
+msgid "Custom logo URL"
+msgstr "自定义LOGO地址"
+
+#: lib/php/options.register.php:562
+msgid "To change blog title go to <a href=\"options-general.php\">General settings</a> "
+msgstr "更改博客标题去<a href=\"options-general.php\">常规设置</a> "
+
+#: lib/php/options.register.php:566
+msgid "To change blog title go to <a href=\"options-general.php\">General settings </a> "
+msgstr "更改博客标题去 <a href=\"options-general.php\">常规设置</a> "
+
+#: lib/php/options.register.php:584
+msgid "Custom menu"
+msgstr "自定义菜单"
+
+#: lib/php/options.register.php:585
+msgid "Set limit for main menu"
+msgstr "为主要菜单设限"
+
+#: lib/php/options.register.php:585
+msgid "Set the number of visible menu items. Remaining menu items<br />will be shown in the drop down menu item \"More\""
+msgstr "设置可见的菜单项的数量。其余的菜单项目将显示在下拉菜单项中的\"更多\"中"
+
+#: lib/php/options.register.php:586
+msgid "Set limit for footer menu"
+msgstr "为页脚菜单设限"
+
+#: lib/php/options.register.php:586
+msgid "Set the number of visible menu items"
+msgstr "设置可见菜单项数量"
+
+#: lib/php/options.register.php:590
+msgid "General Posts Settings"
+msgstr "一般文章设置"
+
+#: lib/php/options.register.php:592
+msgid "Enable similar posts"
+msgstr "启用类似文章"
+
+#: lib/php/options.register.php:593
+msgid "Number of similar posts (full width and no meta)"
+msgstr "类似文章数（全宽+无meta）"
+
+#: lib/php/options.register.php:594
+msgid "Number of similar posts (with sidebar)"
+msgstr "类似文章数（带侧边栏）"
+
+#: lib/php/options.register.php:596
+msgid "Same tags"
+msgstr "相同标签"
+
+#: lib/php/options.register.php:596
+msgid "Same category"
+msgstr "相同分类"
+
+#: lib/php/options.register.php:596
+msgid "Same user"
+msgstr "相同用户"
+
+#: lib/php/options.register.php:598
+msgid "Similar posts criteria"
+msgstr "类似文章标准"
+
+#: lib/php/options.register.php:599
+msgid "Enable social sharing for posts"
+msgstr "启用文章社交分享"
+
+#: lib/php/options.register.php:600
+msgid "Display post author box"
+msgstr "显示文章作者框"
+
+#: lib/php/options.register.php:600
+msgid "This will enable the author box on posts.<br /> Edit description in Users > Your Profile"
+msgstr "这将启用文章作者框。<br />在用户 > 你的个人资料 编辑描述"
+
+#: lib/php/options.register.php:602
+msgid "Display featured image on archive pages"
+msgstr "显示归档页面特色图像"
+
+#: lib/php/options.register.php:603
+msgid "Display next and previous butttons"
+msgstr "显示下一个和上一个按钮"
+
+#: lib/php/options.register.php:604
+msgid "Activate floating meta for full-width post"
+msgstr "激活全宽文章浮动meta"
+
+#: lib/php/options.register.php:607
+msgid "General Page Settings"
+msgstr "常规页面设置"
+
+#: lib/php/options.register.php:608
+msgid "Enable social sharing for page"
+msgstr "启用页面社交分享"
+
+#: lib/php/options.register.php:609
+msgid "Display page author box"
+msgstr "显示页面作者框"
+
+#: lib/php/options.register.php:609
+msgid "This will enable the author box on pages.<br /> Edit description in Users > Your Profile"
+msgstr "这将启用页面作者框。<br />在用户 > 你的个人资料 编辑描述"
+
+#: lib/php/options.register.php:644
+msgid "Advertisement area nr. 1"
+msgstr "广告区域1"
+
+#: lib/php/options.register.php:644
+msgid "Insert your advertisement code here<br />This is ad area below logo"
+msgstr "在这里插入广告代码<br />此广告区域在LOGO之下"
+
+#: lib/php/options.register.php:645
+msgid "Advertisement area nr. 2"
+msgstr "广告区域2"
+
+#: lib/php/options.register.php:645
+msgid "Insert your advertisement code here<br />This is ad area below post content"
+msgstr "在这里插入广告代码<br />此广告区域在文章内容之下"
+
+#: lib/php/options.register.php:651
+msgid "Facebook Application ID"
+msgstr "Facebook应用程序ID"
+
+#: lib/php/options.register.php:651
+msgid "You can create a fb application from <a href=\"https://developers.facebook.com/apps\">here</a>"
+msgstr "你可以在<a href=\"https://developers.facebook.com/apps\">这里</a>创建一个FB应用程序"
+
+#: lib/php/options.register.php:652
+msgid "Facebook Secret key"
+msgstr "Facebook的密钥"
+
+#: lib/php/options.register.php:652
+msgid "Needed for Facebook Connect"
+msgstr "Facebook连接所需"
+
+#: lib/php/options.register.php:654
+#, php-format
+msgid "Link to the following services will appear when %s header type nr. 4 %s is enabled."
+msgstr "当%s标题类型4%s启用时，链接以下服务将出现"
+
+#: lib/php/options.register.php:660
+msgid "Show RSS icon"
+msgstr "显示RSS图标"
+
+#: lib/php/options.register.php:661
+msgid "Facebook profile ID"
+msgstr "Facebook的个人主页ID"
+
+#: lib/php/options.register.php:661
+msgid "(i.e. cosmo.themes)"
+msgstr "（例如：4mudi）"
+
+#: lib/php/options.register.php:662
+msgid "Twitter ID"
+msgstr "Twitter ID"
+
+#: lib/php/options.register.php:662
+msgid "(i.e. cosmothemes)"
+msgstr "（例如：4mudi）"
+
+#: lib/php/options.register.php:663
+msgid "G+ public profile URL"
+msgstr "谷歌+个人资料地址"
+
+#: lib/php/options.register.php:663
+msgid "(i.e. https://plus.google.com/u/0/109961988357028768715)"
+msgstr "(例如：https://plus.google.com/u/0/109961988357028768715)"
+
+#: lib/php/options.register.php:664
+msgid "Yahoo public profile URL"
+msgstr "Yahoo个人资料地址"
+
+#: lib/php/options.register.php:664
+msgid "(i.e. http://profile.yahoo.com/56W6RBFOFVLLSUQBHREPTDQW4U/)"
+msgstr "(例如：http://profile.yahoo.com/56W6RBFOFVLLSUQBHREPTDQW4U/)"
+
+#: lib/php/options.register.php:665
+msgid "Dribbble public profile URL"
+msgstr "Dribbble公开个人资料网址"
+
+#: lib/php/options.register.php:665
+msgid "(i.e. http://dribbble.com/creativemints)"
+msgstr "(例如：http://dribbble.com/creativemints)"
+
+#: lib/php/options.register.php:666
+msgid "LinkedIn public profile URL"
+msgstr "LinkedIn公开的个人资料的网址"
+
+#: lib/php/options.register.php:666
+msgid "(i.e. http://www.linkedin.com/company/cosmothemes)"
+msgstr "(例如： http://www.linkedin.com/company/cosmothemes)"
+
+#: lib/php/options.register.php:668
+msgid "Skype Name"
+msgstr "Skype名字"
+
+#: lib/php/options.register.php:677
+msgid "No sliders. To create a slide go to "
+msgstr "没有幻灯片，要创建幻灯片请到"
+
+#: lib/php/options.register.php:677
+msgid "Add New Slideshow"
+msgstr "添加新的幻灯片"
+
+#: lib/php/options.register.php:679
+msgid "Select default slideshow"
+msgstr "选择默认幻灯片"
+
+#: lib/php/options.register.php:679
+msgid "Start typing the Slideshow title"
+msgstr "开始输入幻灯片标题"
+
+#: lib/php/options.register.php:684
+msgid "Slideshow height"
+msgstr "幻灯片高度"
+
+#: lib/php/options.register.php:685
+msgid "In pixels. Make sure to re-upload images if you change the default value."
+msgstr "以像素为单位。如果你更改了默认值，请一定要重新上传图片。"
+
+#: lib/php/options.register.php:690
+msgid "Slideshow animation type"
+msgstr "幻灯片动画类型"
+
+#: lib/php/options.register.php:692
+msgid "Fade"
+msgstr "淡出淡入"
+
+#: lib/php/options.register.php:693
+msgid "Horizontal slide"
+msgstr "水平滑动"
+
+#: lib/php/options.register.php:694
+msgid "Vertical slide"
+msgstr "垂直滑动"
+
+#: lib/php/options.register.php:695
+msgid "Horizontal push"
+msgstr "水平推入"
+
+#: lib/php/options.register.php:701
+msgid "Slideshow play speed"
+msgstr "幻灯片播放速度"
+
+#: lib/php/options.register.php:702
+#: lib/php/options.register.php:715
+#: lib/php/options.register.php:738
+msgid "In milliseconds"
+msgstr "以毫秒为单位"
+
+#: lib/php/options.register.php:708
+msgid "Use timer"
+msgstr "使用计时器"
+
+#: lib/php/options.register.php:714
+msgid "Timer timeout"
+msgstr "计时器超时"
+
+#: lib/php/options.register.php:721
+msgid "Pause on hover"
+msgstr "暂停悬停"
+
+#: lib/php/options.register.php:722
+msgid "If you hover pauses the slider"
+msgstr "如果悬停暂停了幻灯片"
+
+#: lib/php/options.register.php:729
+msgid "Start clock on mouse out"
+msgstr "鼠标移出时开始计时"
+
+#: lib/php/options.register.php:730
+msgid "If clock should start on mouse out"
+msgstr "如果需要鼠标移出时开始计时"
+
+#: lib/php/options.register.php:737
+msgid "How long after MouseOut should the timer start again"
+msgstr "鼠标移出之后需要多久计时器重新开始"
+
+#: lib/php/options.register.php:744
+msgid "Show manual navigation"
+msgstr "显示手动导航"
+
+#: lib/php/options.register.php:745
+msgid "Manual advancing directional navs"
+msgstr "手动推动方向导航"
+
+#: lib/php/options.register.php:806
+msgid "Set title for new sidebar"
+msgstr "设置新侧边栏标题"
+
+#: lib/php/options.register.php:810
+msgid "List of generic dynamic sidebars<br />Drag and drop blocks to rearrange position"
+msgstr "通用的动态侧边栏列表<br/>拖放区块重新排列位置"
+
+#: lib/php/options.register.php:815
+msgid "Add your custom CSS"
+msgstr "添加自定义CSS"
+
+#: lib/php/options.register.php:822
+msgid "Enable notification about new theme version"
+msgstr "启用主题新版本通知"
+
+#: lib/php/options.register.php:823
+msgid "Enable Cosmothemes news notification"
+msgstr "启用Cosmo主题新闻通知"
+
+#: lib/php/options.register.php:826
+msgid "Left"
+msgstr "左"
+
+#: lib/php/options.register.php:826
+msgid "Right"
+msgstr "右"
+
+#: lib/php/options.register.php:826
+#, fuzzy
+msgid "Top"
+msgstr "上"
+
+#: lib/php/options.register.php:827
+msgid "On front page"
+msgstr "在首页"
+
+#: lib/php/options.register.php:827
+msgid "On single post"
+msgstr "在文章页"
+
+#: lib/php/options.register.php:827
+msgid "On simple page"
+msgstr "在示例页"
+
+#: lib/php/options.register.php:828
+msgid "Select Page"
+msgstr "选择页面"
+
+#: lib/php/options.register.php:907
+msgid "Set title for new tooltip"
+msgstr "为新提示工具设置标题"
+
+#: lib/php/options.register.php:908
+msgid "Set description for new tooltip"
+msgstr "为提示工具设置描述"
+
+#: lib/php/options.register.php:909
+msgid "Select tooltip location"
+msgstr "选择提示工具位置"
+
+#: lib/php/options.register.php:910
+msgid "Select post"
+msgstr "选择文章"
+
+#: lib/php/options.register.php:912
+msgid "Set top position for new tooltip"
+msgstr "为提示工具设置顶部位置"
+
+#: lib/php/options.register.php:912
+msgid "In pixels. E.g.: 450"
+msgstr "以像素为单位。例如：450"
+
+#: lib/php/options.register.php:913
+msgid "Set left position for new tooltip"
+msgstr "为新提示工具设置左边位置"
+
+#: lib/php/options.register.php:913
+msgid "In pixels. E.g.: 200"
+msgstr "以像素为单位。例如：200"
+
+#: lib/php/options.register.php:914
+msgid "Set arrow position for new tooltip"
+msgstr "为提示工具设置箭头位置"
+
+#: lib/php/options.register.php:915
+msgid "Add new tooltip"
+msgstr "添加提示工具"
+
+#: lib/php/options.register.php:918
+msgid "List of generic tooltips<br /> Drag and drop blocks to rearrange position"
+msgstr "通用的提示工具列表<br/>拖放区块重新排列位置"
+
+#: lib/php/post.class.php:44
+msgid "Permalink to "
+msgstr "链接到"
+
+#: lib/php/post.class.php:72
+#: lib/php/post.class.php:132
+msgid "Nothing found."
+msgstr "未找到"
+
+#: lib/php/post.class.php:123
+msgid "My Loved posts "
+msgstr "我最爱的文章"
+
+#: lib/php/post.class.php:288
+#: lib/php/post.class.php:731
+#: lib/php/post.class.php:1028
+#: lib/php/post.class.php:1058
+msgid "Permalink to"
+msgstr "链接到"
+
+#: lib/php/post.class.php:1405
+msgid "comments"
+msgstr "评论"
+
+#: lib/php/post.class.php:1493
+#: lib/php/post.class.php:1615
+#: lib/php/post.class.php:1737
+msgid "You must be logged in to submit a post! "
+msgstr "你必须在登录后提交文章！"
+
+#: lib/php/post.class.php:1500
+#: lib/php/post.class.php:1501
+#: lib/php/post.class.php:1623
+#: lib/php/post.class.php:1624
+#: lib/php/post.class.php:1745
+#: lib/php/post.class.php:1746
+#: lib/php/post.class.php:1859
+#: lib/php/post.class.php:1860
+#: lib/php/post.class.php:1955
+#: lib/php/post.class.php:1956
+msgid "You are not the author of this post. "
+msgstr "您不是这篇文章的作者。"
+
+#: lib/php/post.class.php:1507
+#: lib/php/post.class.php:1631
+#: lib/php/post.class.php:1753
+#: lib/php/post.class.php:1867
+#: lib/php/post.class.php:1963
+msgid "Title is required. "
+msgstr "标题必需写"
+
+#: lib/php/post.class.php:1513
+msgid "An image post must have a featured image. "
+msgstr "您必须添加一个特色图片"
+
+#: lib/php/post.class.php:1587
+#: lib/php/post.class.php:1708
+#: lib/php/post.class.php:1826
+#: lib/php/post.class.php:1919
+#: lib/php/post.class.php:2053
+#, php-format
+msgid "You can check your post %s here%s."
+msgstr "你可以查看你的文章 %s 在这里%s."
+
+#: lib/php/post.class.php:1590
+#: lib/php/post.class.php:1711
+#: lib/php/post.class.php:1829
+msgid "Success. Your post is awaiting moderation."
+msgstr "成功。您发布的内容正在等待审核！"
+
+#: lib/php/post.class.php:1637
+msgid "File is required. "
+msgstr "文件是必需的。"
+
+#: lib/php/post.class.php:1759
+msgid "Audio File is required. "
+msgstr "音频文件是必需的。"
+
+#: lib/php/post.class.php:1851
+#: lib/php/post.class.php:1947
+msgid "You must be logged in to submit a post!"
+msgstr "你必须在登录后提交文章！"
+
+#: lib/php/post.class.php:1922
+#: lib/php/post.class.php:2056
+msgid "Success. Your post is awaiting moderation"
+msgstr "成功。您发布的内容正在等待审核！"
+
+#: lib/php/post.class.php:1970
+msgid "A video post must have a featured video."
+msgstr "视频文章必须有一个特色视频。"
+
+#: lib/php/post.class.php:2211
+msgid "A new post is awaiting your moderation"
+msgstr "新文章正在等待您审核"
+
+#: lib/php/post.class.php:2212
+msgid "A new post is awaiting your moderation."
+msgstr "新文章正在等待您审核。"
+
+#: lib/php/post.class.php:2214
+#, php-format
+msgid "To moderate the post go to  %s "
+msgstr ""
+
+#: lib/php/post.class.php:2387
+msgid "ago"
+msgstr "前"
+
+#: lib/php/post.class.php:2389
+msgid "on"
+msgstr " "
+
+#: lib/php/resources.register.php:19
+msgid "Align Left"
+msgstr "左对齐"
+
+#: lib/php/resources.register.php:19
+msgid "Align Right"
+msgstr "右对齐"
+
+#: lib/php/resources.register.php:24
+#: lib/php/resources.register.php:435
+msgid "添加"
+msgstr ""
+
+#: lib/php/resources.register.php:26
+msgid "Edit Slideshow"
+msgstr "编辑幻灯片"
+
+#: lib/php/resources.register.php:27
+msgid "New Slideshow"
+msgstr "新幻灯片"
+
+#: lib/php/resources.register.php:28
+msgid "View Slideshow"
+msgstr "查看幻灯片"
+
+#: lib/php/resources.register.php:29
+msgid "Search Slideshow"
+msgstr "搜索幻灯片"
+
+#: lib/php/resources.register.php:30
+#: lib/php/resources.register.php:441
+msgid "Nothing found"
+msgstr "没有找到"
+
+#: lib/php/resources.register.php:31
+#: lib/php/resources.register.php:442
+msgid "Nothing found in Trash"
+msgstr "没有在垃圾桶找到"
+
+#: lib/php/resources.register.php:78
+#: lib/php/resources.register.php:232
+msgid "Slide title"
+msgstr "幻灯片标题"
+
+#: lib/php/resources.register.php:87
+#: lib/php/resources.register.php:240
+msgid "Title text color"
+msgstr "标题文字颜色"
+
+#: lib/php/resources.register.php:94
+#: lib/php/resources.register.php:246
+msgid "First line"
+msgstr "第一行"
+
+#: lib/php/resources.register.php:102
+#: lib/php/resources.register.php:253
+msgid "Second line"
+msgstr "第二行"
+
+#: lib/php/resources.register.php:110
+#: lib/php/resources.register.php:260
+msgid "Description"
+msgstr "描述"
+
+#: lib/php/resources.register.php:118
+#: lib/php/resources.register.php:267
+msgid "Description text color"
+msgstr "描述文字颜色"
+
+#: lib/php/resources.register.php:126
+#: lib/php/resources.register.php:274
+msgid "Description position"
+msgstr "描述位置"
+
+#: lib/php/resources.register.php:136
+#: lib/php/resources.register.php:606
+msgid "Background position"
+msgstr "背景位置"
+
+#: lib/php/resources.register.php:139
+#: lib/php/resources.register.php:285
+#: lib/php/resources.register.php:503
+#: lib/php/resources.register.php:606
+msgid "Center"
+msgstr "中"
+
+#: lib/php/resources.register.php:148
+#: lib/php/resources.register.php:607
+msgid "Background repeat"
+msgstr "重复背景"
+
+#: lib/php/resources.register.php:150
+msgid "No repeat"
+msgstr "不重复"
+
+#: lib/php/resources.register.php:151
+#: lib/php/resources.register.php:296
+#: lib/php/resources.register.php:504
+#: lib/php/resources.register.php:607
+msgid "Tile"
+msgstr "平铺"
+
+#: lib/php/resources.register.php:152
+msgid "Tile horizontally"
+msgstr "水平平铺"
+
+#: lib/php/resources.register.php:153
+msgid "Tile vertically"
+msgstr "竖直平铺"
+
+#: lib/php/resources.register.php:161
+#: lib/php/resources.register.php:608
+msgid "Background attachment type"
+msgstr "背景附件类型"
+
+#: lib/php/resources.register.php:163
+#: lib/php/resources.register.php:307
+#: lib/php/resources.register.php:505
+#: lib/php/resources.register.php:608
+msgid "Scroll"
+msgstr "滚动"
+
+#: lib/php/resources.register.php:164
+#: lib/php/resources.register.php:308
+#: lib/php/resources.register.php:505
+#: lib/php/resources.register.php:608
+msgid "Fixed"
+msgstr "固定"
+
+#: lib/php/resources.register.php:172
+#: lib/php/resources.register.php:315
+msgid "Slider background color"
+msgstr "幻灯片背景颜色"
+
+#: lib/php/resources.register.php:179
+#: lib/php/resources.register.php:319
+msgid "Custom URL"
+msgstr "自定义URL"
+
+#: lib/php/resources.register.php:219
+msgid "Simple image"
+msgstr "简单图像"
+
+#: lib/php/resources.register.php:219
+msgid "Post"
+msgstr "文章"
+
+#: lib/php/resources.register.php:219
+msgid "Text slide"
+msgstr "文本幻灯片"
+
+#: lib/php/resources.register.php:223
+msgid "Select slider type"
+msgstr "选择幻灯片类型"
+
+#: lib/php/resources.register.php:228
+msgid "Select a post"
+msgstr "选择文章"
+
+#: lib/php/resources.register.php:228
+msgid "Start typing the post title"
+msgstr "开始键入文章标题"
+
+#: lib/php/resources.register.php:229
+msgid "Upload an image or choose one from media library"
+msgstr "上传图像，或从媒体库中选择一个"
+
+#: lib/php/resources.register.php:229
+msgid "If not uploaded will use post Featured image"
+msgstr "如果没有上传，将使用文章特色图像"
+
+#: lib/php/resources.register.php:233
+msgid "If not completed will use post title"
+msgstr "如果无法完成，将使用文章标题"
+
+#: lib/php/resources.register.php:277
+msgid "Choose side of caption position"
+msgstr "选择字幕位置在哪侧"
+
+#: lib/php/resources.register.php:282
+#: lib/php/resources.register.php:503
+msgid "Image background position"
+msgstr "背景图片位置"
+
+#: lib/php/resources.register.php:293
+#: lib/php/resources.register.php:504
+msgid "Image background repeat"
+msgstr "重复背景图片"
+
+#: lib/php/resources.register.php:295
+#: lib/php/resources.register.php:504
+#: lib/php/resources.register.php:607
+msgid "No Repeat"
+msgstr "不重复"
+
+#: lib/php/resources.register.php:297
+#: lib/php/resources.register.php:504
+#: lib/php/resources.register.php:607
+msgid "Tile Horizontally"
+msgstr "水平平铺"
+
+#: lib/php/resources.register.php:298
+#: lib/php/resources.register.php:504
+#: lib/php/resources.register.php:607
+msgid "Tile Vertically"
+msgstr "竖直平铺"
+
+#: lib/php/resources.register.php:305
+#: lib/php/resources.register.php:505
+msgid "Image background attachment type"
+msgstr "背景图片附件类型"
+
+#: lib/php/resources.register.php:319
+msgid "If not completed then Title will link to the selected post"
+msgstr "如果无法完成，那么标题会链接到指定的文章"
+
+#: lib/php/resources.register.php:320
+msgid "Add to slideshow"
+msgstr "添加到幻灯片"
+
+#: lib/php/resources.register.php:419
+msgid "Compose slideshow (drag and drop items to rearange position)"
+msgstr "组成幻灯片（拖放项目重新排列位置）"
+
+#: lib/php/resources.register.php:419
+msgid "Slideshow items"
+msgstr "幻灯片项目"
+
+#: lib/php/resources.register.php:420
+msgid "Slideshow Settings"
+msgstr "幻灯片设置"
+
+#: lib/php/resources.register.php:421
+#: lib/php/resources.register.php:423
+msgid "Manage Slideshow"
+msgstr "管理幻灯片"
+
+#: lib/php/resources.register.php:433
+msgid "Testimonials"
+msgstr "会员证明"
+
+#: lib/php/resources.register.php:434
+#: lib/php/resources.register.php:435
+msgid "Testimonial"
+msgstr "会员证明"
+
+#: lib/php/resources.register.php:436
+msgid "Add New Testimonial"
+msgstr "添加会员证明"
+
+#: lib/php/resources.register.php:437
+msgid "Edit Testimonial"
+msgstr "编辑会员证明"
+
+#: lib/php/resources.register.php:438
+msgid "New Testimonial"
+msgstr "新会员"
+
+#: lib/php/resources.register.php:439
+msgid "View Testimonial"
+msgstr "查看会员证明"
+
+#: lib/php/resources.register.php:440
+msgid "Search Testimonial"
+msgstr "搜索会员证明"
+
+#: lib/php/resources.register.php:454
+msgid "Author name"
+msgstr "作者名字"
+
+#: lib/php/resources.register.php:455
+msgid "Author title"
+msgstr "作者标题"
+
+#: lib/php/resources.register.php:456
+msgid "Add testimoniall additional info"
+msgstr "添加会员证明附加信息"
+
+#: lib/php/resources.register.php:457
+#: lib/php/resources.register.php:556
+#: lib/php/resources.register.php:611
+msgid "Shortcodes"
+msgstr "简码"
+
+#: lib/php/resources.register.php:467
+#: lib/php/resources.register.php:580
+msgid "Select layout type"
+msgstr "选择布局类型"
+
+#: lib/php/resources.register.php:467
+#: lib/php/resources.register.php:580
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: lib/php/resources.register.php:467
+#: lib/php/resources.register.php:580
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: lib/php/resources.register.php:467
+#: lib/php/resources.register.php:580
+msgid "Full Width"
+msgstr "全宽"
+
+#: lib/php/resources.register.php:468
+#: lib/php/resources.register.php:581
+msgid "Select sidebar"
+msgstr "选择侧边栏"
+
+#: lib/php/resources.register.php:469
+#: lib/php/resources.register.php:582
+msgid "Add new Sidebar"
+msgstr "添加侧边栏"
+
+#: lib/php/resources.register.php:489
+msgid "Not safe"
+msgstr "不安全"
+
+#: lib/php/resources.register.php:490
+msgid "Show related posts"
+msgstr "显示相关文章"
+
+#: lib/php/resources.register.php:490
+msgid "Show related posts on this post"
+msgstr "在此文章显示相关文章"
+
+#: lib/php/resources.register.php:491
+msgid "Show post meta"
+msgstr "显示文章meta"
+
+#: lib/php/resources.register.php:491
+msgid "Show post meta on this post"
+msgstr "在此文章显示文章meta"
+
+#: lib/php/resources.register.php:496
+#: lib/php/resources.register.php:576
+msgid "Show post like"
+msgstr "显示文章喜欢"
+
+#: lib/php/resources.register.php:496
+#: lib/php/resources.register.php:577
+msgid "Show post like on this post"
+msgstr "显示此文章的文章喜欢"
+
+#: lib/php/resources.register.php:497
+#: lib/php/resources.register.php:603
+msgid "Show social sharing"
+msgstr "显示社交分享"
+
+#: lib/php/resources.register.php:497
+msgid "Show social sharing on this post"
+msgstr "在此文显示社交分享"
+
+#: lib/php/resources.register.php:498
+#: lib/php/resources.register.php:604
+msgid "Show author box"
+msgstr "显示作者框"
+
+#: lib/php/resources.register.php:498
+msgid "Show author box on this post"
+msgstr "在此文章显示作者框"
+
+#: lib/php/resources.register.php:500
+msgid "Enable slideshow for attached images"
+msgstr "启用附加图片幻灯片"
+
+#: lib/php/resources.register.php:500
+msgid "If enabled it will show up insted of featured image."
+msgstr "如果启用，它将显示出来代替特色图像。"
+
+#: lib/php/resources.register.php:502
+msgid "Upload or choose image from media library"
+msgstr "上传或从媒体库中选择图像"
+
+#: lib/php/resources.register.php:502
+msgid "This will be the background image for this post"
+msgstr "这会成为此文的背景图片"
+
+#: lib/php/resources.register.php:506
+#: lib/php/resources.register.php:609
+msgid "Set background color for this post"
+msgstr "为此文章设置背景色"
+
+#: lib/php/resources.register.php:514
+msgid "Select post format"
+msgstr "选择文章格式"
+
+#: lib/php/resources.register.php:514
+msgid "Standard"
+msgstr "标准"
+
+#: lib/php/resources.register.php:514
+msgid "Attachment"
+msgstr "附件"
+
+#: lib/php/resources.register.php:552
+msgid "Example: John Doe"
+msgstr "例如：李四"
+
+#: lib/php/resources.register.php:553
+msgid "Example: Graphic design, Print"
+msgstr "例如：平面设计，打印"
+
+#: lib/php/resources.register.php:557
+#: lib/php/resources.register.php:612
+msgid "Layout and Sidebars"
+msgstr "布局和侧边栏"
+
+#: lib/php/resources.register.php:558
+msgid "Post Settings"
+msgstr "文章设置"
+
+#: lib/php/resources.register.php:559
+msgid "Post Format"
+msgstr "文章格式"
+
+#: lib/php/resources.register.php:566
+msgid "Portfolio details"
+msgstr "组合详情"
+
+#: lib/php/resources.register.php:602
+msgid "Show page meta"
+msgstr "显示页面meta"
+
+#: lib/php/resources.register.php:605
+msgid "Upload image, or choose from media library."
+msgstr "上传或从媒体库中选择图像"
+
+#: lib/php/resources.register.php:605
+msgid "This will be the background image for this page"
+msgstr "这将成为此页面的背景图像"
+
+#: lib/php/resources.register.php:613
+msgid "Page Settings"
+msgstr "页面设置"
+
+#: lib/php/shcode.class.php:7
+msgid "Phone 1"
+msgstr "电话1"
+
+#: lib/php/shcode.class.php:9
+#: lib/php/shcode.class.php:98
+msgid "Phone"
+msgstr "电话"
+
+#: lib/php/shcode.class.php:13
+msgid "Phone 2"
+msgstr "电话2"
+
+#: lib/php/shcode.class.php:19
+#: lib/php/shcode.class.php:24
+msgid "Email"
+msgstr "邮箱"
+
+#: lib/php/shcode.class.php:81
+msgid "Name (required)"
+msgstr "名字（必填）"
+
+#: lib/php/shcode.class.php:89
+msgid "Email (required)"
+msgstr "邮箱 (必填)"
+
+#: lib/php/shcode.class.php:108
+msgid "Send Message"
+msgstr "发送消息"
+
+#: lib/php/text.class.php:41
+msgid "Font Family"
+msgstr "字体系列"
+
+#: lib/php/text.class.php:42
+msgid "Font Size"
+msgstr "字体大小"
+
+#: lib/php/text.class.php:43
+msgid "Font Weight"
+msgstr "字体粗细"
+
+#: lib/php/text.class.php:44
+msgid "Preview Text"
+msgstr "预览文字"
+
+#: lib/php/tools.class.php:171
+msgid "Do not show hints anymore"
+msgstr "不再显示提示"
+
+#: lib/php/tools.class.php:180
+msgid "Next feature"
+msgstr "下一个功能"
+
+#: lib/php/tools.class.php:181
+msgid "Skip"
+msgstr "跳过"
+
+#: lib/php/tweets.class.php:98
+msgid "Please set Twitter user name !!!"
+msgstr "请设置Twitter用户名！"
+
+#: lib/php/tweets.class.php:102
+#: lib/php/tweets.class.php:166
+msgid "Follow us"
+msgstr "关注我们"
+
+#: lib/php/tweets.class.php:124
+#: lib/php/tweets.class.php:133
+#: lib/php/tweets.class.php:148
+#: lib/php/tweets.class.php:157
+msgid "Unable to read tweets !!!"
+msgstr "无法读取tweets！"
+
+#: lib/php/WP_Editor.class.php:69
+msgid "HTML"
+msgstr "HTML"
+
+#: lib/php/WP_Editor.class.php:70
+msgid "Visual"
+msgstr "可视化"
+
+#: lib/php/shcode/box.php:8
+msgid "Type"
+msgstr "类型"
+
+#: lib/php/shcode/box.php:22
+msgid "Size"
+msgstr "尺寸"
+
+#: lib/php/shcode/box.php:42
+msgid "Content"
+msgstr "内容"
+
+#: lib/php/shcode/box.php:48
+msgid "Right Title"
+msgstr "右侧标题"
+
+#: lib/php/shcode/box.php:54
+msgid "Right Description"
+msgstr "右侧描述"
+
+#: lib/php/shcode/box.php:60
+msgid "Box url"
+msgstr "框地址"
+
+#: lib/php/shcode/box.php:66
+msgid "Right style"
+msgstr "右侧风格"
+
+#: lib/php/shcode/box.php:77
+msgid "Right color"
+msgstr "右侧颜色"
+
+#: lib/php/shcode/contact.php:42
+msgid "Your browser does not support iframes."
+msgstr "您的浏览器并不支援iframes。"
+
+#: lib/php/shcode/contact.php:45
+msgid "Insert Contact Form"
+msgstr "插入联系表"
+
+#: lib/php/shcode/main.php:9
+msgid "Columns"
+msgstr "栏"
+
+#: lib/php/shcode/main.php:10
+msgid "Button"
+msgstr "按钮"
+
+#: lib/php/shcode/main.php:11
+msgid "Tabs &amp; Toggles"
+msgstr "选项卡 &amp; 切换"
+
+#: lib/php/shcode/main.php:12
+msgid "Info Box"
+msgstr "信息框"
+
+#: lib/php/shcode/main.php:13
+msgid "Typography"
+msgstr "排版"
+
+#: lib/php/shcode/main.php:14
+msgid "Contact form"
+msgstr "联系表"
+
+#: lib/php/shcode/main.php:15
+msgid "Table"
+msgstr "表格"
+
+#: lib/php/shcode/table.php:3
+msgid "Table title:"
+msgstr "表格标题："
+
+#: lib/php/shcode/table.php:8
+msgid "Number of Rows:"
+msgstr "行数："
+
+#: lib/php/shcode/table.php:13
+msgid "Number of Columns:"
+msgstr "列数："
+
+#: lib/php/shcode/table.php:20
+msgid "Additional class:"
+msgstr "其它类："
+
+#: lib/php/shcode/table.php:27
+msgid "Custom CSS styles:"
+msgstr "自定义CSS样式："
+
+#: lib/php/shcode/table.php:34
+msgid "Select table style:"
+msgstr "选择表样式："
+
+#: lib/php/shcode/table.php:51
+msgid "Add Table"
+msgstr "添加表"
+
+#: lib/php/widget/category_icons.php:6
+msgid "Category with representative icons"
+msgstr "具有代表性的分类图标"
+
+#: lib/php/widget/category_icons.php:7
+msgid "Category icons"
+msgstr "分类图标"
+
+#: lib/php/widget/category_icons.php:38
+#, php-format
+msgid "View all posts filed under %s"
+msgstr "查看 %s 下的所有文章"
+
+#: lib/php/widget/comments.php:125
+#: lib/php/widget/tabber.php:274
+msgid "There are no comments"
+msgstr "没有评论"
+
+#: lib/php/widget/comments.php:159
+#: lib/php/widget/tabber.php:371
+msgid "Number of comments"
+msgstr "评论数量"
+
+#: lib/php/widget/contact.php:4
+msgid "Display Contact form"
+msgstr "显示联系表格"
+
+#: lib/php/widget/contact.php:5
+msgid "Quick Contact form"
+msgstr "快捷联系表"
+
+#: lib/php/widget/contact.php:13
+msgid "Contact us"
+msgstr "联系我们"
+
+#: lib/php/widget/featured_posts.php:5
+#: lib/php/widget/featured_posts.php:6
+msgid "Featured posts"
+msgstr "精选文章"
+
+#: lib/php/widget/featured_posts.php:109
+#: lib/php/widget/tabber.php:144
+msgid "Sorry, no hot posts found."
+msgstr "对不起，没有找到热门文章"
+
+#: lib/php/widget/featured_posts.php:119
+msgid "Enable please posts voting"
+msgstr "启用为文章投票"
+
+#: lib/php/widget/featured_posts.php:156
+msgid "Number of featured posts"
+msgstr "精选文章数量"
+
+#: lib/php/widget/featured_posts.php:161
+msgid "Period of featured posts"
+msgstr "精选文章时间"
+
+#: lib/php/widget/featured_posts.php:165
+#: lib/php/widget/featured_posts.php:167
+#: lib/php/widget/tabber.php:345
+#: lib/php/widget/tabber.php:347
+msgid "Today"
+msgstr "今天"
+
+#: lib/php/widget/featured_posts.php:171
+#: lib/php/widget/featured_posts.php:173
+#: lib/php/widget/tabber.php:351
+#: lib/php/widget/tabber.php:353
+#: lib/php/widget/top_authors.php:37
+msgid "7 days"
+msgstr "7天"
+
+#: lib/php/widget/featured_posts.php:177
+#: lib/php/widget/featured_posts.php:179
+#: lib/php/widget/tabber.php:357
+#: lib/php/widget/tabber.php:359
+#: lib/php/widget/top_authors.php:38
+msgid "30 days"
+msgstr "30天"
+
+#: lib/php/widget/featured_posts.php:261
+#: lib/php/widget/latest_posts.php:97
+#: lib/php/widget/tabber.php:456
+msgid " Off"
+msgstr "关闭"
+
+#: lib/php/widget/flickr.php:6
+#: lib/php/widget/flickr.php:7
+msgid "Flickr Photos"
+msgstr "Flickr 照片"
+
+#: lib/php/widget/flickr.php:16
+msgid "Photo Gallery"
+msgstr "相册"
+
+#: lib/php/widget/flickr.php:65
+msgid "Number of photos"
+msgstr "照片数量"
+
+#: lib/php/widget/flickr.php:71
+msgid "Showing Method"
+msgstr "显示方法"
+
+#: lib/php/widget/flickr.php:73
+msgid "Random Photo"
+msgstr "随机照片"
+
+#: lib/php/widget/flickr.php:74
+msgid "Latest Photo"
+msgstr "最新照片"
+
+#: lib/php/widget/latest_posts.php:6
+#: lib/php/widget/latest_posts.php:7
+#: lib/php/widget/latest_posts.php:16
+msgid "Latest Posts"
+msgstr "最新照片"
+
+#: lib/php/widget/latest_posts.php:145
+msgid "Number of posts"
+msgstr "文章数量"
+
+#: lib/php/widget/social_media.php:4
+msgid "Display list of social media icons"
+msgstr "显示社交媒体图标列表"
+
+#: lib/php/widget/social_media.php:5
+msgid "Social media"
+msgstr "社交媒体"
+
+#: lib/php/widget/social_media.php:63
+msgid "Facebook ID"
+msgstr "Facebook ID"
+
+#: lib/php/widget/social_media.php:73
+msgid "LinkedIn Public Profile URL"
+msgstr "LinkedIn公开的个人资料的网址"
+
+#: lib/php/widget/social_media.php:78
+msgid "Flickr ID (<a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+
+#: lib/php/widget/social_media.php:88
+msgid "Show RSS"
+msgstr "显示RSS"
+
+#: lib/php/widget/social_media.php:92
+msgid "Select icons style"
+msgstr "选择图标样式"
+
+#: lib/php/widget/social_media.php:95
+msgid "White"
+msgstr "白色"
+
+#: lib/php/widget/social_media.php:96
+msgid "Blue"
+msgstr "蓝色"
+
+#: lib/php/widget/social_media.php:97
+msgid "No background"
+msgstr "无背景"
+
+#: lib/php/widget/submit.php:6
+msgid "Logged users can submit content"
+msgstr "登录用户可以提交内容"
+
+#: lib/php/widget/submit.php:7
+msgid "Submit Content"
+msgstr "提交内容"
+
+#: lib/php/widget/submit.php:30
+#: lib/php/widget/submit.php:65
+msgid "User register option is disabled"
+msgstr "新用户注册选项被禁用"
+
+#: lib/php/widget/submit.php:33
+#: lib/php/widget/submit.php:62
+msgid "Please select submition page from theme settings"
+msgstr "请从主题设置选择提交页面"
+
+#: lib/php/widget/tabber.php:5
+#: lib/php/widget/tabber.php:6
+msgid "Tabber"
+msgstr "选项卡"
+
+#: lib/php/widget/tabber.php:61
+msgid "feat"
+msgstr ""
+
+#: lib/php/widget/tabber.php:62
+#: lib/php/widget/tabber.php:65
+#, fuzzy
+msgid "fresh"
+msgstr "新鲜"
+
+#: lib/php/widget/tabber.php:74
+msgid "tags"
+msgstr "标签"
+
+#: lib/php/widget/tabber.php:173
+msgid "Sorry, no posts found."
+msgstr "对不起，没有找到文章"
+
+#: lib/php/widget/tabber.php:296
+#: lib/php/widget/tags.php:47
+msgid "There are no tags."
+msgstr "没有标签"
+
+#: lib/php/widget/tabber.php:336
+msgid "Number of hot posts"
+msgstr "热门文章数量"
+
+#: lib/php/widget/tabber.php:341
+msgid "Period of hot posts"
+msgstr "热门文章时间"
+
+#: lib/php/widget/tabber.php:366
+msgid "Number of new posts"
+msgstr "新文章数量"
+
+#: lib/php/widget/tabber.php:376
+#: lib/php/widget/tags.php:79
+msgid "Number of tags"
+msgstr "标签数量"
+
+#: lib/php/widget/tabber.php:378
+#: lib/php/widget/tags.php:81
+msgid "Leave blank to show all tags"
+msgstr "留空显示所有标签"
+
+#: lib/php/widget/testimonials.php:4
+msgid "Display latest Testimonials"
+msgstr "显示最新会员证明"
+
+#: lib/php/widget/testimonials.php:5
+msgid "Latest Testimonials"
+msgstr "最新会员证明"
+
+#: lib/php/widget/testimonials.php:33
+msgid "Number of testimonials to display"
+msgstr "显示会员证明数量"
+
+#: lib/php/widget/testimonials.php:117
+msgid "There are no testimonials"
+msgstr "没有会员证明"
+
+#: lib/php/widget/top_authors.php:5
+msgid "Top authors. (In order for this widget to function please install WordPress JetPack plugin)"
+msgstr "热门作者。（使用此功能需要安装WordPress JetPack插件）"
+
+#: lib/php/widget/top_authors.php:6
+msgid "Top authors"
+msgstr "热门作者"
+
+#: lib/php/widget/top_authors.php:77
+msgid "Top Authors"
+msgstr "热门作者"
+
+#: lib/php/widget/top_authors.php:93
+msgid "Number authors to dislay"
+msgstr "显示作者的数量"
+
+#: lib/php/widget/top_authors.php:167
+msgid "In order for this widget to function please install WordPress JetPack plugin"
+msgstr "为了能正常使用这个小工具的功能，请安装WordPress的JetPack插件"
+
+#: lib/php/widget/tweets.php:5
+msgid "Latest tweets"
+msgstr "最新推特"
+
+#: lib/php/widget/tweets.php:39
+msgid "Twitter User Name"
+msgstr "Twitter用户名"
+
+#: lib/php/widget/tweets.php:43
+msgid "Number of latest tweets to show"
+msgstr "显示最新推特数量"
+
+#: lib/php/widget/tweets.php:47
+msgid "Animated"
+msgstr "动画"
+
+#: lib/php/widget/tweets.php:67
+msgid "Latest Tweets"
+msgstr "最新推特"
+
+#: lib/php/widget/tweets.php:208
+msgid "Please add the Twitter user name"
+msgstr "请添加Twitter用户名！"
+
+#: lib/templates/frontpagebuilder.php:13
+msgid "Add element"
+msgstr "添加元素"
+
+#: lib/templates/frontpageelement.php:29
+msgid "If you change your mind, you have"
+msgstr "如果你改变了想法，你必须"
+
+#: lib/templates/frontpageelement.php:29
+msgid "seconds to"
+msgstr "秒内"
+
+#: lib/templates/frontpageelement.php:29
+msgid "Undo"
+msgstr "撤销"
+
+#: lib/templates/frontpageelement.php:44
+msgid "Toggle preview"
+msgstr "切换预览"
+
+#: lib/templates/frontpageelement.php:50
+#: lib/templates/frontpageelement.php:75
+msgid "Save"
+msgstr "保存"
+
+#: lib/templates/frontpageelement.php:56
+msgid "Discard"
+msgstr "丢弃"
+
+#: lib/templates/frontpageelement.php:68
+msgid "So you want to add a widget zone?"
+msgstr "所以你要添加一个小工具区域？"
+
+#: lib/templates/frontpageelement.php:71
+msgid "First of all, we recomend you give a name to this element"
+msgstr "首先，我们建议你给这个元素命名"
+
+#: lib/templates/frontpageelement.php:73
+msgid "After you named your frontpage element, click"
+msgstr "给首页元素命名之后，点击"
+
+#: lib/templates/frontpageelement.php:77
+msgid "at the top of this box"
+msgstr "在框顶部"
+
+#: lib/templates/frontpageelement.php:78
+msgid "Then you can sort your frontpage elements"
+msgstr "然后，你可以排序首页元素"
+
+#: lib/templates/frontpageelement.php:80
+msgid "And don't forget to click"
+msgstr "别忘记点击"
+
+#: lib/templates/frontpageelement.php:82
+msgid "Update settings"
+msgstr "更新设置"
+
+#: lib/templates/frontpageelement.php:84
+msgid "at the bottom of the options page"
+msgstr "在选项页的底部"
+
+#: lib/templates/frontpageelement.php:86
+msgid "Now go to "
+msgstr "现在去"
+
+#: lib/templates/frontpageelement.php:87
+msgid "Appearence -> Widgets"
+msgstr "外观 -> 小工具"
+
+#: lib/templates/frontpageelement.php:88
+msgid "Where you can see your newly created widget zone an drag widgets on it just like you would normally do"
+msgstr "在这里您可以看到新创建的小工具区域，拖动小工具就可以了。"
+
+#: lib/templates/frontpageelement.php:96
+#: lib/templates/frontpageelement.php:108
+#: lib/templates/frontpageelement.php:120
+#: lib/templates/frontpageelement.php:132
+#: lib/templates/frontpageelement.php:146
+msgid "Clear input"
+msgstr "清除输入"
+
+#: lib/templates/frontpageelement.php:97
+#: lib/templates/frontpageelement.php:109
+#: lib/templates/frontpageelement.php:121
+#: lib/templates/frontpageelement.php:133
+#: lib/templates/frontpageelement.php:147
+msgid "Back to top"
+msgstr "返回顶部"
+
+#: lib/templates/frontpageelement.php:158
+msgid "Element label"
+msgstr "元素标签"
+
+#: lib/templates/frontpageelement.php:170
+msgid "Display this label in front-end"
+msgstr "显示前台标签"
+
+#: lib/templates/frontpageelement.php:188
+msgid "Choose element type"
+msgstr "选择元素类型"
+
+#: lib/templates/frontpageelement.php:193
+msgid "Categories"
+msgstr "分类"
+
+#: lib/templates/frontpageelement.php:201
+msgid "Portfolios"
+msgstr "组合"
+
+#: lib/templates/frontpageelement.php:211
+msgid "Latest posts"
+msgstr "最新文章"
+
+#: lib/templates/frontpageelement.php:223
+msgid "Widgets"
+msgstr "小工具"
+
+#: lib/templates/frontpageelement.php:232
+msgid "Select view type"
+msgstr "选择视图类型"
+
+#: lib/templates/frontpageelement.php:245
+msgid "Thumbnail view"
+msgstr "缩略视图"
+
+#: lib/templates/frontpageelement.php:254
+msgid "Number of columns"
+msgstr "列数"
+
+#: lib/templates/frontpageelement.php:259
+msgid "Two"
+msgstr "2"
+
+#: lib/templates/frontpageelement.php:263
+msgid "Three"
+msgstr "3"
+
+#: lib/templates/frontpageelement.php:267
+msgid "Four"
+msgstr "4"
+
+#: lib/templates/frontpageelement.php:271
+msgid "Six"
+msgstr "6"
+
+#: lib/templates/frontpageelement.php:275
+msgid "Nine"
+msgstr "9"
+
+#: lib/templates/frontpageelement.php:290
+msgid "请设置栏数能整除的文章数量"
+msgstr ""
+
+#: lib/templates/frontpageelement.php:296
+msgid "Display gallery type"
+msgstr "显示图库类型"
+
+#: lib/templates/frontpageelement.php:314
+msgid "Enable carousel"
+msgstr "启用轮播"
+
+#: lib/templates/frontpageelement.php:332
+msgid "Enable pagination"
+msgstr "启用页码"
+
+#: lib/templates/frontpageelement.php:350
+msgid "Show \"Load more\""
+msgstr "显示“加载更多”"
+
+#: videojs/admin.php:14
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问该页面。"
+
+#: videojs/admin.php:26
+msgid "Save Changes"
+msgstr "保存更改"
+
+#~ msgid "All Portfolios"
+#~ msgstr "所有组合"
+
+#~ msgid "Add New"
+#~ msgstr "添加"
+
+#~ msgid "Showing"
+#~ msgstr "显示"
+
+#~ msgid "widgets"
+#~ msgstr "小工具"
+
+#~ msgid "page"
+#~ msgstr "页面"
+
+#~ msgid "post"
+#~ msgstr "文章"
+
+#~ msgid "posts"
+#~ msgstr "篇文章"
+
+#~ msgid "categories"
+#~ msgstr "分类"
+
+#~ msgid "Nothing to show. Please select some"
+#~ msgstr "什么都没有，请选择一些"
+
+#~ msgid "with"
+#~ msgstr "为"
+
+#~ msgid "gallery"
+#~ msgstr "图库"
+
+#~ msgid "featured"
+#~ msgstr "精选"
+
+#~ msgid "latest"
+#~ msgstr "最新"
+
+#~ msgid "Generate"
+#~ msgstr "生成"
+
+#~ msgid "Reset"
+#~ msgstr "重置"
+
+#~ msgid "Please select a number that is divisible by the number of columns"
+#~ msgstr "请选择的列数整除的一个数字"
+
+#~ msgid "Attachment Posts Settings"
+#~ msgstr "附件文章设置"
+
+#~ msgid "Display post source"
+#~ msgstr "显示文章来源"
+
+#~ msgid "Display slideshow"
+#~ msgstr "显示侧边栏"
+
+#~ msgid "Enable comments for attachment posts"
+#~ msgstr "为附件文章启用评论"
+
+#~ msgid "Enable social sharing for attachment posts"
+#~ msgstr "为附件文章启用社交分享"
+
+#, fuzzy
+#~ msgid "Featured"
+#~ msgstr "特色"
+
+#~ msgid "Flickr ID"
+#~ msgstr "Flickr用户名"
+
+#~ msgid "Footer Fourth"
+#~ msgstr "页脚第四栏"
+
+#, fuzzy
+#~ msgid "Fresh"
+#~ msgstr "新鲜"
+
+#~ msgid "Gallery Type"
+#~ msgstr "图库类型"
+
+#~ msgid "I feel lucky"
+#~ msgstr "我感到很幸运"
+
+#~ msgid ""
+#~ "If a valid YouTube or Vimeo URL is provided, the embeded video <br /> for "
+#~ "the provided link will be appended at the beginning of the post <br /> "
+#~ "content. Otherwise it will be ignored."
+#~ msgstr ""
+#~ "如果提供有效的YouTube或Vimeo网址，嵌入式视频所提供的链接将被追加在文章内容"
+#~ "开始，它会被忽略。"
+
+#~ msgid ""
+#~ "If a valid YouTube, Vimeo or self hosted URL is provided, the embeded "
+#~ "video <br /> for the provided link will be appended at the beginning of "
+#~ "the post <br /> content. Otherwise it will be ignored."
+#~ msgstr ""
+#~ "如果提供有效的YouTube、Vimeo或自托管的视频网址，嵌入式视频所提供的链接将被"
+#~ "追加在文章内容开始，它会被忽略。"
+
+#~ msgid ""
+#~ "Insert your Flickr ID (<a target=\"_blank\" href=\"http://www.idgettr.com"
+#~ "\">idGettr</a>)"
+#~ msgstr ""
+#~ "插入Flickr ID (<a target=\"_blank\" href=\"http://www.idgettr.com"
+#~ "\">idGettr</a>)"
+
+#~ msgid "Please add attachment file or URL"
+#~ msgstr "请添加附件或网址"
+
+#~ msgid "Please add audio file or URL"
+#~ msgstr "请添加音频文件或网址"
+
+#~ msgid "Please set featured image"
+#~ msgstr "请设置特色图像"
+
+#~ msgid "Please use  only MP3 files"
+#~ msgstr "只能使用MP3文件"
+
+#~ msgid "Please use only .ZIP, .RAR, .DOC, .DOCX, .PDF files"
+#~ msgstr "只能使用ZIP，RAR，DOC，DOCX，PDF文件"
+
+#~ msgid "Post Source"
+#~ msgstr "文章来源"
+
+#~ msgid "Select slideshow"
+#~ msgstr "选择幻灯片"
+
+#~ msgid "Set footer background color"
+#~ msgstr "设置背景颜色"
+
+#~ msgid "Set video URL ( YouTube , Vimeo )"
+#~ msgstr "设置视频地址 ( YouTube , Vimeo )"
+
+#~ msgid "Set video URL ( YouTube , Vimeo or self hosted )"
+#~ msgstr "设置视频地址( YouTube , Vimeo或自主托管)"
+
+#~ msgid "Show slideshow on this post"
+#~ msgstr "显示此文章幻灯片"
+
+#~ msgid "Social media icons"
+#~ msgstr "社交媒体图标"
+
+#~ msgid "Start typing the Slideshow title. "
+#~ msgstr "开始输入幻灯片标题。"
+
+#~ msgid "Type title "
+#~ msgstr "键入标题"
+
+#~ msgid "Unknown source"
+#~ msgstr "未知来源"
+
+#~ msgid "User name: %"
+#~ msgstr "用户名：%"
+
+#~ msgid "Video player loads here."
+#~ msgstr "视频播放器在这里加载。"
+
+#~ msgid "View type for front page"
+#~ msgstr "首页视图类型"
+
+#~ msgid "You can set Facebook application ID"
+#~ msgstr "你可以设置Facebook application ID"
+
+#, fuzzy
+#~ msgid "at"
+#~ msgstr "在"
+
+#~ msgid "here"
+#~ msgstr "在这里"
+
+#~ msgid "hint"
+#~ msgstr "提示"
+
+#, fuzzy
+#~ msgid "label"
+#~ msgstr "标签"
+
+#~ msgid "random posts"
+#~ msgstr "随机文章"
+
+#~ msgid "voted posts"
+#~ msgstr "投票文章"
+
+#, fuzzy
+#~ msgid "welcome"
+#~ msgstr "Welcome"

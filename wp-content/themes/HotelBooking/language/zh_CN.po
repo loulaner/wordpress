@@ -1,0 +1,3618 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-13 23:22+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: zeusgeats <admin@4mudi.com>\n"
+"Language-Team: www.4mudi.com <admin@4mudi.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ templatic
+#: 404.php:8
+msgid "404! We couldn't find the page!"
+msgstr "404！我们找不到页面了！"
+
+#: 404.php:24
+msgid ""
+"The page you are looking for does not exist. It appears you've missed your "
+"intended destination, either through a bad or outdated link, or a typo in "
+"the page you were hoping to reach."
+msgstr "你要找的页面找不到了，你可以尝试搜索一下内容或者通过导航来查找。"
+
+# @ templatic
+#: 404.php:50 tpl_sitemap.php:31
+msgid "Pages"
+msgstr "页面"
+
+# @ templatic
+#: 404.php:62 tpl_sitemap.php:38
+msgid "Posts"
+msgstr "文章"
+
+# @ templatic
+#: 404.php:69 tpl_sitemap.php:45
+msgid "0 comment"
+msgstr "0条评论"
+
+# @ templatic
+#: 404.php:69 comments.php:12 tpl_sitemap.php:45
+msgid "1 comment"
+msgstr "1条评论"
+
+# @ templatic
+#: 404.php:69 loop.php:64 single.php:73 tpl_sitemap.php:45
+#: admin/widgets/latest_posts.php:54
+msgid "% Comments"
+msgstr "%条评论"
+
+# @ templatic
+#: 404.php:81 search.php:66 tpl_sitemap.php:59
+msgid "Categories"
+msgstr "分类"
+
+# @ templatic
+#: 404.php:89 search.php:57 tpl_sitemap.php:52
+msgid "Archives"
+msgstr "归档"
+
+# @ templatic
+#: archive.php:19
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ templatic
+#: archive.php:21
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr "文章标签 &quot;%s&quot;"
+
+# @ templatic
+#: archive.php:23
+#, php-format
+msgid "Daily archive %s"
+msgstr "每日归档%s"
+
+# @ templatic
+#: archive.php:25
+#, php-format
+msgid "Monthly archive %s"
+msgstr "每月归档%s"
+
+# @ templatic
+#: archive.php:27
+#, php-format
+msgid "Yearly archive %s"
+msgstr "每年归档%s"
+
+# @ templatic
+#: archive.php:29
+msgid "Author Archive"
+msgstr "作者归档"
+
+# @ templatic
+#: archive.php:31
+msgid "Blog Archives"
+msgstr "博客归档"
+
+# @ templatic
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+# @ templatic
+#: comments.php:12
+#, php-format
+msgid "%1$s comments"
+msgstr "%1$s条评论"
+
+# @ templatic
+#: comments.php:22
+msgid "What do you think?"
+msgstr "你在想什么？"
+
+# @ templatic
+#: comments.php:29
+msgid "Logged in as"
+msgstr "登录为"
+
+# @ templatic
+#: comments.php:29
+msgid "Log out &raquo;"
+msgstr "退出 &raquo;"
+
+# @ templatic
+#: comments.php:49 tpl_contact.php:101 admin/widgets/contact/contact.php:81
+#: modules/user_booking/lang_user_booking.php:18
+msgid "Name"
+msgstr "名字"
+
+# @ templatic
+#: comments.php:49 comments.php:53
+msgid "required"
+msgstr "必需"
+
+# @ templatic
+#: comments.php:53 tpl_contact.php:107 admin/widgets/login.php:385
+#: admin/widgets/login.php:424 admin/widgets/contact/contact.php:86
+#: modules/user_booking/lang_user_booking.php:25
+msgid "Email"
+msgstr "邮箱"
+
+# @ templatic
+#: comments.php:57 modules/user_booking/lang_user_booking.php:26
+msgid "Website"
+msgstr "网站"
+
+# @ templatic
+#: comments.php:65 modules/manage_settings/admin_coupon.php:107
+#: modules/manage_settings/admin_currency.php:52
+#: modules/manage_settings/admin_hotel_info.php:73
+#: modules/manage_settings/admin_paymethods_add.php:103
+#: modules/reservation/admin_manage_booking.php:18
+#: modules/reservation/admin_manage_transaction.php:27
+#: modules/reservation/admin_reservation.php:216
+#: modules/room_type/admin_custom_fields.php:101
+#: modules/room_type/admin_room.php:67
+#: modules/room_type/admin_room_gallery.php:116
+#: modules/room_type/admin_room_type.php:190
+#: modules/room_type/admin_room_type_price.php:128
+#: modules/room_type/admin_service.php:67
+#: modules/user_booking/widget_form.php:35
+msgid "Submit"
+msgstr "提交"
+
+# @ templatic
+#: loop.php:64 single.php:73 admin/widgets/latest_posts.php:54
+msgid "No Comments"
+msgstr "暂无评论"
+
+# @ templatic
+#: loop.php:64 single.php:73 admin/widgets/latest_posts.php:54
+msgid "1 Comment"
+msgstr "1条评论"
+
+# @ templatic
+#: loop.php:64 single.php:73 admin/widgets/latest_posts.php:54
+msgid "Comments Closed"
+msgstr "评论已关闭"
+
+# @ templatic
+#: loop.php:71 single.php:80
+msgid "More "
+msgstr "更多..."
+
+# @ templatic
+#: loop.php:77
+msgid "Edit entry"
+msgstr "编辑项目"
+
+# @ templatic
+#: loop.php:186 search.php:53
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr "抱歉，您访问的归档页面未找到。也许搜索能帮到您。"
+
+# @ templatic
+#: pagination.php:3
+msgid "Previous Page"
+msgstr "上一页"
+
+# @ templatic
+#: pagination.php:4
+msgid "Next Page"
+msgstr "下一页"
+
+# @ templatic
+#: pagination.php:8
+msgid "LOAD MORE"
+msgstr "加载更多"
+
+# @ templatic
+#: search.php:12
+msgid "Search Result for category"
+msgstr "分类搜索结果"
+
+# @ templatic
+#: search.php:12
+msgid "Search Result for date"
+msgstr "日期搜索结果"
+
+# @ templatic
+#: search.php:12
+msgid "Search Result for author"
+msgstr "作者搜索结果"
+
+# @ templatic
+#: search.php:12
+msgid "Search Result for "
+msgstr "搜索结果："
+
+# @ templatic
+#: searchform.php:4 tpl_advanced_search.php:54 tpl_advanced_search.php:115
+msgid "Search"
+msgstr "搜索"
+
+# @ templatic
+#: tpl_advanced_search.php:50
+msgid "Search this website"
+msgstr "搜索此网站"
+
+#: tpl_advanced_search.php:54
+msgid "Enter keyword here"
+msgstr "输入关键词"
+
+# @ templatic
+#: tpl_advanced_search.php:56
+msgid "Category"
+msgstr "分类"
+
+# @ templatic
+#: tpl_advanced_search.php:73
+msgid "Date"
+msgstr "日期"
+
+# @ templatic
+#: tpl_advanced_search.php:78
+msgid "<span>to</span>"
+msgstr "<span>到</span>"
+
+# @ templatic
+#: tpl_advanced_search.php:84
+msgid "Author"
+msgstr "作者"
+
+# @ templatic
+#: tpl_advanced_search.php:87
+msgid "Exact author"
+msgstr "精确作者"
+
+# @ templatic
+#: tpl_advanced_search.php:111
+msgid "Please enter word you want to search"
+msgstr "请输入你想要搜索的词"
+
+#: tpl_contact.php:92
+msgid "Your message is sent successfully."
+msgstr "您的信息已成功发送。"
+
+# @ templatic
+#: tpl_contact.php:113 admin/widgets/contact/contact.php:91
+msgid "Subject"
+msgstr "主题"
+
+# @ templatic
+#: tpl_contact.php:119 admin/widgets/contact/contact.php:96
+msgid "Message"
+msgstr "信息"
+
+# @ templatic
+#: tpl_sitemap.php:66
+msgid "Meta"
+msgstr "功能"
+
+# @ templatic
+#: tpl_sitemap.php:69 tpl_sitemap.php:70 tpl_sitemap.php:71
+msgid "RSS"
+msgstr "RSS"
+
+# @ templatic
+#: tpl_sitemap.php:69
+msgid "1.0 feed"
+msgstr "1.0 订阅"
+
+# @ templatic
+#: tpl_sitemap.php:70
+msgid "0.92 feed"
+msgstr "0.92订阅"
+
+# @ templatic
+#: tpl_sitemap.php:71
+msgid "2.0 feed"
+msgstr "2.0 订阅"
+
+# @ templatic
+#: tpl_sitemap.php:72
+msgid "Atom feed"
+msgstr "Atom供稿"
+
+# @ templatic
+#: tpl_sitemap.php:78
+msgid "<strong>Tags: </strong>"
+msgstr "<strong>标签: </strong>"
+
+# @ templatic
+#: admin/admin_menu.php:14
+msgid "Theme Settings"
+msgstr "主题设置"
+
+# @ templatic
+#: admin/auto_update_framework.php:7 admin/auto_update_framework.php:79
+#: admin/auto_update_framework.php:92 admin/auto_update_framework_bk.php:7
+#: admin/auto_update_framework_bk.php:41 admin/auto_update_framework_bk.php:54
+msgid "Update Framework"
+msgstr "更新框架"
+
+#: admin/auto_update_framework.php:85
+#, php-format
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com "
+"server. It will download and extract the files to your current theme&prime;s "
+"functions folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. "
+"Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the "
+"framework, then please download the latest version of the theme from members "
+"area and then just overwrite the \"admin\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr ""
+"<h3>Templatic框架有一个新版本可用.</h3>\n"
+"                <p>此更新会从templatic.com服务器收集文件。它会下载并解压文件"
+"到当前主题功能文件夹. </p>\n"
+"                <p>我们建议你更新前备份你的主题文件夹.如果只是更新框架的话.</"
+"p>\n"
+"                <p>如果有什么问题，你可以到会员区下载\"admin\" folder to the "
+"theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>您的版本:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>当前版本:</strong> %s</p>"
+
+# @ templatic
+#: admin/auto_update_framework.php:96 admin/auto_update_framework_bk.php:59
+#, php-format
+msgid ""
+" <h3>You already have the latest version of Templatic Framework</h3>\n"
+"                <p>&rArr; <strong>Your version:</strong> %s "
+msgstr ""
+" <h3>你已经有了最新版本的框架</h3>\n"
+"                <p>&rArr; <strong>你的版本:</strong> %s "
+
+# @ templatic
+#: admin/auto_update_framework_bk.php:47
+#, php-format
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com "
+"server. It will download and extract the files to your current theme&prime;s "
+"admin folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. "
+"Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the "
+"framework, then please download the latest version of the theme from members "
+"area and then just overwrite the \"<u>admin</u>\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr ""
+"<h3>框架有一个新版本可用.</h3>\n"
+"                <p>此更新将从服务器下载文件并解压缩到主题文件夹 </p>\n"
+"                <p>我们建议你更新前先备份您的主题文件夹</p>\n"
+"                <p>If you are facing any problem in auto updating the "
+"framework, then please download the latest version of the theme from members "
+"area and then just overwrite the \"<u>admin</u>\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>您的版本:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>当前版本:</strong> %s</p>"
+
+# @ templatic
+#: admin/auto_update_framework_bk.php:56
+msgid "Updating, It will take few moments. Please wait...."
+msgstr "更新中，这将需要几分钟。请稍候...."
+
+# @ templatic
+#: admin/auto_update_framework_bk.php:92
+msgid "Currently Unavailable"
+msgstr "目前无法使用"
+
+# @ templatic
+#: admin/constants.php:15
+msgid "Top Header Navigation"
+msgstr "顶部页眉导航"
+
+# @ templatic
+#: admin/constants.php:16 admin/widgets/widgets_sidebar.php:16
+msgid "Main Navigation"
+msgstr "主导航"
+
+# @ templatic
+#: admin/seo_settings.php:26 admin/seo_settings.php:27
+msgid "SEO Settings"
+msgstr "SEO设置"
+
+# @ templatic
+#: admin/seo_settings.php:34
+msgid "Page Title"
+msgstr "页面标题"
+
+# @ templatic
+#: admin/seo_settings.php:37
+msgid "Page Description"
+msgstr "页面描述"
+
+# @ templatic
+#: admin/seo_settings.php:40
+msgid "Keywords <br />(comma separated)"
+msgstr "关键词<br />(逗号分隔)"
+
+# @ templatic
+#: admin/seo_settings.php:43
+#: modules/manage_settings/function_manage_settings.php:43
+#: modules/reservation/function_reservation.php:58
+#: modules/room_type/function_room_type.php:47
+msgid "Update"
+msgstr "更新"
+
+# @ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:61
+#: modules/manage_settings/admin_paymethods_add.php:58
+#: modules/manage_settings/admin_paymethods_list.php:221
+#: modules/manage_settings/admin_paymethods_list.php:255
+msgid "Settings"
+msgstr "设置"
+
+# @ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:69
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr "你不能编辑选项Yoast面包屑。"
+
+# @ templatic
+#: admin/breadcrumbs/yoast-posts.php:23
+msgid "Yoast - Tweaking Websites"
+msgstr "yoast - 调整网站"
+
+# @ templatic
+#: admin/functions/custom_functions - Copy.php:370
+#: admin/functions/custom_functions.php:365
+msgid "read more"
+msgstr "阅读更多"
+
+# @ templatic
+#: admin/functions/custom_functions - Copy.php:477
+#: admin/functions/custom_functions.php:483
+msgid "Search Result "
+msgstr "搜索结果"
+
+# @ templatic
+#: admin/functions/custom_functions - Copy.php:492
+#: admin/functions/custom_functions.php:498
+msgid "Author Archives"
+msgstr "作者归档"
+
+# @ templatic
+#: admin/functions/custom_functions - Copy.php:648
+#: admin/functions/custom_functions.php:656
+msgid "Tweet"
+msgstr "Tweet"
+
+# @ templatic
+#: admin/functions/custom_functions - Copy.php:782
+#: admin/functions/custom_functions.php:790
+msgid "Related Article"
+msgstr "相关文章"
+
+# @ templatic
+#: admin/theme_options/options.php:9 admin/tpl/header.php:5
+msgid "Theme Guide"
+msgstr "主题指南"
+
+# @ templatic
+#: admin/theme_options/options.php:11 admin/tpl/header.php:6
+msgid "Support Forum"
+msgstr "论坛支持"
+
+# @ templatic
+#: admin/theme_options/options.php:19 admin/theme_options/options.php:72
+msgid "Save All Changes"
+msgstr "保存所有更改"
+
+# @ templatic
+#: admin/theme_options/options.php:71
+msgid "Reset Options"
+msgstr "重置选项"
+
+# @ templatic
+#: admin/theme_options/option_settings.php:35
+msgid ""
+"\"simplexmlelement\" is not supported under PHP 4.x. Please use version 5 or "
+"higher"
+msgstr "\"simplexmlelement\"不支持PHP 4.x以下版本. 请使用5或更高版本"
+
+# @ templatic
+#: admin/theme_options/option_settings.php:58
+msgid "Design Settings"
+msgstr "设计设置"
+
+# @ templatic
+#: admin/widgets/ads.php:35 admin/widgets/flickr.php:74
+#: admin/widgets/google_map.php:120 admin/widgets/my_bio.php:57
+#: admin/widgets/popularposts.php:57 admin/widgets/twitter.php:55
+#: modules/room_type/admin_manage_custom_fields.php:43
+#: modules/user_booking/lang_user_booking.php:15
+msgid "Title"
+msgstr "标题"
+
+#: admin/widgets/ads.php:36
+msgid ""
+"Advertisement (e.g.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/"
+"banner.png\" /&gt;&lt;/a&gt; or add Google ads code )"
+msgstr ""
+"广告 (e.g.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/banner.png"
+"\" /&gt;&lt;/a&gt; 或添加谷歌广告代码 )"
+
+# @ templatic
+#: admin/widgets/featured_video.php:78
+#: modules/reservation/admin_reservation.php:154
+msgid "Title :"
+msgstr "标题："
+
+# @ templatic
+#: admin/widgets/featured_video.php:83 admin/widgets/latest_posts.php:103
+#: library/functions/widgets.php:237
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr "分类 (<code>IDs</code> separated by commas):"
+
+# @ templatic
+#: admin/widgets/featured_video.php:88
+msgid "Number of posts"
+msgstr "文章数量"
+
+# @ templatic
+#: admin/widgets/featured_video.php:93
+#, php-format
+msgid "First Please Create Custom Field \"video\" in Post From %s"
+msgstr "首先请从%s创建自定义字段“视频”到文章"
+
+# @ templatic
+#: admin/widgets/flickr.php:66
+msgid "Flickr"
+msgstr "flickr"
+
+# @ templatic
+#: admin/widgets/flickr.php:74
+msgid "eg. : Flickr"
+msgstr "例如: Flickr"
+
+# @ templatic
+#: admin/widgets/flickr.php:79
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr用户名(<a href=\"http://www.idgettr.com\">idGettr</a>):"
+
+# @ templatic
+#: admin/widgets/flickr.php:84
+msgid "Number of photos"
+msgstr "照片数量"
+
+# @ templatic
+#: admin/widgets/flickr.php:89
+msgid "Photo Width"
+msgstr "照片宽度"
+
+# @ templatic
+#: admin/widgets/flickr.php:94
+msgid "Photo Height"
+msgstr "照片高度"
+
+# @ templatic
+#: admin/widgets/google_map.php:81
+msgid "View Large Map"
+msgstr "查看大地图"
+
+# @ templatic
+#: admin/widgets/google_map.php:85
+msgid "Get Direction on Map &raquo;"
+msgstr "查看在地图上的位置»"
+
+# @ templatic
+#: admin/widgets/google_map.php:122
+msgid ""
+"Address <small>(eg: 230 Vine Street And locations throughout Old City, "
+"Philadelphia, PA 19106)</small>"
+msgstr "地址<small>(例如: 河南郑州金水区花园路)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:125
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr "地址纬度<small>(例如: 39.955823048131286)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:127
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr "地址经度<small>(例如: -75.14408111572266)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:130
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr "地图宽度（px）<small>(例如: 200)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:133
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr "地图高度（px）<small>(例如: 200)</small>"
+
+#: admin/widgets/google_map.php:137
+msgid "Map Zooming Factor"
+msgstr "地图缩放因素"
+
+# @ templatic
+#: admin/widgets/google_map.php:151
+msgid "Select Map Type"
+msgstr "选择地图类型"
+
+# @ templatic
+#: admin/widgets/google_map.php:153
+msgid "Road Map"
+msgstr "路线图"
+
+# @ templatic
+#: admin/widgets/google_map.php:154
+msgid "Satellite Map"
+msgstr "卫星地图"
+
+# @ templatic
+#: admin/widgets/google_map.php:155
+msgid "Terrain Map"
+msgstr "地形图"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:55
+msgid "more..."
+msgstr "更多..."
+
+# @ templatic
+#: admin/widgets/latest_posts.php:81 admin/widgets/testimonials.php:148
+#: library/functions/widgets.php:228
+msgid "Title:"
+msgstr "标题："
+
+# @ templatic
+#: admin/widgets/latest_posts.php:84
+#: admin/widgets/anything_slider/anything_slider.php:111
+#: library/functions/widgets.php:231
+msgid "Number of posts:"
+msgstr "文章数量:"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:89
+msgid "Post Type:"
+msgstr "文章类型："
+
+# @ templatic
+#: admin/widgets/login.php:11
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>错误</strong>：请填写用户名。"
+
+# @ templatic
+#: admin/widgets/login.php:13
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr "<strong>错误</strong>：此用户名包含无效字符，请输入有效的用户名。"
+
+# @ templatic
+#: admin/widgets/login.php:16
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr "<strong>错误</strong>：该用户名已被注册，请再选择一个。"
+
+# @ templatic
+#: admin/widgets/login.php:21
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>错误</strong>：请填写电子邮件地址。"
+
+# @ templatic
+#: admin/widgets/login.php:23
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>错误</strong>：电子邮件地址不正确。"
+
+# @ templatic
+#: admin/widgets/login.php:26
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr "<strong>错误</strong>：该电子邮件地址已经被注册，请换一个。"
+
+# @ templatic
+#: admin/widgets/login.php:39
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>错误</strong>：无法完成您的注册请求... 请联系<a href=\"mailto:%s\">管"
+"理员</a>！"
+
+# @ templatic
+#: admin/widgets/login.php:52
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"\t\t\t<p>Your login information:</p>\n"
+"\t\t\t<p>Username: [#user_login#]</p>\n"
+"\t\t\t<p>Password: [#user_password#]</p>\n"
+"\t\t\t<p>You can login from [#site_login_url#] or the URL is : "
+"[#site_login_url_link#].</p>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+"[SUBJECT-STR]注册邮箱[SUBJECT-END]<p>亲爱的 [#user_name#],</p>\n"
+"\t\t\t<p>您的登陆信息:</p>\n"
+"\t\t\t<p>用户名: [#user_login#]</p>\n"
+"\t\t\t<p>密码: [#user_password#]</p>\n"
+"\t\t\t<p>你可以从 [#site_login_url#]登陆或者网址 : [#site_login_url_link#].</"
+"p>\n"
+"\t\t\t<p>我们祝你开心，谢谢!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+
+# @ templatic
+#: admin/widgets/login.php:64
+msgid "Registration Email"
+msgstr "注册邮箱"
+
+# @ templatic
+#: admin/widgets/login.php:69
+#, php-format
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr "<a href=\"%s/?ptype=login\">点击登陆</a>"
+
+# @ templatic
+#: admin/widgets/login.php:85
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>错误</strong>：请输入用户名或电子邮件地址。"
+
+# @ templatic
+#: admin/widgets/login.php:90
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>错误</strong>：未能通过电子邮件地址找到用户。"
+
+# @ templatic
+#: admin/widgets/login.php:102
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>错误</strong>：用户名或电子邮件地址无效。"
+
+# @ templatic
+#: admin/widgets/login.php:119
+msgid "Invalid key"
+msgstr "无效 key"
+
+# @ templatic
+#: admin/widgets/login.php:127
+msgid "Your login Information :"
+msgstr "您的登陆信息："
+
+# @ templatic
+#: admin/widgets/login.php:128
+#, php-format
+msgid "Username: %s"
+msgstr "用户名：%s"
+
+# @ templatic
+#: admin/widgets/login.php:129
+#, php-format
+msgid "Password: %s"
+msgstr "密码：%s"
+
+# @ templatic
+#: admin/widgets/login.php:136
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s]你的新密码"
+
+# @ templatic
+#: admin/widgets/login.php:192
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+"<strong>错误</strong>：Cookies 被阻止或者您的浏览器不支持。要使用 WordPress，"
+"您必须<a href='http://www.google.com/cookies.html'>启用 cookies</a>。"
+
+# @ templatic
+#: admin/widgets/login.php:206
+msgid "User registration is currently not allowed."
+msgstr "新用户注册暂时关闭。"
+
+# @ templatic
+#: admin/widgets/login.php:217
+msgid "Registration complete. Please check your e-mail."
+msgstr "注册完成。请查收我们给您发的邮件。"
+
+# @ templatic
+#: admin/widgets/login.php:228
+msgid "Check your e-mail for the new password."
+msgstr "请查收您邮件中的新密码。"
+
+# @ templatic
+#: admin/widgets/login.php:276
+msgid "My Account"
+msgstr "我的帐户"
+
+# @ templatic
+#: admin/widgets/login.php:280
+msgid "Dashboard"
+msgstr "仪表盘"
+
+# @ templatic
+#: admin/widgets/login.php:281
+msgid "Edit Profile"
+msgstr "编辑信息"
+
+# @ templatic
+#: admin/widgets/login.php:282
+msgid "Change Password"
+msgstr "更改密码"
+
+# @ templatic
+#: admin/widgets/login.php:283 library/functions/custom_functions.php:314
+msgid "Logout"
+msgstr "退出"
+
+# @ templatic
+#: admin/widgets/login.php:313 admin/widgets/login.php:378
+msgid "Username"
+msgstr "用户名"
+
+# @ templatic
+#: admin/widgets/login.php:314
+msgid "Password"
+msgstr "密码"
+
+# @ templatic
+#: admin/widgets/login.php:319 library/functions/custom_functions.php:320
+msgid "Sign In"
+msgstr "登录"
+
+# @ templatic
+#: admin/widgets/login.php:322
+msgid "New User? Register Now"
+msgstr "新用户？现在注册"
+
+# @ templatic
+#: admin/widgets/login.php:323
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+# @ templatic
+#: admin/widgets/login.php:372
+msgid "New User Register Here"
+msgstr "新用户在这里注册"
+
+# @ templatic
+#: admin/widgets/login.php:390 library/functions/custom_functions.php:319
+msgid "Register"
+msgstr "注册"
+
+# @ templatic
+#: admin/widgets/login.php:420
+msgid "Forgot Password"
+msgstr "忘记密码？"
+
+# @ templatic
+#: admin/widgets/login.php:428
+msgid "Get New Password"
+msgstr "获取新密码"
+
+# @ templatic
+#: admin/widgets/login.php:449 admin/widgets/contact/contact.php:120
+msgid "Widget Title"
+msgstr "小工具标题"
+
+# @ templatic
+#: admin/widgets/my_bio.php:59
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr "作者照片 (ex.http://templatic.com/photo.png)"
+
+# @ templatic
+#: admin/widgets/my_bio.php:61 library/functions/widgets.php:47
+msgid "Short Description"
+msgstr "简述"
+
+# @ templatic
+#: admin/widgets/my_bio.php:63
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "描述 :  (html标签使用例如.&lt;p&gt;text &lt;/p&gt;)"
+
+# @ templatic
+#: admin/widgets/my_bio.php:65
+msgid "Read More Text"
+msgstr "阅读更多文字"
+
+# @ templatic
+#: admin/widgets/my_bio.php:67
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr "阅读更多链接网址(ex.http://templatic.com/mybio)"
+
+# @ templatic
+#: admin/widgets/popularposts.php:59
+msgid "Number of Posts"
+msgstr "文章数量"
+
+# @ templatic
+#: admin/widgets/social_media.php:74 admin/widgets/subscribe.php:48
+msgid "Widget Title:"
+msgstr "小工具标题："
+
+# @ templatic
+#: admin/widgets/social_media.php:75 library/functions/widgets.php:777
+msgid "Twitter Full URL"
+msgstr "Twitter 完整网址"
+
+# @ templatic
+#: admin/widgets/social_media.php:76 library/functions/widgets.php:778
+msgid "Facebook Full URL"
+msgstr "Facebook完整网址"
+
+# @ templatic
+#: admin/widgets/social_media.php:77
+msgid "Digg Full URL"
+msgstr "Digg完整网址"
+
+# @ templatic
+#: admin/widgets/social_media.php:78 library/functions/widgets.php:779
+msgid "Linkedin Full URL"
+msgstr "Linkedin完整网址"
+
+# @ templatic
+#: admin/widgets/social_media.php:79
+msgid "Myspace Full URL"
+msgstr "Myspace完整网址"
+
+# @ templatic
+#: admin/widgets/social_media.php:80
+msgid "Rss Full URL"
+msgstr "Rss完整网址"
+
+# @ templatic
+#: admin/widgets/subscribe.php:26
+msgid "Enter Email Address"
+msgstr "输入邮箱地址"
+
+# @ templatic
+#: admin/widgets/subscribe.php:49
+msgid "Feedburner ID (ex :- templatic):"
+msgstr "Feedburner ID (例如 :- templatic):"
+
+# @ templatic
+#: admin/widgets/subscribe.php:50
+msgid "Sort Description:"
+msgstr "排序说明："
+
+#: admin/widgets/testimonials.php:149
+msgid "Set Fade-in time (in seconds):"
+msgstr "设置淡出时间（单位：秒）："
+
+#: admin/widgets/testimonials.php:150
+msgid "Set Fade-out time (in seconds):"
+msgstr "设置淡出时间（以秒为单位）："
+
+# @ templatic
+#: admin/widgets/testimonials.php:152
+msgid "Quote text 1"
+msgstr "引用文字1"
+
+# @ templatic
+#: admin/widgets/testimonials.php:153
+msgid "Author name 1"
+msgstr "作者名字1"
+
+# @ templatic
+#: admin/widgets/testimonials.php:155
+msgid "Quote text 2"
+msgstr "引用文字2"
+
+# @ templatic
+#: admin/widgets/testimonials.php:156
+msgid "Author name 2"
+msgstr "作者名字2"
+
+# @ templatic
+#: admin/widgets/testimonials.php:158
+msgid "Quote text 3"
+msgstr "引用文字3"
+
+# @ templatic
+#: admin/widgets/testimonials.php:159
+msgid "Author name 3"
+msgstr "作者名字3"
+
+# @ templatic
+#: admin/widgets/testimonials.php:161
+msgid "Quote text 4"
+msgstr "引用文字4"
+
+# @ templatic
+#: admin/widgets/testimonials.php:162
+msgid "Author name 4"
+msgstr "作者名字4"
+
+# @ templatic
+#: admin/widgets/testimonials.php:164
+msgid "Quote text 5"
+msgstr "引用文字5"
+
+# @ templatic
+#: admin/widgets/testimonials.php:165
+msgid "Author name 5"
+msgstr "作者名字5"
+
+#: admin/widgets/twitter.php:8
+msgid ""
+"Enter your Twitter username to display latest tweets on your site. Use this "
+"widget once per page."
+msgstr "输入你的twitter用户名来显示你的最新tweets。每页使用一次此小工具。"
+
+# @ templatic
+#: admin/widgets/twitter.php:9
+msgid "T &rarr; Twitter Feed"
+msgstr "T &rarr; Twitter 订阅"
+
+# @ templatic
+#: admin/widgets/twitter.php:47
+msgid "Live Tweet"
+msgstr "即时tweet"
+
+# @ templatic
+#: admin/widgets/twitter.php:60
+msgid "Twitter Account ID"
+msgstr "Twitter 帐户 ID"
+
+#: admin/widgets/twitter.php:65
+msgid "No. of Tweets to display"
+msgstr "显示tweets数量"
+
+# @ templatic
+#: admin/widgets/twitter.php:70
+msgid "Twitter Button Text"
+msgstr "twitter按钮文字"
+
+#: admin/widgets/twitter.php:74
+msgid ""
+"You should use this widget <b>once on the page</b>. As it will not display "
+"tweet for more than one ID."
+msgstr "你需要每页使用此小工具一次。因为它不会显示多个ID的tweet"
+
+# @ templatic
+#: admin/widgets/widgets_sidebar.php:10
+msgid "Top Navigation"
+msgstr "顶部导航"
+
+#: admin/widgets/widgets_sidebar.php:22
+msgid "Header : Right area"
+msgstr "页眉：右侧区域"
+
+#: admin/widgets/widgets_sidebar.php:28
+msgid "Homepage : Slider"
+msgstr "首页：幻灯片"
+
+# @ templatic
+#: admin/widgets/widgets_sidebar.php:34
+msgid "Single Post Below Content"
+msgstr "文章内容下面"
+
+# @ templatic
+#: admin/widgets/widgets_sidebar.php:41
+msgid "Sidebar 1"
+msgstr "侧边栏1"
+
+# @ templatic
+#: admin/widgets/widgets_sidebar.php:43
+msgid "Sidebar 2"
+msgstr "侧边栏2"
+
+#: admin/widgets/widgets_sidebar.php:45
+msgid "Sidebar : 2 column Merge"
+msgstr "侧边栏：2列合并"
+
+#: admin/widgets/widgets_sidebar.php:51
+msgid "Footer : First Widget"
+msgstr "页脚：第一小工具"
+
+#: admin/widgets/widgets_sidebar.php:53
+msgid "Footer : Second Widget"
+msgstr "页脚：第二小工具"
+
+#: admin/widgets/widgets_sidebar.php:55
+msgid "Footer : Third Widget"
+msgstr "页脚：第三小工具"
+
+#: admin/widgets/widgets_sidebar.php:57
+msgid "Footer : Fourth Widget"
+msgstr "页脚：第四小工具"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:116
+msgid "Slider delay time :"
+msgstr "幻灯片延迟时间："
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:121
+msgid "Slider animation time :"
+msgstr "幻灯片动画时间："
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:126
+msgid "Slider Banner Height (i.e.400):"
+msgstr "幻灯片横幅高度（例如400）"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:154
+#: library/functions/custom_filters.php:188
+msgid "Read More"
+msgstr "阅读更多"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:67
+msgid "Thank you, your Information send successfully."
+msgstr "谢谢，您的信息发送成功。"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:72
+msgid "Please fill all the fields before submit."
+msgstr "请填写所有的字段，然后再提交。"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:100
+msgid "Send"
+msgstr "发送"
+
+#: library/functions/custom_filters.php:88
+msgid "Hotel Booking"
+msgstr "酒店预订"
+
+#: library/functions/custom_filters.php:253
+msgid "Home Banner"
+msgstr "首页横幅"
+
+# @ templatic
+#: library/functions/custom_functions.php:102
+#, php-format
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr "<p class=\"comment-author\"><span>%s</span></p>"
+
+# @ templatic
+#: library/functions/custom_functions.php:103
+#, php-format
+msgid "<p class=\"comment-date\">%s</p>"
+msgstr "<p class=\"comment-date\">%s</p>"
+
+# @ templatic
+#: library/functions/custom_functions.php:111
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+# @ templatic
+#: library/functions/custom_functions.php:309
+msgid "Welcome "
+msgstr "欢迎"
+
+# @ templatic
+#: library/functions/custom_functions.php:313
+msgid "Profile"
+msgstr "个人资料"
+
+# @ templatic
+#: library/functions/custom_functions.php:324
+msgid "Add Listing"
+msgstr "添加列表"
+
+# @ templatic
+#: library/functions/widgets.php:45 library/functions/widgets.php:96
+#: library/functions/widgets.php:147
+#: modules/room_type/admin_room_gallery.php:99
+msgid "Title : "
+msgstr "标题："
+
+#: library/functions/widgets.php:97 library/functions/widgets.php:148
+msgid "Phone Number : "
+msgstr "电话号码："
+
+#: library/functions/widgets.php:242
+msgid "Read More Link : (ex.http://templatic.com/blog)"
+msgstr "阅读更多链接 : (例如：http://www.4mudi.com)"
+
+#: library/functions/widgets.php:571
+msgid "Slider 1 Image Main Title :"
+msgstr "幻灯片1图片主标题："
+
+#: library/functions/widgets.php:577
+msgid "Slider 1 Image Second Title :"
+msgstr "幻灯片1图片次标题："
+
+#: library/functions/widgets.php:583
+msgid "Slider 1 Image Second title URL Link :(ex.http://templatic.com)"
+msgstr "幻灯片1图片次标题网址：（例如：http://www.4mudi.com）"
+
+#: library/functions/widgets.php:590
+msgid ""
+"Slider 1 Image Full URL : (ex.http://templatic.com/images/banner.jpg) "
+"(images size : width:1400xheight538 pixel ) "
+msgstr ""
+"幻灯片1图片完整网址: (例如：http://4mudi.com/images/banner.jpg) (图片大小 : "
+"宽度:1400x高度538 像素 ) "
+
+#: library/functions/widgets.php:598
+msgid "Slider 2 Image Main Title :"
+msgstr "幻灯片2图片主标题"
+
+#: library/functions/widgets.php:604
+msgid "Slider 2 Image Second Title :"
+msgstr "幻灯片2图片次标题："
+
+#: library/functions/widgets.php:610
+msgid "Slider 2 Image Second title URL Link :(ex.http://templatic.com)"
+msgstr "幻灯片2图片次标题网址：（例如：http://www.4mudi.com）"
+
+#: library/functions/widgets.php:617
+msgid ""
+"Slider 2 Image Full URL : (ex.http://templatic.com/images/banner.jpg) "
+"(images size : width:1400xheight538 pixel ) "
+msgstr ""
+"幻灯片2图片完整网址: (例如：http://4mudi.com/images/banner.jpg) (图片大小 : "
+"宽度:1400x高度538像素 ) "
+
+#: library/functions/widgets.php:624
+msgid "Slider 3 Image Main Title :"
+msgstr "幻灯片3图片主标题"
+
+#: library/functions/widgets.php:630
+msgid "Slider 3 Image Second Title :"
+msgstr "幻灯片3图片次标题："
+
+#: library/functions/widgets.php:636
+msgid "Slider 3 Image Second title URL Link :(ex.http://templatic.com)"
+msgstr "幻灯片3图片次标题网址链接：（例如：http://www.4mudi.com）"
+
+#: library/functions/widgets.php:643
+msgid ""
+"Slider 3 Image Full URL : (ex.http://templatic.com/images/banner.jpg) "
+"(images size : width:1400xheight538 pixel ) "
+msgstr ""
+"幻灯片3图片完整网址：(例如：http://4mudi.com/images/banner.jpg) (图片大小 : "
+"宽度:1400x高度538像素 ) "
+
+#: library/functions/widgets.php:650
+msgid "Slider 4 Image Main Title :"
+msgstr "幻灯片4图片主标题："
+
+#: library/functions/widgets.php:656
+msgid "Slider 4 Image Second Title :"
+msgstr "幻灯片4图片次标题："
+
+#: library/functions/widgets.php:662
+msgid "Slider 4 Image Second title URL Link :(ex.http://templatic.com)"
+msgstr "幻灯片4图片次标题网址链接：（例如：http://www.4mudi.com）"
+
+#: library/functions/widgets.php:669
+msgid "Slider 4 Image Full URL :"
+msgstr "幻灯片4图片完整网址："
+
+#: library/functions/widgets.php:677
+msgid "Slider 5 Image Main Title :"
+msgstr "幻灯片5图片主标题："
+
+#: library/functions/widgets.php:683
+msgid "Slider 5 Image Second Title :"
+msgstr "幻灯片5图片次标题："
+
+#: library/functions/widgets.php:689
+msgid "Slider 5 Image Second title URL Link :(ex.http://templatic.com)"
+msgstr "幻灯片5图片次标题网址链接：（例如：http://www.4mudi.com）"
+
+#: library/functions/widgets.php:696
+msgid ""
+"Slider 5 Image Full URL : (ex.http://templatic.com/images/banner.jpg) "
+"(images size : width:1400xheight538 pixel ) "
+msgstr ""
+"幻灯片5图片完整网址： (ex.http://templatic.com/images/banner.jpg) (images "
+"size : width:1400xheight538 pixel ) "
+
+#: library/functions/widgets.php:702
+msgid "Slider Rotate Speed Setting : (ex.6000)"
+msgstr "幻灯片转动速度设置：（例如6000）"
+
+# @ templatic
+#: library/functions/captcha/captcha_function.php:11
+msgid "Please enter valid black colored text only"
+msgstr "请输入有效的背景颜色文本"
+
+# @ templatic
+#: library/functions/captcha/captcha_function.php:12
+msgid "Enter the text as you see in the image. Only enter black colored text"
+msgstr "输入文字作为你看到的图片。仅输入背景颜色文字"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:54
+msgid "Edit Custom Fields"
+msgstr "编辑自定义字段"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:57
+msgid "Add Custom Fields"
+msgstr "添加自定义字段"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:63
+msgid "Information Saved successfully."
+msgstr "信息保存成功。"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:78
+msgid "Please Enter Frontend Title"
+msgstr "请输入前台标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:89
+msgid "Please Enter HTML Variable Name"
+msgstr "请输入HTML变量名字"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:105
+msgid "Post Type : "
+msgstr "文章类型："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:116
+msgid "Select Post Type"
+msgstr "选择文章类型"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:120
+msgid "Type : "
+msgstr "类型："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:123
+msgid "Text"
+msgstr "文本"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:124
+msgid "Text Editor"
+msgstr "文字编辑器"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:125
+msgid "Text Heading"
+msgstr "文字标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:126
+msgid "Checkbox"
+msgstr "复选框"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:127
+msgid "Date Picker"
+msgstr "日期选择器"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:128
+msgid "Multi Checkbox"
+msgstr "多复选框"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:129
+msgid "Radio"
+msgstr "电台"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:130
+msgid "Select"
+msgstr "选择"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:131
+msgid "Textarea"
+msgstr "文字区域"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:132
+msgid "Upload"
+msgstr "上传"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:134
+msgid "Select type"
+msgstr "选择类型"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:138
+msgid "Option Values : "
+msgstr "选项值："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:140
+msgid "This Option Values should be separated by comma."
+msgstr "此选项值需要用逗号分隔。"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:144
+msgid "Admin Title : "
+msgstr "管理标题："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:146
+msgid ""
+"Personal comment, it would not be displayed anywhere except in Custom field "
+"settings"
+msgstr "个人意见，它不会显示到任何地方，除了在自定义字段设置"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:151
+msgid "Frontend Title : "
+msgstr "前台标题："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:153
+msgid "Title which you wish to display in frontend"
+msgstr "您希望显示在前端的标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:158
+msgid "HTML Variable Name : "
+msgstr "HTML变量名："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:160
+msgid "This should be a unique name"
+msgstr "这应该是一个唯一的名称"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:165
+msgid "Admin Label : "
+msgstr "管理员标签："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:167
+msgid "Title which will appear in backend"
+msgstr "标题将出现在后台"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:171
+#: modules/room_type/admin_room_gallery.php:107
+msgid "Description : "
+msgstr "描述："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:173
+msgid "Description which will appear in backend and frontend"
+msgstr "描述将出现在后台和前台"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:177
+msgid "Default Value : "
+msgstr "默认值："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:179
+msgid "Enter the default value"
+msgstr "输入默认值"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:183
+msgid "Display Order : "
+msgstr "显示顺序"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:185
+msgid "Enter the display order of this field in backend and frontend. e.g. 5 "
+msgstr "回车显示此字段前台和后台排序。例如：5"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:189
+msgid "Is Active : "
+msgstr "激活："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:192
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:202
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:212
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:222
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/manage_settings/admin_manage_coupon.php:34
+#: modules/manage_settings/admin_paymethods_list.php:244
+#: modules/room_type/admin_custom_fields.php:80
+#: modules/room_type/admin_room_type.php:141
+#: modules/room_type/admin_room_type_price.php:123
+msgid "Yes"
+msgstr "是"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:193
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:203
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:213
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:223
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/manage_settings/admin_manage_coupon.php:35
+#: modules/manage_settings/admin_paymethods_list.php:244
+#: modules/room_type/admin_custom_fields.php:80
+#: modules/room_type/admin_room_type_price.php:124
+msgid "No"
+msgstr "否"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:195
+msgid ""
+"Select Yes or No. If NO is selected then the field will not be displayed "
+"anywhere"
+msgstr "选择“是”或“否”，如果选择NO，那么字段将不能在任何地方显示"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:199
+msgid "Is Require : "
+msgstr "要求："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:205
+msgid ""
+"Select Yes or No. If NO is selected then the field will not be ask for "
+"validation anywhere"
+msgstr "选择是或否，如果选择了否那么字段在任何地方都不会验证"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:209
+msgid "Show On Listing Page ? : "
+msgstr "显示在列表页？："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:215
+msgid "Want to show this on Listing page ?"
+msgstr "想显示这个到列表页上吗？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:219
+msgid "Show On Detail Page ? : "
+msgstr "在详细信息页面上显示？："
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:225
+msgid "Want to show this on Detail page ?"
+msgstr "要显示这些到详细页面吗？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+msgid "Save"
+msgstr "保存"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+#: modules/user_booking/lang_user_booking.php:55
+msgid "Cancel"
+msgstr "取消"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:18
+msgid "Are you sure, want to delete this information?"
+msgstr "你确定要删除此信息吗？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:35
+msgid "Information Deleted successfully."
+msgstr "信息删除成功。"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:46
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:72
+msgid "Admin Title"
+msgstr "管理标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:47
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:75
+msgid "Post Type"
+msgstr "文章类型"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:48
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:79
+#: modules/manage_settings/admin_global_setting.php:68
+#: modules/reservation/admin_manage_reservation.php:131
+msgid "Type"
+msgstr "类型"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:49
+#: modules/manage_settings/admin_paymethods_add.php:75
+#: modules/manage_settings/admin_paymethods_list.php:218
+msgid "Is Active"
+msgstr "激活"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:50
+#: modules/manage_settings/admin_manage_coupon.php:62
+#: modules/manage_settings/admin_manage_currency.php:40
+#: modules/manage_settings/admin_paymethods_list.php:220
+#: modules/room_type/admin_manage_custom_fields.php:46
+#: modules/room_type/admin_manage_room.php:33
+#: modules/room_type/admin_manage_room_gallery.php:66
+#: modules/room_type/admin_manage_service.php:43
+#: modules/room_type/manage_room_type.php:27
+msgid "Action"
+msgstr "操作"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:63
+msgid "Detail"
+msgstr "详情"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:64
+msgid "Edit"
+msgstr "编辑"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:65
+#: modules/reservation/admin_manage_transaction.php:74
+#: modules/reservation/admin_reservation.php:233
+#: modules/reservation/admin_reservation.php:245
+msgid "Delete"
+msgstr "删除"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:76
+#: modules/manage_settings/admin_paymethods_add.php:83
+msgid "Display Order"
+msgstr "显示顺序"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:80
+msgid "Defaule Value"
+msgstr "默认值"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+msgid "Is Display On Detail?"
+msgstr "显示在详细页？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:85
+msgid "Front Title"
+msgstr "首页标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+msgid "Is Active?"
+msgstr "激活？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+msgid "Is Display On listing?"
+msgstr "显示在列表页？"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:91
+msgid "HTML Variable Name"
+msgstr "HTML变量名称"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+msgid "Use at front end"
+msgstr "在前台使用"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+msgid "Theme Default Field"
+msgstr "主题默认字段"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+msgid "Heading"
+msgstr "标题"
+
+# @ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:103
+msgid "No Custom fields available."
+msgstr "没有可用的自定义字段。"
+
+# @ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+#: modules/room_type/admin_manage_custom_fields.php:19
+msgid "Manage Custom Fields"
+msgstr "管理自定义字段"
+
+# @ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+msgid "Post Custom Fields"
+msgstr "文章自定义字段"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:170
+msgid "Geo Address"
+msgstr "地理地址"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:172
+msgid ""
+"Please enter address. eg. : 230 Vine Street And locations throughout Old "
+"City, Philadelphia, PA 19106"
+msgstr "请输入您的地址。例如：中国河南郑州金水区花园中"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:177
+msgid "Geo Latitude"
+msgstr "地理纬度"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:179
+msgid "Enter Geo Latitude. eg. : 38.8225909761771"
+msgstr "请输入地理纬度。例如：38.8225909761771"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:184
+msgid "Geo Longitude"
+msgstr "地理经度"
+
+# @ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:186
+msgid "Enter Geo Longitude. eg. : 12.65625"
+msgstr "请输入地理经度。例如：12.65625"
+
+#: modules/manage_settings/admin_coupon.php:82
+msgid "Back to Coupon List"
+msgstr "返回优惠券列表"
+
+#: modules/manage_settings/admin_coupon.php:82
+msgid "&laquo; Back to Coupon List"
+msgstr "&laquo; 返回优惠券列表"
+
+# @ templatic
+#: modules/manage_settings/admin_coupon.php:90
+msgid "Coupon code already exists, Please use different one."
+msgstr "优惠券代码已经存在，请使用不同的一个。"
+
+#: modules/manage_settings/admin_coupon.php:95
+msgid "Coupon Code : "
+msgstr "优惠券代码："
+
+#: modules/manage_settings/admin_coupon.php:96
+msgid "Enter Coupon code"
+msgstr "输入优惠券代码"
+
+#: modules/manage_settings/admin_coupon.php:99
+msgid "Discount Type : "
+msgstr "折扣类型："
+
+# @ templatic
+#: modules/manage_settings/admin_coupon.php:100
+msgid "Percentage"
+msgstr "百分比"
+
+# @ templatic
+#: modules/manage_settings/admin_coupon.php:100
+#: modules/manage_settings/admin_global_setting.php:64
+#: modules/reservation/admin_manage_transaction.php:73
+#: modules/reservation/admin_reservation.php:232
+msgid "Amount"
+msgstr "数量"
+
+#: modules/manage_settings/admin_coupon.php:100
+msgid "Select Discount Type"
+msgstr "选择折扣类型"
+
+#: modules/manage_settings/admin_coupon.php:102
+msgid "Discount amount : "
+msgstr "折扣额："
+
+#: modules/manage_settings/admin_coupon.php:103
+msgid "Enter Discount Amount"
+msgstr "请输入折扣额"
+
+# @ templatic
+#: modules/manage_settings/admin_coupon.php:120
+msgid "Percentage should be less than or equal to 100"
+msgstr "比例应小于或等于100"
+
+#: modules/manage_settings/admin_coupon.php:126
+msgid "Please Enter Coupon Code"
+msgstr "请输入优惠券代码"
+
+#: modules/manage_settings/admin_currency.php:32
+msgid "Back to Currency List"
+msgstr "返回货币列表"
+
+#: modules/manage_settings/admin_currency.php:32
+msgid "&laquo; Back to Currency List"
+msgstr "&laquo; 返回货币列表"
+
+#: modules/manage_settings/admin_currency.php:33
+msgid "Give the details about the currency you wish to use."
+msgstr "您希望使用的货币的详细信息。"
+
+#: modules/manage_settings/admin_currency.php:39
+msgid "Currency Name"
+msgstr "货币名称"
+
+#: modules/manage_settings/admin_currency.php:43
+msgid "Currency Code"
+msgstr "货币代码"
+
+#: modules/manage_settings/admin_currency.php:44
+msgid "(USD, GBP, etc.)"
+msgstr "(USD, GBP, 等.)"
+
+#: modules/manage_settings/admin_currency.php:47
+msgid "Currency Symbol"
+msgstr "货币符号"
+
+#: modules/manage_settings/admin_currency.php:48
+msgid "$, &euro;, etc.)"
+msgstr "$, &euro;, 等.)"
+
+#: modules/manage_settings/admin_email_settings.php:25
+msgid "Email Settings"
+msgstr "邮箱设置"
+
+#: modules/manage_settings/admin_email_settings.php:27
+msgid "Email Settings updated successfully."
+msgstr "邮箱设置更新成功。"
+
+#: modules/manage_settings/admin_email_settings.php:30
+#: modules/manage_settings/admin_email_settings.php:48
+#: modules/manage_settings/admin_global_setting.php:27
+#: modules/manage_settings/admin_global_setting.php:73
+#: modules/manage_settings/admin_notification.php:24
+#: modules/manage_settings/admin_notification.php:39
+msgid "Save all changes"
+msgstr "保存所有更改"
+
+#: modules/manage_settings/admin_email_settings.php:31
+#: modules/manage_settings/admin_email_settings.php:36
+#: modules/reservation/admin_reservation.php:166
+msgid "Email :"
+msgstr "邮箱："
+
+#: modules/manage_settings/admin_email_settings.php:32
+msgid ""
+"Please enter the Admin email address (Email to users will be sent through "
+"this email address)."
+msgstr "请输入管理员的电子邮件地址（邮件用户将通过此电子邮件地址发送）。"
+
+#: modules/manage_settings/admin_email_settings.php:34
+msgid "Subject :"
+msgstr "主题："
+
+#: modules/manage_settings/admin_email_settings.php:37
+msgid ""
+"This is the acknowledgement message that the user will receive once they "
+"submit the request."
+msgstr "这是确认消息，用户一旦提交请求将收到他们。"
+
+#: modules/manage_settings/admin_email_settings.php:39
+#: modules/manage_settings/admin_email_settings.php:44
+msgid "Subject:"
+msgstr "主题："
+
+#: modules/manage_settings/admin_email_settings.php:41
+#: modules/manage_settings/admin_email_settings.php:46
+msgid "Email:"
+msgstr "邮箱："
+
+#: modules/manage_settings/admin_email_settings.php:42
+msgid ""
+"Specify the message which the user will receive after you accept his/her "
+"booking request."
+msgstr "当用户接受他/她预定请求时指定用户将收到信息。"
+
+#: modules/manage_settings/admin_email_settings.php:47
+msgid ""
+"Specify the message which the user will receive if you cancel his/her "
+"booking request."
+msgstr "如果你取消他/她的预定请求，指定用户将收到信息。"
+
+#: modules/manage_settings/admin_global_setting.php:19
+msgid "General Settings"
+msgstr "常规设置"
+
+#: modules/manage_settings/admin_global_setting.php:22
+msgid "General Settings Successfully Updated."
+msgstr "常规设置成功更新。"
+
+#: modules/manage_settings/admin_global_setting.php:32
+msgid "Display Booking Form in frontend"
+msgstr "在前台显示预定表格"
+
+#: modules/manage_settings/admin_global_setting.php:32
+msgid "This setting will show/hide the booking form on the website."
+msgstr "此设置将显示/隐藏在网站预订表格。"
+
+#: modules/manage_settings/admin_global_setting.php:36
+msgid "Maximum Adults"
+msgstr "最大成人数"
+
+#: modules/manage_settings/admin_global_setting.php:36
+msgid "Specify the maximum number of adults who can book at once."
+msgstr "指定可以预订一次的成年人最大数量。"
+
+#: modules/manage_settings/admin_global_setting.php:40
+msgid "Maximum Rooms"
+msgstr "最大间数"
+
+#: modules/manage_settings/admin_global_setting.php:40
+msgid ""
+"This is the maximum number of rooms you wish to display in the booking form."
+msgstr "这是您所希望显示在预订表格的房间最大数目。"
+
+#: modules/manage_settings/admin_global_setting.php:44
+msgid "Allow Payment Option?"
+msgstr "允许付款选项？"
+
+#: modules/manage_settings/admin_global_setting.php:44
+msgid ""
+"If 'Enabled' your customers will be required to pay for room bookings. If "
+"'disabled' the online payment facility will be unavailable."
+msgstr ""
+"如果“启用”，您的客户将被要求支付房间预订。如果“禁用”，网上支付将无法使用。"
+
+#: modules/manage_settings/admin_global_setting.php:48
+msgid "You can add currency from \"Manage Currency\" section"
+msgstr "你可以从 \"管理货币\" 部分添加货币"
+
+#: modules/manage_settings/admin_global_setting.php:52
+msgid "Currency Symbol position"
+msgstr "货币符号位置"
+
+#: modules/manage_settings/admin_global_setting.php:52
+msgid "Specify where the currency symbol will be displayed."
+msgstr "指定货币符号将会显示。"
+
+#: modules/manage_settings/admin_global_setting.php:57
+msgid "Deposit Percent"
+msgstr "订金百分比"
+
+#: modules/manage_settings/admin_global_setting.php:57
+msgid ""
+"Minimum amount that needs to be paid by the customer before the booking is "
+"confirmed."
+msgstr "预订确认之前，需要由客户支付的最低金额。"
+
+#: modules/manage_settings/admin_global_setting.php:64
+msgid "This is the additional surcharge beside regular payment for booking."
+msgstr "这是额外的费用，在定期支付预订的旁边。"
+
+#: modules/manage_settings/admin_global_setting.php:68
+msgid ""
+"There are two types of surcharge: Exact Amount (direct surcharge) or Percent "
+"(depends on the total payment amount). If you choose 'Percent', please do "
+"not enter 'Amount' more than 100."
+msgstr ""
+"有两种类型的附加费：实际金额或百分比（直接附加费）（取决于总付款金额）。如果"
+"您选择“百分比”，输入“金额”请不要超过100。"
+
+#: modules/manage_settings/admin_hotel_info.php:23
+msgid "Hotel Information"
+msgstr "酒店信息"
+
+#: modules/manage_settings/admin_hotel_info.php:24
+msgid "Please enter your Hotel Information here"
+msgstr "请输入您的酒店信息"
+
+#: modules/manage_settings/admin_hotel_info.php:28
+msgid "Hotel Information Successfully Updated."
+msgstr "酒店信息更新成功。"
+
+#: modules/manage_settings/admin_hotel_info.php:36
+msgid "Hotel Name"
+msgstr "酒店名称"
+
+#: modules/manage_settings/admin_hotel_info.php:40
+msgid "Contact Email"
+msgstr "联系邮箱"
+
+#: modules/manage_settings/admin_hotel_info.php:44
+msgid "Hotel Country"
+msgstr "酒店省份"
+
+#: modules/manage_settings/admin_hotel_info.php:48
+msgid "Hotel State"
+msgstr "酒店城市"
+
+#: modules/manage_settings/admin_hotel_info.php:52
+msgid "Hotel Street"
+msgstr "酒店地址"
+
+#: modules/manage_settings/admin_hotel_info.php:56
+msgid "Contact Phone 1"
+msgstr "联系电话1"
+
+#: modules/manage_settings/admin_hotel_info.php:60
+msgid "Contact Phone 2"
+msgstr "联系电话2"
+
+#: modules/manage_settings/admin_hotel_info.php:64
+msgid "Success Mail"
+msgstr "成功邮件"
+
+#: modules/manage_settings/admin_hotel_info.php:64
+msgid ""
+"This email is sent when a customer successfully completes the payment "
+"process."
+msgstr "当客户成功地完成支付过程时发送此邮件。"
+
+#: modules/manage_settings/admin_hotel_info.php:68
+msgid "Mail From"
+msgstr "邮件来自"
+
+#: modules/manage_settings/admin_hotel_info.php:68
+msgid "Enter the Name which you wish to use in the Email"
+msgstr "输入您希望在电子邮件中使用的名称"
+
+#: modules/manage_settings/admin_manage_coupon.php:24
+msgid "Allow coupon option on booking page"
+msgstr "预定页面允许优惠券选项"
+
+#: modules/manage_settings/admin_manage_coupon.php:27
+msgid "Coupon option updated successfully."
+msgstr "优惠券选项更新成功。"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:39
+msgid "Manage Coupon"
+msgstr "管理优惠券"
+
+#: modules/manage_settings/admin_manage_coupon.php:40
+msgid "Add New Coupon"
+msgstr "添加新优惠券"
+
+#: modules/manage_settings/admin_manage_coupon.php:41
+msgid ""
+"Add/Edit/Delete Coupon codes from here. Click on \"Add New Coupon\" to add a "
+"new coupon code"
+msgstr "从这里添加/编辑/删除优惠券代码。点击“添加新优惠券”来添加新优惠券代码"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:46
+msgid "Coupon updated successfully."
+msgstr "优惠券更新成功。"
+
+#: modules/manage_settings/admin_manage_coupon.php:47
+msgid "Coupon created successfully."
+msgstr "优惠券成功创建。"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:53
+msgid "Coupon deleted successfully."
+msgstr "成功删除优惠券。"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:59
+#: modules/user_booking/lang_user_booking.php:2
+msgid "Coupon Code"
+msgstr "优惠券代码"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:60
+msgid "Discount Type"
+msgstr "折扣类型"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_coupon.php:61
+msgid "Discount Amount"
+msgstr "折扣额"
+
+#: modules/manage_settings/admin_manage_coupon.php:79
+#: modules/manage_settings/admin_manage_coupon.php:89
+msgid "Edit Coupon"
+msgstr "编辑优惠券"
+
+#: modules/manage_settings/admin_manage_coupon.php:79
+#: modules/manage_settings/admin_manage_coupon.php:90
+msgid "Delete Coupon"
+msgstr "删除优惠券"
+
+#: modules/manage_settings/admin_manage_currency.php:15
+msgid "Manage Currency"
+msgstr "管理货币"
+
+#: modules/manage_settings/admin_manage_currency.php:16
+msgid "Add New Currency"
+msgstr "添加新货币"
+
+#: modules/manage_settings/admin_manage_currency.php:17
+msgid "Here you can edit,delete and manage currency values."
+msgstr "在这里，您可以编辑，删除和管理货币值。"
+
+#: modules/manage_settings/admin_manage_currency.php:22
+msgid "Currency inserted successfully."
+msgstr "成功插入货币。"
+
+#: modules/manage_settings/admin_manage_currency.php:24
+msgid "Currency updated successfully."
+msgstr "货币更新成功。"
+
+#: modules/manage_settings/admin_manage_currency.php:30
+msgid "Currency deleted successfully."
+msgstr "货币删除成功。"
+
+# @ templatic
+#: modules/manage_settings/admin_manage_currency.php:36
+#: modules/reservation/admin_manage_transaction.php:70
+#: modules/room_type/admin_manage_custom_fields.php:41
+#: modules/room_type/admin_manage_room.php:29
+#: modules/room_type/admin_manage_room_gallery.php:62
+#: modules/room_type/admin_manage_service.php:38
+#: modules/room_type/manage_additional_price.php:52
+#: modules/room_type/manage_room_type.php:24
+msgid "ID"
+msgstr "ID"
+
+#: modules/manage_settings/admin_manage_currency.php:37
+msgid "Currency"
+msgstr "货币"
+
+#: modules/manage_settings/admin_manage_currency.php:38
+msgid "Code"
+msgstr "代码"
+
+#: modules/manage_settings/admin_manage_currency.php:39
+msgid "Symbol"
+msgstr "符号"
+
+#: modules/manage_settings/admin_manage_currency.php:51
+#: modules/manage_settings/admin_manage_currency.php:58
+msgid "Edit Currency"
+msgstr "编辑货币"
+
+#: modules/manage_settings/admin_manage_currency.php:51
+#: modules/manage_settings/admin_manage_currency.php:59
+msgid "Delete Currency"
+msgstr "删除货币"
+
+#: modules/manage_settings/admin_notification.php:23
+msgid "Notification"
+msgstr "通知"
+
+#: modules/manage_settings/admin_notification.php:25
+msgid ""
+"Edit notification messages from here. These messages will be shown in "
+"website."
+msgstr "从这里编辑通知消息，这些信息将在网站显示。"
+
+#: modules/manage_settings/admin_notification.php:28
+msgid "Notification Successfully Updated."
+msgstr "成功更新通知。"
+
+#: modules/manage_settings/admin_notification.php:34
+msgid "Booking Success Message"
+msgstr "预订成功消息"
+
+#: modules/manage_settings/admin_notification.php:35
+msgid ""
+"This message is displayed when the customer submits the booking form "
+"successfully."
+msgstr "当客户成功提交预订表格时显示此消息。"
+
+#: modules/manage_settings/admin_notification.php:36
+msgid "Pay Cash on Arrival Message"
+msgstr "支付现金抵达信息"
+
+#: modules/manage_settings/admin_notification.php:36
+msgid ""
+"This message is displayed when the customer selects \"Pay Cash on Arrival\" "
+"method."
+msgstr "当用户选择“支付现金到达”方式时显示此信息。"
+
+#: modules/manage_settings/admin_notification.php:38
+msgid "No Availability Message"
+msgstr "没有空房信息"
+
+#: modules/manage_settings/admin_notification.php:38
+msgid ""
+"This message is displayed when no rooms are available for booking (When all "
+"rooms are booked)."
+msgstr "无房可预订时显示此消息（当所有的房间都已预订）。"
+
+#: modules/manage_settings/admin_paymethods_add.php:59
+msgid "Back to Payment Options List"
+msgstr "返回付款选项列表"
+
+#: modules/manage_settings/admin_paymethods_add.php:59
+msgid "&laquo; Back to Payment Options List"
+msgstr "&laquo; 返回付款选项列表"
+
+#: modules/manage_settings/admin_paymethods_add.php:60
+msgid "Edit the payment option settings"
+msgstr "编辑付款选项设置"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_add.php:65
+msgid "Updated Succesfully"
+msgstr "更新成功"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_add.php:71
+#: modules/user_booking/lang_user_booking.php:47
+msgid "Payment Method"
+msgstr "付款方式"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_add.php:77
+#: modules/manage_settings/admin_paymethods_list.php:251
+msgid "Activate"
+msgstr "启用"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_add.php:78
+#: modules/manage_settings/admin_paymethods_list.php:248
+msgid "Deactivate"
+msgstr "停用"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_add.php:115
+msgid "Please enter Payment Method"
+msgstr "请输入付款方式"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:28
+#: modules/manage_settings/admin_paymethods_list.php:64
+msgid "Merchant Id"
+msgstr "商家ID"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:31
+msgid "Example : myaccount@paypal.com"
+msgstr "例如: myaccount@paypal.com"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:34
+msgid "Cancel Url"
+msgstr "取消网址"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:37
+#: modules/manage_settings/admin_paymethods_list.php:43
+#: modules/manage_settings/admin_paymethods_list.php:49
+#: modules/manage_settings/admin_paymethods_list.php:141
+#, php-format
+msgid "Example : %s"
+msgstr "例如 : %s"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:40
+msgid "Return Url"
+msgstr "返回网址"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:46
+#: modules/manage_settings/admin_paymethods_list.php:138
+msgid "Notify Url"
+msgstr "通知网址"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:53
+msgid "Paypal"
+msgstr "贝宝"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:67
+#: modules/manage_settings/admin_paymethods_list.php:92
+msgid "Example : 1234567890"
+msgstr "例如: 1234567890"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:71
+msgid "Google Checkout"
+msgstr "Google Checkout"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:83
+msgid "Login ID"
+msgstr "登录用户名"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:86
+msgid "Example : yourname@domain.com"
+msgstr "例如：zeusgeats@gmail.com"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:89
+msgid "Transaction Key"
+msgstr "交易密匙"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:96
+msgid "Authorize.net"
+msgstr "Authorize.net"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:108
+msgid "Instant Id"
+msgstr "Instant Id"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:111
+msgid "Example : 123456"
+msgstr "例如：123456"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:114
+msgid "Account Id"
+msgstr "帐户ID"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:117
+msgid "Example : 12345"
+msgstr "例如：12345"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:121
+msgid "Worldpay"
+msgstr "Worldpay"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:132
+msgid "Vendor ID"
+msgstr "供应商ID"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:135
+msgid "Enter Vendor ID Example : 1303908"
+msgstr "输入供应商编号例如：1303908"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:145
+msgid "2CO (2Checkout)"
+msgstr "2CO（2结帐）"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:158
+msgid "Bank Information"
+msgstr "银行信息"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:161
+msgid "Enter the bank name to which you want to transfer payment"
+msgstr "输入您要转移支付的银行名称"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:164
+msgid "Account ID"
+msgstr "帐户ID"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:167
+msgid "Enter your bank Account ID"
+msgstr "输入您的银行帐户ID"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:171
+msgid "Pre Bank Transfer"
+msgstr "预先银行传送"
+
+#: modules/manage_settings/admin_paymethods_list.php:182
+msgid "Pay Cash On Arrival"
+msgstr "支付现金到达"
+
+#: modules/manage_settings/admin_paymethods_list.php:208
+msgid "Manage Payment Option"
+msgstr "管理支付选项"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:217
+msgid "Method Name"
+msgstr "方法名称"
+
+# @ templatic
+#: modules/manage_settings/admin_paymethods_list.php:219
+#: modules/room_type/admin_manage_room_gallery.php:65
+#: modules/room_type/admin_manage_service.php:42
+#: modules/room_type/admin_room.php:54
+msgid "Sort Order"
+msgstr "排序"
+
+#: modules/manage_settings/function_manage_settings.php:2
+msgid "Booking Settings"
+msgstr "预订设置"
+
+#: modules/manage_settings/function_manage_settings.php:36
+#, php-format
+msgid ""
+"<h4>A new version of Manage Global settings Module is available.</h4>\n"
+"\t\t\t<p>This updater will collect a file from the templatic.com server. It "
+"will download and extract the files to your current theme&prime;s functions "
+"folder. \n"
+"\t\t\t<br />We recommend backing up your theme files before updating. Only "
+"upgrade related module files if necessary.\n"
+"\t\t\t<br />If you are facing any problem in auto updating the framework, "
+"then please download the latest version of the theme from members area and "
+"then just overwrite the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr; Your version: %s\n"
+"\t\t\t<br />&rArr; Current Version: %s </p>"
+msgstr ""
+"<h4>有一个新版本的管理全局设置模块可用.</h4>\n"
+"\t\t\t<p>此更新将从templatic.com服务器下载文件将解压缩到主题文件夹. \n"
+"\t\t\t<br />我们推荐你在更新前先备份您的主题文件.\n"
+"\t\t\t<br />如果更新出现任何问题请下载最新版本的主题。then please download "
+"the latest version of the theme from members area and then just overwrite "
+"the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr; 您的版本： %s\n"
+"\t\t\t<br />&rArr; 当前版本: %s </p>"
+
+# @ templatic
+#: modules/manage_settings/function_manage_settings.php:271
+msgid "Please select payment method on preview page."
+msgstr "请在预览页面选择付款方式。"
+
+#: modules/manage_settings/function_manage_settings.php:356
+msgid "Invalid coupon"
+msgstr "无效的优惠券"
+
+#: modules/reservation/admin_manage_booking.php:8
+msgid "Check In Date :"
+msgstr "入住时间："
+
+#: modules/reservation/admin_manage_booking.php:11
+msgid "Check Out Date :"
+msgstr "退房日期："
+
+#: modules/reservation/admin_manage_booking.php:16
+#: modules/reservation/admin_manage_transaction.php:25
+#: modules/reservation/admin_reservation.php:200
+msgid "Room Type :"
+msgstr "房间类型︰"
+
+#: modules/reservation/admin_manage_reservation.php:79
+msgid "Manage Booking List"
+msgstr "管理预定列表"
+
+#: modules/reservation/admin_manage_reservation.php:80
+msgid "Add New Booking"
+msgstr "添加新的预订"
+
+#: modules/reservation/admin_manage_reservation.php:81
+msgid ""
+"Here you can add, edit and manage booking (Click on Customer name to know "
+"more about him/her)"
+msgstr ""
+"在这里，你可以添加，编辑和管理预订（点击客户名称，知道更多关于他/她的信息）"
+
+#: modules/reservation/admin_manage_reservation.php:86
+msgid "Reservation inserted successfully."
+msgstr "预订插入成功。"
+
+#: modules/reservation/admin_manage_reservation.php:88
+msgid "Reservation updated successfully."
+msgstr "预订更新成功。"
+
+#: modules/reservation/admin_manage_reservation.php:94
+msgid "Reservation deleted successfully."
+msgstr "预订删除成功。"
+
+#: modules/reservation/admin_manage_reservation.php:99
+#: modules/room_type/manage_additional_price.php:17
+msgid "Status Changed Successfully"
+msgstr "状态修改成功"
+
+#: modules/reservation/admin_manage_reservation.php:121
+msgid "<b>Change booking status : </b>"
+msgstr "<b>更改预订状态：</ B>"
+
+#: modules/reservation/admin_manage_reservation.php:123
+#: modules/room_type/manage_additional_price.php:45
+msgid "Apply"
+msgstr "应用"
+
+#: modules/reservation/admin_manage_reservation.php:130
+#: modules/reservation/admin_manage_transaction.php:69
+#: modules/reservation/admin_reservation.php:228
+msgid "Customer"
+msgstr "客户"
+
+#: modules/reservation/admin_manage_reservation.php:132
+msgid "Check-In"
+msgstr "入住"
+
+#: modules/reservation/admin_manage_reservation.php:133
+msgid "Check-Out"
+msgstr "退房"
+
+# @ templatic
+#: modules/reservation/admin_manage_reservation.php:134
+#: modules/room_type/admin_manage_room.php:32
+#: modules/room_type/admin_room.php:58
+msgid "Status"
+msgstr "状态"
+
+#: modules/reservation/admin_manage_reservation.php:158
+#: modules/reservation/admin_manage_transaction.php:95
+#: modules/room_type/admin_manage_room_gallery.php:91
+#: modules/room_type/manage_additional_price.php:81
+msgid "Total"
+msgstr "总数"
+
+#: modules/reservation/admin_manage_reservation.php:158
+#: modules/reservation/admin_manage_transaction.php:95
+#: modules/room_type/admin_manage_room_gallery.php:91
+#: modules/room_type/manage_additional_price.php:81
+msgid "records"
+msgstr "记录"
+
+#: modules/reservation/admin_manage_transaction.php:5
+msgid "Transaction Log"
+msgstr "交易日志"
+
+#: modules/reservation/admin_manage_transaction.php:12
+msgid "Here is a complete list of customer payment and other information"
+msgstr "下面是一个完整的客户付款和其他信息列表"
+
+#: modules/reservation/admin_manage_transaction.php:17
+#: modules/reservation/admin_reservation.php:190
+msgid "Check-In Date :"
+msgstr "入住日期："
+
+#: modules/reservation/admin_manage_transaction.php:20
+#: modules/reservation/admin_reservation.php:195
+msgid "Check-Out Date :"
+msgstr "退房日期："
+
+#: modules/reservation/admin_manage_transaction.php:32
+msgid "Transaction Deleted Successfully!"
+msgstr "交易成功删除！"
+
+#: modules/reservation/admin_manage_transaction.php:71
+#: modules/reservation/admin_reservation.php:230
+msgid "Book Date"
+msgstr "预订日期"
+
+#: modules/reservation/admin_manage_transaction.php:72
+#: modules/reservation/admin_reservation.php:231
+msgid "Entry Date"
+msgstr "入门日期"
+
+#: modules/reservation/admin_manage_transaction.php:79
+#: modules/reservation/admin_reservation.php:224
+#: modules/reservation/admin_transaction.php:20
+msgid "Add New Transaction"
+msgstr "添加新的交易"
+
+#: modules/reservation/admin_manage_transaction.php:84
+#: modules/reservation/admin_manage_transaction.php:104
+msgid "Delete Transaction"
+msgstr "删除交易"
+
+#: modules/reservation/admin_reservation.php:136
+msgid "Back to Booking Log"
+msgstr "返回预订日志"
+
+#: modules/reservation/admin_reservation.php:136
+msgid "&laquo; Back to Booking Log"
+msgstr "&laquo; 返回预订日志"
+
+#: modules/reservation/admin_reservation.php:151
+msgid "Customer Information"
+msgstr "客户信息"
+
+#: modules/reservation/admin_reservation.php:158
+msgid "First Name :"
+msgstr "名字："
+
+#: modules/reservation/admin_reservation.php:162
+msgid "Last Name :"
+msgstr "姓："
+
+#: modules/reservation/admin_reservation.php:170
+msgid "Phone :"
+msgstr "电话："
+
+#: modules/reservation/admin_reservation.php:174
+msgid "Country :"
+msgstr "国家："
+
+#: modules/reservation/admin_reservation.php:178
+msgid "City / State :"
+msgstr "城市："
+
+#: modules/reservation/admin_reservation.php:182
+msgid "Street :"
+msgstr "地址："
+
+#: modules/reservation/admin_reservation.php:187
+msgid "Reservation Information"
+msgstr "预订信息"
+
+#: modules/reservation/admin_reservation.php:211
+msgid "Total Price :"
+msgstr "总价："
+
+#: modules/reservation/admin_reservation.php:223
+msgid "Transaction Detail"
+msgstr "成交详情"
+
+#: modules/reservation/admin_reservation.php:229
+msgid "Transaction no."
+msgstr "交易号码"
+
+#: modules/reservation/admin_reservation.php:250
+msgid "Total Amount :"
+msgstr "总金额："
+
+#: modules/reservation/admin_transaction.php:21
+msgid "Back to Transaction Log"
+msgstr "回到交易日志"
+
+#: modules/reservation/admin_transaction.php:21
+msgid "&laquo; Back to Transaction Log"
+msgstr "&laquo; 回到交易日志"
+
+#: modules/reservation/admin_transaction.php:22
+msgid "Here you can add new transaction for particular customer"
+msgstr "在这里，您可以针对特定客户增加新的交易"
+
+#: modules/reservation/admin_transaction.php:29
+msgid "Customer Name :"
+msgstr "客户名称："
+
+#: modules/reservation/admin_transaction.php:33
+msgid "Pay Amount :"
+msgstr "支付金额："
+
+#: modules/reservation/admin_transaction.php:38
+msgid "Add Transaction"
+msgstr "添加交易"
+
+#: modules/reservation/function_reservation.php:2
+msgid "Booking Log"
+msgstr "预订日志"
+
+#: modules/reservation/function_reservation.php:51
+#, php-format
+msgid ""
+"<h4>A new version of Manage Booking settings Module is available.</h4>\n"
+"\t\t\t<p>This updater will collect a file from the templatic.com server. It "
+"will download and extract the files to your current theme&prime;s functions "
+"folder. \n"
+"\t\t\t<br />We recommend backing up your theme files before updating. Only "
+"upgrade related module files if necessary.\n"
+"\t\t\t<br />If you are facing any problem in auto updating the framework, "
+"then please download the latest version of the theme from members area and "
+"then just overwrite the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr; Your version: %s\n"
+"\t\t\t<br />&rArr; Current Version: %s </p>"
+msgstr ""
+"<h4>有一个新版本的管理预定设置模块可用.</h4>\n"
+"\t\t\t<p>此更新将从templatic.com服务器下载并解压缩到主题文件夹. \n"
+"\t\t\t<br />我们推荐您在更新前备份您的主题文件夹.\n"
+"\t\t\t<br />If you are facing any problem in auto updating the framework, "
+"then please download the latest version of the theme from members area and "
+"then just overwrite the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr; 您的版本: %s\n"
+"\t\t\t<br />&rArr; 当前版本: %s </p>"
+
+#: modules/room_type/admin_custom_fields.php:50
+msgid "&laquo; Back to Manage Custom Fields List"
+msgstr "&laquo; 返回管理自定义字段列表"
+
+#: modules/room_type/admin_custom_fields.php:58
+msgid "Field Title"
+msgstr "字段标题"
+
+#: modules/room_type/admin_custom_fields.php:59
+msgid "Title which you wish to display in online booking form."
+msgstr "你想显示到在线预定表单的标题。"
+
+#: modules/room_type/admin_custom_fields.php:62
+#: modules/room_type/admin_manage_custom_fields.php:42
+msgid "Field Name"
+msgstr "字段名字"
+
+#: modules/room_type/admin_custom_fields.php:63
+msgid ""
+"Field name which you wish to give element name as well its also consider as "
+"element ID. (IMPORTANT: Avoid space between words; Use underscore ( _ ) "
+"instead.)"
+msgstr ""
+"你想给元素字段的名字作为它的元素ID。（提示：避免字与字之间有空格，可使用_代"
+"替）"
+
+#: modules/room_type/admin_custom_fields.php:66
+#: modules/room_type/admin_manage_custom_fields.php:44
+msgid "Field Type"
+msgstr "字段类型"
+
+#: modules/room_type/admin_custom_fields.php:67
+msgid ""
+"Select field type. it will allow (text,textarea,radio,multicheckbox,etc.)"
+msgstr "选择字段类型。它将允许（文字、文本区域、广播、多选框等。）"
+
+#: modules/room_type/admin_custom_fields.php:71
+msgid "Field Value"
+msgstr "字段值"
+
+#: modules/room_type/admin_custom_fields.php:72
+msgid ""
+"Enter Field Value (If you select field type as select box,radio,checkbox. "
+"And enter value seperated by ',')"
+msgstr ""
+"输入字段值（如果选择字段类型选择框、广播、复选框，并使用','分隔输入值）"
+
+#: modules/room_type/admin_custom_fields.php:75
+msgid "Field Description"
+msgstr "字段描述"
+
+#: modules/room_type/admin_custom_fields.php:76
+msgid "Description will display below element in online booking form."
+msgstr "描述将显示在线预定表单元素下面"
+
+#: modules/room_type/admin_custom_fields.php:79
+msgid "Is Optional?"
+msgstr "是可选的？"
+
+#: modules/room_type/admin_custom_fields.php:80
+msgid "Select No if you want set this field to field compolsory."
+msgstr "选择“否”，如果你想强制设置这个字段之间。"
+
+#: modules/room_type/admin_custom_fields.php:83
+msgid "Field Require Message"
+msgstr "字段需求信息"
+
+#: modules/room_type/admin_custom_fields.php:84
+msgid ""
+"This message will display when field is not optional and user not fill this "
+"field."
+msgstr "当字段不可选时显示此信息，用户不能填写此字段。"
+
+#: modules/room_type/admin_custom_fields.php:87
+msgid "Validation Type"
+msgstr "验证类型"
+
+#: modules/room_type/admin_custom_fields.php:88
+msgid ""
+"Validation Type if you select require this field must be have some value and "
+"if its email then you have to enter valid email address"
+msgstr ""
+"如果你选择了必填此字段必须有一些验证类型的值，如果它是邮箱，你需要输入有效的"
+"邮箱地址"
+
+#: modules/room_type/admin_custom_fields.php:91
+msgid "Stylesheet Class"
+msgstr "样式表类"
+
+#: modules/room_type/admin_custom_fields.php:93
+msgid "This stylesheet class apply on field"
+msgstr "该样式类应用字段"
+
+#: modules/room_type/admin_custom_fields.php:96
+msgid "Parameter"
+msgstr "参数"
+
+#: modules/room_type/admin_custom_fields.php:97
+msgid "Extra Parameter (eg. maxlength, onchange etc.)"
+msgstr "额外参数（如最大长度，变动等）"
+
+#: modules/room_type/admin_manage_custom_fields.php:21
+msgid "Add New Custom Field"
+msgstr "添加自定义栏目："
+
+#: modules/room_type/admin_manage_custom_fields.php:22
+msgid ""
+"In this section, you can add, delete and manage the custom fields appearing "
+"in the online booking form."
+msgstr "在此部分，您可以添加，删除和管理自定义字段出现到在线预订表单。"
+
+#: modules/room_type/admin_manage_custom_fields.php:27
+msgid "Custom Field inserted successfully."
+msgstr "自定义字段插入成功。"
+
+#: modules/room_type/admin_manage_custom_fields.php:29
+msgid "Custom Field updated successfully."
+msgstr "自定义字段更新成功。"
+
+#: modules/room_type/admin_manage_custom_fields.php:35
+msgid "Custom Field deleted successfully."
+msgstr "自定义字段删除成功。"
+
+#: modules/room_type/admin_manage_custom_fields.php:45
+msgid "Optional"
+msgstr "可选"
+
+#: modules/room_type/admin_manage_custom_fields.php:58
+#: modules/room_type/admin_manage_custom_fields.php:65
+msgid "Edit Field"
+msgstr "编辑字段"
+
+#: modules/room_type/admin_manage_custom_fields.php:58
+#: modules/room_type/admin_manage_custom_fields.php:66
+msgid "Delete Field"
+msgstr "删除字段"
+
+#: modules/room_type/admin_manage_room.php:7
+msgid "Manage Room"
+msgstr "管理房间"
+
+#: modules/room_type/admin_manage_room.php:9
+msgid "Add New Room"
+msgstr "添加房间"
+
+#: modules/room_type/admin_manage_room.php:10
+msgid "Here you can add, edit and manage room."
+msgstr "在这里你可以添加，编辑和管理房间。"
+
+#: modules/room_type/admin_manage_room.php:15
+msgid "Room inserted successfully."
+msgstr "房间插入成功。"
+
+#: modules/room_type/admin_manage_room.php:17
+msgid "Room updated successfully."
+msgstr "房间更新成功。"
+
+#: modules/room_type/admin_manage_room.php:23
+msgid "Room deleted successfully."
+msgstr "房间更新成功。"
+
+#: modules/room_type/admin_manage_room.php:30
+#: modules/room_type/admin_manage_room_gallery.php:63
+#: modules/room_type/admin_room.php:46
+#: modules/room_type/manage_additional_price.php:54
+#: modules/user_booking/lang_user_booking.php:31
+msgid "Room Type"
+msgstr "房间类型"
+
+#: modules/room_type/admin_manage_room.php:31
+#: modules/room_type/admin_room.php:50
+msgid "Room Name"
+msgstr "房间名字"
+
+#: modules/room_type/admin_manage_room.php:49
+#: modules/room_type/admin_manage_room.php:56
+msgid "Edit Room Detail"
+msgstr "编辑房间详情"
+
+#: modules/room_type/admin_manage_room.php:49
+#: modules/room_type/admin_manage_room.php:57
+msgid "Delete Room Detail"
+msgstr "删除房间详情"
+
+#: modules/room_type/admin_manage_room_gallery.php:8
+msgid "Manage Room Gallery"
+msgstr "管理房间相册"
+
+#: modules/room_type/admin_manage_room_gallery.php:9
+msgid "Add New Gallery Photo"
+msgstr "添加新相册照片"
+
+#: modules/room_type/admin_manage_room_gallery.php:10
+msgid "Here you can add, edit and manage rooms gallery."
+msgstr "在这里你可以添加，编辑和管理房间相册。"
+
+#: modules/room_type/admin_manage_room_gallery.php:15
+msgid "Image Uploaded successfully."
+msgstr "图片上传成功。"
+
+#: modules/room_type/admin_manage_room_gallery.php:17
+msgid "Image updated successfully."
+msgstr "图像更新成功。"
+
+#: modules/room_type/admin_manage_room_gallery.php:23
+msgid "Image deleted successfully."
+msgstr "图片删除成功。"
+
+#: modules/room_type/admin_manage_room_gallery.php:33
+#: modules/room_type/admin_room.php:47
+#: modules/room_type/admin_room_gallery.php:84
+msgid "Select Room Type"
+msgstr "选择房间类型"
+
+#: modules/room_type/admin_manage_room_gallery.php:64
+msgid "Image"
+msgstr "图像"
+
+#: modules/room_type/admin_manage_room_gallery.php:84
+#: modules/room_type/admin_manage_room_gallery.php:103
+msgid "Edit Image"
+msgstr "编辑图像"
+
+#: modules/room_type/admin_manage_room_gallery.php:84
+#: modules/room_type/admin_manage_room_gallery.php:104
+msgid "Delete Image"
+msgstr "删除图像"
+
+#: modules/room_type/admin_manage_service.php:17
+msgid "Manage Service"
+msgstr "管理服务"
+
+#: modules/room_type/admin_manage_service.php:18
+msgid "Add New Service"
+msgstr "添加新服务"
+
+#: modules/room_type/admin_manage_service.php:19
+msgid ""
+"Here you can add, edit and manage services that you wish to offer. These "
+"services will be listed in book hotel section. e.g. airport pickup, laundry, "
+"etc"
+msgstr ""
+"在这里，你可以添加，编辑和管理您要提供的服务。这些服务将被列在预订酒店部分。"
+"例如机场接送，洗衣等"
+
+#: modules/room_type/admin_manage_service.php:24
+msgid "Service inserted successfully."
+msgstr "服务成功插入。"
+
+#: modules/room_type/admin_manage_service.php:26
+msgid "Service updated successfully."
+msgstr "服务更新成功。"
+
+#: modules/room_type/admin_manage_service.php:32
+msgid "Service deleted successfully."
+msgstr "服务删除成功。"
+
+#: modules/room_type/admin_manage_service.php:39
+msgid "Service Title"
+msgstr "服务标题"
+
+#: modules/room_type/admin_manage_service.php:40
+msgid "Service Price"
+msgstr "服务价格"
+
+#: modules/room_type/admin_manage_service.php:41
+msgid "Service Status"
+msgstr "服务状态"
+
+#: modules/room_type/admin_manage_service.php:59
+#: modules/room_type/admin_manage_service.php:66
+msgid "Edit Service"
+msgstr "编辑服务"
+
+#: modules/room_type/admin_manage_service.php:59
+msgid "Delete Services"
+msgstr "删除服务"
+
+#: modules/room_type/admin_manage_service.php:59
+#: modules/room_type/admin_manage_service.php:67
+msgid "Delete Service"
+msgstr "删除服务"
+
+#: modules/room_type/admin_room.php:38
+msgid "Back to Room List"
+msgstr "返回房间列表"
+
+#: modules/room_type/admin_room.php:38
+msgid "&laquo; Back to Manage Room List"
+msgstr "&laquo; 返回管理房间列表"
+
+#: modules/room_type/admin_room.php:47
+msgid "Select room type which you want to add room under this room type"
+msgstr "根据房间类型选择你要添加的房间"
+
+#: modules/room_type/admin_room.php:51
+msgid "Enter Room title"
+msgstr "输入房间标题"
+
+#: modules/room_type/admin_room.php:55
+msgid "Specify the order in which the rooms are listed. (eg. 1, 2, 3)"
+msgstr "指定已列出房间的顺序（例如：1,2,3）"
+
+#: modules/room_type/admin_room.php:60 modules/room_type/admin_service.php:59
+msgid "Enable"
+msgstr "启用"
+
+#: modules/room_type/admin_room.php:63 modules/room_type/admin_service.php:59
+msgid "Disable"
+msgstr "禁用"
+
+#: modules/room_type/admin_room.php:63
+msgid "Select the status of this Room"
+msgstr "选择此房间状态"
+
+#: modules/room_type/admin_room_gallery.php:74
+msgid "Back to Room Gallery List"
+msgstr "返回房间相册列表"
+
+#: modules/room_type/admin_room_gallery.php:74
+msgid "&laquo; Back to Room Gallery List"
+msgstr "&laquo; 返回房间相册列表"
+
+#: modules/room_type/admin_room_gallery.php:83
+msgid "Room Type : "
+msgstr "房间类型："
+
+#: modules/room_type/admin_room_gallery.php:87
+msgid "Gallery Photo : "
+msgstr "图片库："
+
+#: modules/room_type/admin_room_gallery.php:100
+msgid "Select room type which you want to add image under this room type"
+msgstr "选择你要添加到此房间类型下面的图片"
+
+#: modules/room_type/admin_room_gallery.php:103
+msgid "Alternate Text : "
+msgstr "替代文本："
+
+#: modules/room_type/admin_room_gallery.php:104
+msgid "Enter alternate text it will consider as 'alt' tag in 'img' element"
+msgstr "输入替代文字，它将被用作'img'元素的'alt'标签"
+
+#: modules/room_type/admin_room_gallery.php:108
+msgid "Enter Image description"
+msgstr "输入图片描述"
+
+#: modules/room_type/admin_room_gallery.php:111
+#: modules/room_type/admin_service.php:62
+msgid "Sort Order : "
+msgstr "排序："
+
+#: modules/room_type/admin_room_gallery.php:112
+msgid "Specify the order in which the images are listed. (eg. 1, 2, 3)"
+msgstr "指定已列出图片的排序（例如：1,2,3）"
+
+#: modules/room_type/admin_room_type.php:124
+msgid "Back to Manage Room Type List"
+msgstr "返回管理房间类型列表"
+
+#: modules/room_type/admin_room_type.php:124
+msgid "&laquo; Back to Manage Room Type List"
+msgstr "&laquo; 返回管理房间类型列表"
+
+#: modules/room_type/admin_room_type.php:132
+msgid "Room Type Name : "
+msgstr "房间类型名字："
+
+#: modules/room_type/admin_room_type.php:133
+msgid "Enter Room Type Name"
+msgstr "输入房间类型名字"
+
+#: modules/room_type/admin_room_type.php:136
+msgid "Room Type Description : "
+msgstr "房间类型描述："
+
+#: modules/room_type/admin_room_type.php:137
+msgid "Enter Room Type Description"
+msgstr "输入房间类型描述"
+
+#: modules/room_type/admin_room_type.php:140
+msgid "Include Tax?"
+msgstr "包括税？"
+
+#: modules/room_type/admin_room_type.php:141
+msgid "If checked, tax amount will be included in the final payable amount."
+msgstr "如果选中，纳税额将包括在最终应付金额中。"
+
+#: modules/room_type/admin_room_type.php:144
+msgid "Capacity : "
+msgstr "容量："
+
+#: modules/room_type/admin_room_type.php:145
+msgid "Enter Capacity"
+msgstr "输入容量"
+
+#: modules/room_type/admin_room_type.php:177
+msgid "Meta Title : "
+msgstr "元标题："
+
+#: modules/room_type/admin_room_type.php:178
+msgid "Enter Page Title"
+msgstr "输入页面标题"
+
+#: modules/room_type/admin_room_type.php:181
+msgid "Meta Description : "
+msgstr "元描述："
+
+#: modules/room_type/admin_room_type.php:182
+msgid "Enter Page Description"
+msgstr "输入页面描述"
+
+#: modules/room_type/admin_room_type.php:185
+msgid "Meta Keyword (comma separated) : "
+msgstr "元关键词（逗号分隔）："
+
+#: modules/room_type/admin_room_type.php:186
+msgid "Enter Page Keyword"
+msgstr "输入页面关键词"
+
+#: modules/room_type/admin_room_type_price.php:63
+msgid "Back to Seasonal Price List"
+msgstr "返回季节性价格列表"
+
+#: modules/room_type/admin_room_type_price.php:63
+msgid "&laquo; Back to Seasonal Price List"
+msgstr "&laquo; 返回季节性价格列表"
+
+#: modules/room_type/admin_room_type_price.php:69
+msgid "Select Duration :"
+msgstr "选择时间："
+
+#: modules/room_type/admin_room_type_price.php:72
+msgid "From Date :"
+msgstr "日期从"
+
+#: modules/room_type/admin_room_type_price.php:75
+msgid "To Date :"
+msgstr "日期："
+
+#: modules/room_type/admin_room_type_price.php:80
+msgid ""
+"Seasonal price will be applied between the dates selected in this calendar"
+msgstr "季节性的价格将被应用在此日历中选择的日期"
+
+#: modules/room_type/admin_room_type_price.php:83
+msgid "Select Room Type :"
+msgstr "选择房间类型："
+
+#: modules/room_type/admin_room_type_price.php:122
+msgid "Activated :"
+msgstr "激活："
+
+#: modules/room_type/admin_service.php:42
+msgid "Back to Service List"
+msgstr "回到服务列表"
+
+#: modules/room_type/admin_service.php:42
+msgid "&laquo; Back to Service List"
+msgstr "&laquo; 返回服务列表"
+
+#: modules/room_type/admin_service.php:50
+msgid "Service Name : "
+msgstr "服务名字："
+
+#: modules/room_type/admin_service.php:51
+msgid "Enter Service Name"
+msgstr "输入服务名字"
+
+#: modules/room_type/admin_service.php:54
+msgid "Service Price : "
+msgstr "服务价格："
+
+#: modules/room_type/admin_service.php:55
+msgid "Enter Service Price"
+msgstr "输入服务价格"
+
+#: modules/room_type/admin_service.php:58
+msgid "Service Status : "
+msgstr "服务状态："
+
+#: modules/room_type/admin_service.php:59
+msgid ""
+"Enabing and disabling this setting will show and hide this service "
+"respectively."
+msgstr "启用或禁用此设置将会显示或隐藏此服务"
+
+#: modules/room_type/admin_service.php:63
+msgid "Specify the order in which the services are listed. (eg. 1, 2, 3)"
+msgstr "指定所列服务排序（例如：1,2,3）"
+
+#: modules/room_type/function_room_type.php:2
+#: modules/room_type/manage_room_type.php:2
+msgid "Manage Room Type"
+msgstr "管理房间类型"
+
+#: modules/room_type/function_room_type.php:40
+#, php-format
+msgid ""
+"<h4>A new version of ManageRoom Type and Room Price Module is available.</"
+"h4>\n"
+"\t\t\t<p>This updater will collect a file from the templatic.com server. It "
+"will download and extract the files to your current theme&prime;s functions "
+"folder. \n"
+"\t\t\t<br />We recommend backing up your theme files before updating. Only "
+"upgrade related module files if necessary.\n"
+"\t\t\t<br />If you are facing any problem in auto updating the framework, "
+"then please download the latest version of the theme from members area and "
+"then just overwrite the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr; Your version: %s\n"
+"\t\t\t<br />&rArr; Current Version: %s </p>"
+msgstr ""
+"<h4>一个新版本的管理房间类型和房间价格模块可用.</h4>\n"
+"\t\t\t<p>此更新将会从templatic.com服务器下载文件并解压缩到主题文件夹. \n"
+"\t\t\t<br />我们建议你在更新前备份主题文件夹.\n"
+"\t\t\t<br />如果更新框架出现问题，请下载最新版本主题来更新, then please "
+"download the latest version of the theme from members area and then just "
+"overwrite the \"<b>%s</b>\" folder.\n"
+"\t\t\t<br /><br />&rArr;你的版本: %s\n"
+"\t\t\t<br />&rArr; 当前版本: %s </p>"
+
+#: modules/room_type/manage_additional_price.php:2
+msgid "Seasonal Price"
+msgstr "季节性价格"
+
+#: modules/room_type/manage_additional_price.php:3
+msgid "Add New Seasonal Price"
+msgstr "添加新季节性价格"
+
+#: modules/room_type/manage_additional_price.php:4
+msgid ""
+"Additional amount charged as per from-date to to-date (for holiday/christmas "
+"seasons)."
+msgstr "附加金额收费从天到天计算（节日）"
+
+#: modules/room_type/manage_additional_price.php:10
+msgid "Seasonal Price Updated Successfully"
+msgstr "季节性价格更新成功"
+
+#: modules/room_type/manage_additional_price.php:12
+msgid "Seasonal Price Updated Successfully."
+msgstr "季节性价格更新成功。"
+
+#: modules/room_type/manage_additional_price.php:21
+msgid "Seasonal Price Deleted Successfully."
+msgstr "季节性价格成功删除。"
+
+#: modules/room_type/manage_additional_price.php:53
+msgid "Time"
+msgstr "时间"
+
+#: modules/room_type/manage_additional_price.php:55
+msgid "NewPrice"
+msgstr "新价格"
+
+#: modules/room_type/manage_additional_price.php:56
+msgid "Activated"
+msgstr "已激活"
+
+#: modules/room_type/manage_room_type.php:3
+msgid "Add New Room Type"
+msgstr "添加新房间类型"
+
+#: modules/room_type/manage_room_type.php:4
+msgid ""
+"Here you can add, edit and manage room type options. They will be listed in "
+"book hotel section."
+msgstr "在这里你可以添加，编辑和管理房型选项。他们将被列在预订酒店部分。"
+
+#: modules/room_type/manage_room_type.php:9
+msgid "Room Type inserted successfully."
+msgstr "成功插入房间类型。"
+
+#: modules/room_type/manage_room_type.php:11
+msgid "Room Type updated successfully."
+msgstr "房间类型更新成功。"
+
+#: modules/room_type/manage_room_type.php:17
+msgid "Room Type deleted successfully."
+msgstr "房间类型删除成功。"
+
+#: modules/room_type/manage_room_type.php:25
+msgid "Room Type Title"
+msgstr "房间类型标题"
+
+#: modules/room_type/manage_room_type.php:26
+msgid "Capacity"
+msgstr "容量"
+
+#: modules/room_type/manage_room_type.php:39
+#: modules/room_type/manage_room_type.php:46
+msgid "Edit Room Type"
+msgstr "编辑房间类型"
+
+#: modules/room_type/manage_room_type.php:39
+#: modules/room_type/manage_room_type.php:47
+msgid "Delete Room Type"
+msgstr "删除房间类型"
+
+#: modules/user_booking/insert_booking.php:9
+#: modules/user_booking/submit_booking.php:12
+msgid "Confirm Your Booking"
+msgstr "确认您的预订"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:4
+#, php-format
+msgid "%s : number of publish days are %s (<span id=\"%s\">%s %s</span>)"
+msgstr "%s : 发布天数 %s (<span id=\"%s\">%s %s</span>)"
+
+#: modules/user_booking/lang_user_booking.php:6
+#, php-format
+msgid ""
+"<br>Your applied coupon code is \"%s\" and discount amount is %s, deducted "
+"from the payable amount."
+msgstr "<br>您应用的优惠券代码是 \"%s\" ，折扣金额为 %s, 将从应付金额中扣除。"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:8
+#, php-format
+msgid ""
+"This is preview of your listing and it&acute;s not published yet. <br />If "
+"there is something wrong click \"Go back and edit\" or if you want to add "
+"the listing then click on \"Publish\".<br> You are going to pay <b>%s</b> "
+"and  your listing will be published for  <b>%s</b> days as a %s listing"
+msgstr ""
+"这是您的列表预览尚未发布。<br />如果你有什么错误，点击“返回并编辑”或者如果你"
+"想添加列表那么点击“发布”。<br>你要支付<b>%s</b>列表将发布<b>%s</b>天作为%s列"
+"表"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:9
+#, php-format
+msgid ""
+"This is preview of your listing and it&acute;s not published yet. <br />If "
+"there is something wrong click \"Go back and edit\" or if you want to add "
+"the listing then click on \"Publish\".<br> Your listing will be published "
+"for  <b>%s</b> days as a %s listing"
+msgstr ""
+"这是您的列表预览尚未发布。<br />如果你有什么错误，点击“返回并编辑”或者如果你"
+"想添加列表那么点击“发布”。<br>你的列表将发布  <b>%s</b> 天作为%s 列表"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:11
+msgid ""
+"This is preview of your listing and its not updated yet. <br />If there is "
+"something wrong then \"Go back and edit\" or if you want to add listing then "
+"click on \"Update now\""
+msgstr ""
+"这是预览清单及其更新。 <br/>如果有什么不对，那么“返回并编辑”或者如果你想添加"
+"列表那么点击“现在更新”"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:12
+msgid "Invalid Coupon Code"
+msgstr "无效的优惠券代码"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:13
+msgid "Review Your Listing"
+msgstr "评论你的列表"
+
+#: modules/user_booking/lang_user_booking.php:14
+msgid "Customer name"
+msgstr "客户名称"
+
+#: modules/user_booking/lang_user_booking.php:16
+msgid "First name"
+msgstr "名字"
+
+#: modules/user_booking/lang_user_booking.php:17
+msgid "Last name"
+msgstr "姓"
+
+#: modules/user_booking/lang_user_booking.php:19
+msgid "Country"
+msgstr "国家"
+
+#: modules/user_booking/lang_user_booking.php:20
+msgid "Street"
+msgstr "地址"
+
+#: modules/user_booking/lang_user_booking.php:21
+msgid "City / State"
+msgstr "城市"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:22
+msgid "State"
+msgstr "状态"
+
+#: modules/user_booking/lang_user_booking.php:23
+msgid "Phone"
+msgstr "电话"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:24
+msgid "Mobile Number"
+msgstr "手机号码"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:27
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:28
+msgid "Facebook"
+msgstr "脸谱"
+
+#: modules/user_booking/lang_user_booking.php:30
+msgid "Confirm the details you provided: "
+msgstr "确认您所提供的详细资料："
+
+#: modules/user_booking/lang_user_booking.php:32
+msgid "Arrival/Check-in"
+msgstr "入住/开房"
+
+#: modules/user_booking/lang_user_booking.php:33
+msgid "Departure/Check-out"
+msgstr "离开/退房"
+
+#: modules/user_booking/lang_user_booking.php:34
+msgid "Day(s)"
+msgstr "天"
+
+#: modules/user_booking/lang_user_booking.php:35
+msgid "Number Of Rooms"
+msgstr "客房数量"
+
+#: modules/user_booking/lang_user_booking.php:36
+msgid "Occupancy"
+msgstr "入住率"
+
+#: modules/user_booking/lang_user_booking.php:37
+#: modules/user_booking/widget_form.php:18
+msgid "Adults"
+msgstr "成人数"
+
+#: modules/user_booking/lang_user_booking.php:38
+msgid "Room Price"
+msgstr "房间价格"
+
+#: modules/user_booking/lang_user_booking.php:39
+msgid "Provide more details about yourself: "
+msgstr "提供更多自己的详细信息："
+
+#: modules/user_booking/lang_user_booking.php:40
+msgid "Services / Coupon "
+msgstr "服务/优惠券"
+
+#: modules/user_booking/lang_user_booking.php:42
+msgid "Services :"
+msgstr "服务"
+
+#: modules/user_booking/lang_user_booking.php:43
+msgid "TAX"
+msgstr "税额"
+
+#: modules/user_booking/lang_user_booking.php:44
+msgid "Deposit"
+msgstr "订金"
+
+#: modules/user_booking/lang_user_booking.php:45
+msgid "Total Charges"
+msgstr "总费用"
+
+#: modules/user_booking/lang_user_booking.php:46
+msgid "Coupon Discount"
+msgstr "优惠券折扣"
+
+#: modules/user_booking/lang_user_booking.php:48
+msgid "Payment Status"
+msgstr "付款状态"
+
+#: modules/user_booking/lang_user_booking.php:50
+#, php-format
+msgid "Dear, %s your Transaction No. is : %s"
+msgstr "亲爱的，%s 您的交易号是 : %s"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:52
+msgid "&laquo; Go Back and Edit"
+msgstr "&laquo; 返回并编辑"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:53
+msgid "Update Now"
+msgstr "现在更新"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:54
+msgid "Publish"
+msgstr "发布"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:56
+msgid "Pay & Publish"
+msgstr "付费发布"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:57
+msgid "Publisher Information"
+msgstr "发布者信息"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:58
+msgid "Enter Listing Details"
+msgstr "输入列表信息"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:60
+msgid ""
+"Are you really sure want to DELETE this listing? A deleted listing can not "
+"be recovered later"
+msgstr "你真的确定要删除此列表？之后无法恢复已删除的列表"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:61
+msgid "Yes, Delete Please!"
+msgstr "是，请删除！"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:62
+msgid ""
+"This place is listed as Featured. Do you want to remove it from featured "
+"listing?"
+msgstr "这个地方被列为精选。你想它从特色房源删除？"
+
+#: modules/user_booking/lang_user_booking.php:63
+msgid "Select Payment Method"
+msgstr "选择付款方式"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:66
+msgid "Submission Successfully"
+msgstr "提交成功"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:67
+msgid "Listing Renewal Successful"
+msgstr "列表重建成功"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:68
+msgid ""
+"<h2>Listing information posted successfully.</h2> <p> You can edit this "
+"message from language.php file at root of theme folder.</p>"
+msgstr ""
+"<h2>列表信息发布成功。</h2> <p>你可以从主题文件夹下的language.php文件编辑此信"
+"息.</p>"
+
+#: modules/user_booking/lang_user_booking.php:70
+#: modules/user_booking/lang_user_booking.php:71
+msgid "Your Booking is successfully Cancelled"
+msgstr "您的预订成功注销"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:74
+msgid "Payment Success"
+msgstr "支付成功"
+
+#: modules/user_booking/lang_user_booking.php:75
+msgid ""
+"Thank you for joining us. Your payment was received and your booking is "
+"confirmed.<br>Thank you for booking room in our hotel."
+msgstr ""
+"感谢您加入我们。已收到你的付款确认了您的预订。谢谢你在我们酒店预订房间。"
+
+#: modules/user_booking/lang_user_booking.php:78
+msgid "Processing for paypal, Please wait..."
+msgstr "处理Paypal中，请稍候...."
+
+#: modules/user_booking/lang_user_booking.php:80
+msgid "Processing for 2Checkout, Please wait..."
+msgstr "2Checkout处理中，请稍候..."
+
+#: modules/user_booking/lang_user_booking.php:82
+msgid "Processing for Authorize Net, Please wait..."
+msgstr "Authorize Net处理中，请稍候..."
+
+#: modules/user_booking/lang_user_booking.php:84
+msgid "Processing for Google Checkout, Please wait..."
+msgstr "Google Checkout的处理中，请稍候...."
+
+#: modules/user_booking/lang_user_booking.php:86
+msgid "Processing for WordPay, Please wait..."
+msgstr "WorldPay处理中，请稍候..."
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:87
+msgid "Enter Coupon Code"
+msgstr "输入优惠券代码"
+
+# @ templatic
+#: modules/user_booking/lang_user_booking.php:88
+msgid "Enter coupon code here (optional)"
+msgstr "输入优惠券代码（可选）"
+
+#: modules/user_booking/submit_booking.php:237
+msgid "Currently Payment Process is Disabled"
+msgstr "当前付款进程将被禁用"
+
+#: modules/user_booking/success.php:8
+msgid "Successfully Booking"
+msgstr "成功预定"
+
+#: modules/user_booking/user_booking.php:15
+#: modules/user_booking/validate_form.php:10
+msgid "Book Your Stay"
+msgstr "请您预订"
+
+#: modules/user_booking/widget_form.php:26
+msgid "No. Of Rooms"
+msgstr "房间数"

@@ -1,0 +1,32 @@
+/*** Mixins Collection ***/
+@import "neutro-variables.less"; 
+@import '../less/variables.less';
+@import '../less/mixins.less';
+
+.button-nav-green{
+    background: @btn-nav-green;
+    color: white;
+    font: 15px @menuFontFamily ;
+    text-transform: lowercase;
+
+    &:hover{
+        background-color: darken( @btn-nav-green, 5%); 
+        color: darken(white, 5%);
+        text-decoration: none;
+    }
+}
+
+.neutro-icons(@content: '\f503', @display: inline-block, @fontSmoothing: antialiased, @fontSize: 16px, @verticalAlign: middle){
+	content: @content;
+	display: @display;
+	-webkit-font-smoothing: @fontSmoothing;
+	font: normal  @fontSize/1 @iconFontFamily;
+	vertical-align: @verticalAlign;
+}
+
+.transitions(@property, @duration, @delay){
+	transition: @property @duration  @delay;
+    -moz-transition: @property @duration  @delay;
+    -webkit-transition: @property @duration  @delay;
+}
+

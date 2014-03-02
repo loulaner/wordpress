@@ -1,0 +1,108 @@
+
+Version: 2.4.31
+--------------------------------------
+Modified widget sanitization function.
+
+Version: 2.4.30
+--------------------------------------
+Modified body class function.
+
+Version: 2.4.29
+--------------------------------------
+Added new skin.
+
+Version: 2.4.28
+--------------------------------------
+Changed wp title function.
+
+Version: 2.4.27
+--------------------------------------
+Added new skin.
+
+Version: 2.4.26
+--------------------------------------
+Added new skin.
+
+Version: 2.4.25
+--------------------------------------
+Added sanitization to ad widgets.
+
+Version: 2.4.24
+--------------------------------------
+Some css code refactoring
+
+Version: 2.4.23
+--------------------------------------
+Added default header, changed screenshot
+
+Version: 2.4.22
+--------------------------------------
+Modified credit link
+
+Version: 2.4.21
+--------------------------------------
+Added a new skin
+
+Version: 2.4.20
+--------------------------------------
+Added a new skin
+
+Version: 2.4.19
+--------------------------------------
+Added a new skin
+
+Version: 2.4.18
+--------------------------------------
+Added a new skin
+
+Version: 2.4.17
+-----------------------------------------------
+CSS modifications.
+
+Version: 2.4.16
+-----------------------------------------------
+Minor update to options framework, Using core selected and checked functions.
+
+Version: 2.4.15
+--------------------------------------
+Added a new skin
+
+Version: 2.4.14
+--------------------------------------
+Added a new skin
+
+Version: 2.4.13
+--------------------------------------
+Added a new skin
+
+Version: 2.4.12
+--------------------------------------
+Added a new skin
+
+Version: 2.4.11
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.10
+--------------------------------------
+Added a new skin
+
+Version: 2.4.9
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.8
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.7
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.6
+--------------------------------------
+Added a new skin

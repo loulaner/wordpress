@@ -1,0 +1,47 @@
+/* IE6 css fixer v0.6: Mon, 26 Oct 2009 20:59:26 +0100 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+#inner_page,
+#inside_inner_page,
+.by-line,
+#content,
+#sidebar,
+#footer img,
+#header-title,
+#blog-title,
+#blog-description,
+#navigation,
+#navigation li,
+#navigation ul li,
+#content .entry-editlink,#content .comment-editlink,
+#content .hentry:hover .entry-editlink,#content .hentry:hover .comment-editlink,
+#content .comment-feed,
+#sidebar .widget a,
+.alignleft,
+.alignright,
+label,
+.comment-time,
+.post-content-left,
+.post-content-right,
+#calendar_wrap,
+.avatar,
+#content .pagination .next,#attachment .nav .next {display:inline;}
+
+/* fix negative margins */
+#footer img,
+#content .by-line,#content .filed,
+#sidebar .widget ul {position:relative; zoom:1;}
+
+/* add zoom:1 to pos:relative elements */
+#navigation ul li,
+#content ol.comments .meta {zoom:1;}
+
+/* add transparancy */
+#navigation ul li ul {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.gallery img {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+.avatar {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+.avatar:hover {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+#navigation ul li:hover ul,.gallery img:hover {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}

@@ -1,0 +1,567 @@
+/** 
+ * 5.1
+ * Content Article
+ */
+#content{
+	margin: -20px 15px 0;
+	position: relative;
+	z-index: 60; // should be higher than #header's
+
+	article{
+		background: white;
+		margin: 0 0 15px;
+		position: relative;
+		z-index: 40;
+
+		&.sticky{
+			box-shadow: 5px 5px 0 $green_dark;
+		}
+
+		.entry-header{
+
+			.entry-meta{
+				border-top: none;				
+				border-bottom: 1px solid $crem;				
+			}			
+			
+			.entry-featured-image{
+				display: block;
+
+				img{
+					width: 100%;
+				}
+			}
+
+			.entry-background{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				z-index: 40;
+				overflow: hidden;
+				
+				.shadow{
+					display: black;
+					width: 100%;
+					height: 100%;
+					background: white;
+					opacity: .8;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+
+				img{
+					// width: 100%;
+					height: 100%;
+				}
+			}
+
+			.entry-title{
+				font:bold 1em $montserrat;
+				text-transform: uppercase;
+				text-align: center;
+				padding: 20px;
+				border-bottom: 1px solid $crem;
+				line-height: 1.6;
+				-ms-word-wrap: break-word;
+				word-wrap: break-word;
+
+				a{
+					color: $black;
+
+					&:hover{
+						color: $green;
+					}
+				}
+			}
+
+			.entry-original-link{
+				a{
+					display: block;
+					padding: 10px 20px 10px 36px;
+					font: .8em $montserrat;
+					text-transform: lowercase;
+					border-bottom: 1px solid $crem;
+					background: #fafafa;
+					color: $black;
+					position: relative;
+
+					&:hover{
+						background: $green;
+						color: white;
+
+						&:before{
+							color: #fff;
+						}
+					}
+
+					&:active{
+						background: $green_dark;
+					}
+
+					&:before{
+						@include genericon;
+						content: '\f442';
+						color: #242A23;
+						position: absolute;
+						// font-size: 32px;
+						top: 11px;
+						left: 16px;
+					}
+				}
+			}
+		}	
+
+		.entry-meta{
+			display: block;
+			padding: 10px 10px;
+			line-height: 1;
+			position: relative;
+			z-index: 50;
+			border-top: 1px solid $crem;
+			@include clearfix;
+
+			.entry-category{
+				font:bold .8em $montserrat;
+				text-transform: uppercase;
+				float: left;
+				height: 16px;
+
+				a{
+					color: $black;
+				}
+			}
+
+			.entry-author{
+				font-weight: bold;
+			}
+
+			.entry-author,
+			.entry-author-action{
+				display: none;
+			}
+
+			.entry-posted-on{
+				float: right;
+				color: $gray;
+				font-size: .6em;
+				padding: 3px 0;
+
+				.conventional-time{
+					display: none;
+				}
+
+				a{
+					color: $gray;
+
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+
+			&.single{
+				text-align: center;
+				
+				.entry-posted-on{
+					float: none;
+				}
+			}
+		}		
+		
+		.entry-content{
+			position: relative;
+			z-index: 50;
+
+			padding: 20px;
+
+			&.entry-caption{
+				padding: 10px;
+				font-size: .7em;
+				line-height: 1.7;
+
+				p:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}	
+
+		.entry-tags{
+			font-size: .7em;
+			border: 1px solid $crem;
+			padding: 10px 20px;
+		}
+
+		.entry-footer{
+			display: black;
+			position: relative;
+			z-index: 50;
+			background: $green;
+			color: white;
+			font: .6em $montserrat;
+			text-transform: uppercase;
+			padding: 10px 20px;
+
+			a{
+				color: white;
+
+				&:hover{
+					color: $gray;
+				}
+
+				strong{
+					font-weight: bold;
+				}
+			}
+		}
+
+		&.attachment{
+			.entry-content{
+				padding: 20px 20px 0 !important;
+				text-align: center;
+				font-style: italic;
+				font-weight: 300;
+				font-size: .7em;
+			}
+		}
+	}
+}
+
+/** 
+ * 5.2
+ * Content Styling
+ */
+.entry-content{
+	font-size: .8em;
+	@include content_styling;
+}
+
+.page-links{
+	border: 1px solid $crem;
+	padding: 5px 15px;
+	// @include montserrat;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3;
+	font-size: .7em;
+
+	a{
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+/** 
+ * 5.3
+ * Content Galleries
+ */
+.gallery{
+	&.gallery-columns-4{
+		.gallery-item{
+			img{
+				width: 100px;
+				height: 100px;
+			}
+		}
+	}
+}
+
+/** 
+ * 5.4
+ * Content Navigation
+ */
+#nav-below{
+	margin: 10px 0 40px;
+	@include clearfix;
+	position: relative;
+	z-index: 50; // should be above #page-cover 100
+
+	div{
+		float: right;
+	}
+
+	a{
+		font: 300 .7em $montserrat;
+		text-transform: uppercase;
+		float: left;
+		background: $black;
+		padding: 10px 20px 8px;
+		color: white;
+		position: relative;
+
+		&:after{
+			position: absolute;
+			top: 3px;
+			@include genericon;
+				font-size: 32px;
+				width: 32px;
+				height: 32px;
+		}
+	}
+
+	.nav-next{	
+		a{
+			padding-left: 45px;
+
+			&:after{
+				content: '\f430';
+				color: white;
+				left: 10px;
+			}
+
+			&:hover{
+				background: #000;
+			}
+
+			&:active{
+				background: #333;
+			}
+		}
+	}
+
+	.nav-previous{
+		border-left: 1px solid #2e2e2e;
+
+		a{
+			padding-right: 45px;
+
+			&:after{
+				content: '\f429';
+				right: 10px;
+			}
+
+			&:hover{
+				background: #000;
+			}
+
+			&:active{
+				background: #333;
+			}
+		}
+	}
+}
+
+/** 
+ * 5.5
+ * Content Comment
+ */
+#comments{
+	margin: 0 0 10px;
+	position: relative;
+	z-index: 50; // should be above #page-cover 100
+
+	.comments-title{
+		font: .8em $montserrat;
+		text-transform: uppercase;
+		color: $black;
+		margin: 0 0 20px;
+	}
+
+	.navigation-comment{
+		@include clearfix;
+		padding-bottom: 10px;
+
+		.nav-previous{
+			float: left;
+		}
+
+		.nav-next{
+			float: right;
+		}
+
+		a{
+			float: left;
+			font-size: .7em;
+			font-style: italic;
+			padding: 5px 10px;
+
+			&:hover{
+				text-decoration: underline;
+			}
+
+			&:active{
+				color: $green_dark;
+			}
+		}
+	}
+	
+	.pingback,
+	.comment{
+		margin-bottom: 10px;
+
+		.children{
+			margin:10px 0 0 40px;
+		}
+
+		.comment-wrap{
+			position: relative;
+			background: white;
+
+			.comment-meta{
+				.comment-author{
+					a{
+						&:hover{
+							text-decoration: underline;
+						}
+					}						
+				}	
+			}	
+
+			.comment-avatar{
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				width: 40px;
+				height: 40px;
+
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+				}
+			}
+
+			.comment-content{
+				display: block;
+				padding: 5px 10px 10px 60px;
+				font-size: .8em;
+			}
+
+			.comment-action{
+				font-size: .8em;
+				border-top: 1px solid $crem;
+				background: #f6f4f2;
+
+				@include clearfix;
+
+				.comment-date{
+					float: left;
+					border-left: 1px solid $crem;
+					padding: 10px 15px 8px;
+					font: .7em $montserrat;
+					text-transform: uppercase;
+
+					.conventional-time{
+						display: none;
+					}
+				}									
+			}
+
+			.comment-reply-link{
+				float: left;
+				@include genericon;
+				margin: 10px 12px;
+
+				.label{
+					display: none;
+				}
+
+				&:before{
+					content: '\f467';
+					color: #232323;
+				}
+
+				&:hover{
+					&:before{
+						color: #888888;						
+					}
+				}
+
+				&:active{
+					&:before{
+						color: #000000;						
+					}
+				}
+			}
+		}
+
+		&.bypostauthor > .comment-wrap{
+			.comment-author{
+				a{
+					position: relative;
+					
+					&:after{
+						content: 'AUTHOR';
+						font-size: .5em;
+						font-weight: 300;
+						background: $green;
+						color: white;
+						padding: 3px 5px;
+						margin: 0 0 0 5px;
+						line-height: 1;
+
+						position: absolute;
+						top: 4px;
+						left: 100%;
+					}				
+				}				
+			}
+		}
+	}
+
+	.pingback{
+		.comment-wrap{
+			.comment-content{
+				padding-left: 10px;
+			}
+		}
+	}
+}
+
+.cancel-comment-reply{
+	font-size: .6em;
+	padding-bottom: 10px;
+
+	a{
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+#respond{
+	margin: 40px 0;
+
+	input[type="text"]{
+		margin:0 0 10px;
+	}
+
+	textarea{
+		resize: none;
+		height: 150px;
+		margin-bottom: 10px;
+	}
+
+	.submit-comment-avatar{
+		@include clearfix;
+
+		.left-info{
+			float: left;
+			margin-right: 15px;
+
+			img{
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+			}
+		}
+
+		.right-info{
+			font-size: .7em;
+			float: left;
+		}
+	}
+
+	p{
+		font-size: .8em;
+	}
+}
+
+#respond-title{
+	font: .8em $montserrat;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	color: $black;
+}

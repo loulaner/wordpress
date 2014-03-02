@@ -1,0 +1,745 @@
+/*/* 
+Theme Name: HotelBooking
+Author URI: http://www.4mudi.com
+Description: 更多汉化主题、主题升级、问题咨询请访问：<strong><a href="http://www.4mudi.com">http://www.4mudi.com</a></strong>或我的<a href="http://wordpresszhuti.taobao.com">淘宝店</a>
+Author: Templatic
+Version: 1.0.1
+License: 
+Copyright: (c) 2011 Templatic*/
+
+/*-----------------------------------------------------------------------------------
+	1.  body, common classes, structure etc
+	2.  Header Styles
+	3.  Navigation & Menus - Header Right Menu
+	4.  Navigation & Menus - Main Menu
+	5.  Main Content Styles
+	6.  Post Page Navigation
+	7.  Comments
+	8.  Widget
+	9.  Bottom Section
+	10.  Footer
+	11. Page Templates
+	12. Calendar css 
+	13. Shortcodes
+	14. Home Page
+-----------------------------------------------------------------------------------*/
+/* widget style 
+-----------------------------------------------------*/
+@import url('admin/widgets/widget_css/widget.css');
+@import url('main.css');
+
+
+/*----------------------------------------------------------------------------------
+	1. body, common classes, structure etc
+----------------------------------------------------------------------------------*/
+body, input, textarea, select {font: 15px  "微软雅黑", "Microsoft YaHei UI", Arial; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+/* structure =========================================*/
+.header { clear:both; }
+#pages {  }
+#pages, .header_in, .footer_in, .bottom_in, .main_nav_in { width:978px; margin:0 auto;  }
+.top_navigation { position:relative; z-index:99; }
+#container { padding: 0px;  }
+.footer { clear:both; }
+
+/*** layout 2 columns =============***/
+#pages { padding:25px 0; } 
+.content {width: 675px; }
+.sidebar { width: 252px; padding-top:15px;  }
+
+.right_side { padding-left:28px; float:right; }
+.left_side { padding-right:28px; float:left; }
+
+.index_page { padding:0 !important; }
+
+/*** layout Full =============***/
+.content_full {width: 978px;}
+
+.spacer { padding:40px 0; clear:both;  } /* remove this class last*/
+.bottom_in { padding:20px 0 20px 0; clear:both; min-height:150px; position:relative; }
+.footer { height:10px; padding: 20px 0; }
+
+.main_header { width:100%; display:block; position:relative;   }
+.main_header_in { width:978px; margin:0 auto;  position:relative; min-height:200px; }
+.main_sepretor { height:1px; }
+.main_header .post-meta { display:block; position:absolute; left:0; bottom:0; padding:5px 20px;  }
+.main_header .post-meta h1 { font-size:25px; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Header Styles
+/*-----------------------------------------------------------------------------------*/
+.logo {  padding: 25px 0; overflow: hidden; float: left;}
+.site-title h1 {  margin:0; padding:0 ; font-weight:normal; }
+.site-title a { font-size:40px; text-decoration:none; }
+.site-title a:hover { text-decoration:none; }
+.site-description { font-size:14px; }
+
+.site-description { padding:0 0 25px 0;  overflow: hidden;}
+.site-description .textwidget {font-size: 11px; line-height: 1.3;}
+
+/* header right side */ 
+.header_right { float:right; padding-top:30px;   }
+.header_right .widget { margin-bottom:0; }
+
+.search fieldset {  height: 31px; margin-bottom:20px;  }
+.search input {width: 80%; border: none; padding: 10px; font-size:12px;  vertical-align: middle;}
+.search button {width: 16px; height: 16px; margin-top:11px; margin-right:10px; cursor: pointer;  float:right; vertical-align: middle;}
+
+.for_reservation { float:right; width:158px; padding-top:13px; }
+.for_reservation h3 { margin:0; padding:0 0 4px 0; font-size:14px; font-weight:normal;  }
+.for_reservation p.i_booking { margin:0 0 4px 0; padding:4px 0 4px 22px; font-size:16px; }
+.for_reservation p.i_booking a { text-decoration:none; }
+.for_reservation p.i_booking a:hover {  }
+.for_reservation p.i_phone { margin:0; padding:2px 0 4px 22px; font-size:20px;  }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Navigation & Menus - Main Menu
+/*-----------------------------------------------------------------------------------*/
+.main_nav_in { position:relative; z-index:9; }
+.main_nav_in ul {  }
+.main_nav_in ul li {float: left; display: block; margin: 0 4px 0 0; text-align: center; font-size: 13px; position:relative; text-transform:uppercase; }
+.main_nav_in ul li a { text-decoration: none; display: block; padding:15px 20px 14px 20px;   white-space: nowrap;}
+.main_nav_in ul li a:hover {text-decoration:none; } 
+
+.main_nav_in ul li ul { visibility:hidden; display:block; position:absolute; left:0; top:100%; width:180px;  }
+.main_nav_in ul li ul li { margin-right:0; list-style:none; text-transform:capitalize;  }
+.main_nav_in ul li ul li a { display:block; width:160px; padding:8px 10px;  text-align:left; }
+.main_nav_in ul li ul li a:hover { } 
+
+.main_nav_in ul li:hover,
+.main_nav_in ul li:hover ul { display:block; visibility:visible; }
+.main_nav_in ul li ul li ul { visibility:hidden; display:block; position:absolute; left:181px; top:0px; width:180px;  }
+.main_nav_in ul li:hover ul li ul { visibility:hidden; }
+.main_nav_in ul li ul li:hover ul { display:block; visibility:visible; }
+.main_nav_in ul li ul li ul li ul { visibility:hidden; display:block; position:absolute; left:181px; top:0px; width:180px;  }
+.main_nav_in ul li:hover ul li ul li ul { visibility:hidden; }
+.main_nav_in ul li ul li ul li:hover ul { display:block; visibility:visible; height:auto; }
+
+.main_nav_in .social_media ul { margin:0; padding:0; float:right; background:none; }
+.main_nav_in .social_media ul li a { margin:13px 0px 4px 6px; padding:0; float:right; background:none; border:none; text-shadow:none; }
+.main_nav_in .social_media ul li:hover, .main_nav_in .social_media ul li:hover a {  -moz-box-shadow: 2px 2px 2px #fff;
+  -webkit-box-shadow: 2px 2px 2px #fff;
+  box-shadow: 2px 2px 2px #fff; background:none; border:none; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	4. Main Content Styles
+/*-----------------------------------------------------------------------------------*/
+/* breadcrumb --------------------------- */
+.breadcrumb_in { width:978px; margin:0 auto; padding:8px 0; font:11px Arial, Helvetica, sans-serif;  }
+.breadcrumb_in a { text-decoration:none; }
+
+/* ajax post view swtich --------------------------- */
+#mode {display: block; width: 37px; height: 14px; position:relative; float:right; z-index:1; top: -14px; right: 30px; }
+
+
+/*** Content ============================================================ ***/
+.content-title { font-size: 22px; font-weight:normal; padding: 0 0 5px 0px; position: relative;}
+.content-title h1 { font-size: 22px; font-weight:normal; }
+.content-title a { text-decoration: none;}
+.content-title a:hover {text-decoration: underline;}
+.content-title span a { text-decoration: none;}
+.content-title span a:hover { text-decoration: none;}
+
+.list .post {padding: 30px 0 20px 0px; overflow:hidden;  position:relative; }
+.list .post .thumb img {float: left; margin: 0 30px 30px 0; width: 290px; height: 290px;}
+.list .post .post-category {font-size: 11px; margin-bottom: 11px;}
+.list .post .post-category a {text-decoration: none;}
+.list .post .post-category a:hover {text-decoration: underline;}
+.list .post h2 { }
+.list .post h2, .list .post h2 a { font-size: 24px; font-weight: normal; text-decoration: none;}
+.list .post h2 a:hover { text-decoration: noen; } 
+.list .post .post-meta { font-size: 11px; margin-bottom: 20px;}
+.list .post .post-meta span, .list .post .post-meta a { text-decoration: none; font-style: normal;}
+.list .post .post-meta a:hover {text-decoration: none; }
+
+.list .post a.read_more { text-decoration:none; padding:2px 10px;  position: absolute; right:0; bottom:0;  margin-top:20px; font-size:11px; float:right;    }
+.list .post-content .alignleft { padding:5px; }
+
+
+
+/* Text with image  ------------- */
+.grid { overflow:hidden; }
+.grid .post { width: 260px;  padding: 18px; float: left; margin:19px 10px 16px 10px; position: relative; overflow: hidden; cursor: pointer;}
+.grid .post .post-category,  .grid .post .post-meta em {display: none;}
+.grid .post .post-content { font-size:12px;  }
+.grid .post .post-content img { display:none; }
+
+.grid .post h2, .grid .post .post-meta {display: block;}    
+.grid .post .thumb {width: 190px; height: 190px; position: absolute; top: 0; left: 0; z-index: 1;}
+.grid .post .thumb img { width: 100px !important;   }
+.grid .post h2, .grid .post h2 a { font-size: 22px; font-weight: normal; text-decoration: none;}
+
+.grid .post h2 {margin-bottom: 5px;}
+.grid .post a {text-decoration: none;}
+.grid .post a:hover {text-decoration: none;}
+.grid .post .post-meta {font-size: 10px; margin-bottom:10px;}
+.grid .post .post-meta span, .grid .post .post-meta a { font-style: normal;}
+.grid .post .post-edit-link {position: absolute; bottom: 18px; left: 18px; display:none; }
+
+.content_3col .grid .post, .content_3col_left .grid .post, .content_3col_right .grid .post { width:228px;  }
+.content_full .grid .post { width:270px; }
+
+.post-meta { font-size: 11px; position: relative;}
+.post-meta h1 { font-size: 30px; padding:10px 0 8px 0; font-weight: normal; }
+
+.entry .post { padding-bottom: 15px;}
+.entry .post-meta { line-height:38px; font-size: 11px; position: relative;}
+.entry .post-meta h1 { font-size: 40px; font-weight: normal;  }
+.format-standard h1 { padding-bottom:5px; }
+
+.entry .post-meta span, .entry .post-meta a { text-decoration: none; font-style: normal;}
+.entry .post-meta a:hover {text-decoration: underline;}
+.entry .post-comms {position: absolute; right: 0;}
+.entry .post-content a { text-decoration:none; }
+.entry .post-content a:hover {  text-decoration: none;}
+.entry .post-footer {padding-left: 30px; font-size: 12px; margin-bottom: 15px;}
+.entry .post-footer a { text-decoration: none;}
+.entry .post-footer a:hover {text-decoration: none; }
+.page .post-category {display: none;}
+
+.post-content { margin-bottom: 30px; line-height:22px; }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { font-weight: normal; }
+
+.post-content .search {float: none; margin-top: 15px; width: auto;}
+.post-content .search fieldset {width:95%; height: 35px;}
+.post-content .search input {width:88%; font-size: 16px;}
+
+/*-----------------------------------------------------------------------------------*/
+/*	6. Post Page Navigation 
+/*-----------------------------------------------------------------------------------*/
+/* single page post navigation --------------------------- */
+.post-navigation {/*width: 610px;*/ padding: 15px 0 45px 0px; position: relative;}
+.post-navigation a {display: block; font-size:12px; text-decoration: none; line-height: 1.5;}
+.post-navigation a:hover {text-decoration: none; }
+.post-navigation a em {display: block; font-size:11px; }
+.post-navigation a:hover span {text-decoration: underline; }
+.post-prev {width: 40%; min-height: 40px; padding-left: 30px; float: left; text-align: left; }
+.post-next {width: 40%; min-height: 40px; padding-right: 30px; float: right; text-align: right; }
+.line {width: 1px; height: 100%; position: absolute; top: 0; right: 50%;}
+
+
+/* ajax loading pagination --------------------------- */
+#pagination {padding: 20px 0 0 0px;}
+#pagination .nextpostslink { text-decoration: none; display: block; padding: 9px 0; text-align: center; font-size: 14px;}
+#pagination .nextpostslink:hover { text-decoration: none; }
+#pagination .loading:hover { cursor: default;}
+
+
+/* post pagination --------------------------- */
+.pagination {padding: 0px 0 20px 0px; margin-top:40px; min-height:30px; font:bold 12px Arial, Helvetica, sans-serif; clear: both; position: relative;   }
+.pagination a { text-decoration: none;}
+.pagination a:hover {text-decoration: none;}
+.pagination .nextpostslink { position: absolute; right: 0; top: -3px; line-height: 21px; display:block;  
+padding:4px 29px 4px  40px;  text-decoration:none; }
+.pagination a:hover.nextpostslink { text-decoration:none; }
+
+.pagination .previouspostslink {position: absolute; left:0px; top: -3px; line-height: 21px;  display:block;  
+padding:4px 28px 4px  30px; }
+.pagination a:hover.previouspostslink { text-decoration:none; } 
+
+.Navi { display: block; text-align: center; }
+.Navi .on { padding:7px 11px 7px 11px; margin-right:3px;  display:inline; font:bold 13px  "微软雅黑", "Microsoft YaHei UI", Arial; }
+.Navi a {  display:inline;  padding:7px 11px 7px 11px; margin-right:3px; font:bold 13px  "微软雅黑", "Microsoft YaHei UI", Arial; }
+.Navi { display:block; text-align:center;  }
+.Navi .previouspostslink { display:none; }
+.Navi .nextpostslink { display:none; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	7. Comments
+/*-----------------------------------------------------------------------------------*/
+#comments {margin-bottom: 30px;}
+.comments h3 {font-size: 22px; font-weight: normal;  padding: 15px 0 5px 0px; }
+.comment { padding: 15px 0 15px 0px;  margin-bottom:10px;  }
+.comment td {vertical-align: top;}
+.comment-meta {position: relative; min-height: 70px; font-size: 11px; margin-right: 30px;}
+.avatar {display: block; margin:0 10px 8px 0; padding:5px; }
+.comment-author a, .comment-author span {text-decoration: none; font-family: "微软雅黑", "Microsoft YaHei UI", Arial; font-weight:bold; }
+
+
+.comment-author a:hover {text-decoration: underline; }
+.comment-author, .comment-date {white-space: nowrap;}
+a.comment-reply-link { position: absolute; bottom: 1px;  text-decoration: none;  float:left; display:block; padding:5px 10px; 
+font:bold 11px "微软雅黑", "Microsoft YaHei UI", Arial; text-decoration:none; margin:10px 0 0 0; clear:inherit;  }
+.comment-reply-link:hover { background-position:0 -36px; }
+.comment-text p { font-size:15px; margin-bottom: 15px; line-height:20px; }
+.comment .children {margin-left: 80px;}
+.comment .children .children {margin-left: 50px;}
+.comment .children .comment {padding-left: 0;}
+.comment  { overflow:hidden; }
+.comment_list ol li { margin-bottom:30px; }
+.comment_left { float:left; }
+.comment-text { float:right; width:80%;  }
+.comment_list ol li ul.children {   overflow:hidden; margin-left:5%;  }
+.comment_list ol li ul.children li { margin-bottom:0; }
+p.comment_message { font-size:14px;  }
+
+/* comment form -----------------------*/
+#respond { clear:both; }
+.nopassword {padding-left: 30px;}
+#respond p, .nopassword {margin: 10px 0; }
+#respond p a {text-decoration: none;}
+#respond p a:hover {text-decoration: underline;}
+#commentform {padding: 30px 0;}
+#commentform table {width: 100%; margin-bottom: 15px;}
+#commentform td {vertical-align: top; width: 33.33%;}
+#commentform td p { font-size:11px; color: #333; margin-bottom: 5px;}
+#commentform td p span {color: #aaa9a9; font-style:italic; font-size:11px; }
+#comment {width: 100%; height: 120px; padding: 0; margin: 0; overflow: auto;}
+#comment  #author, #comment  #email, #comment #url {width: 100%; margin: 0; padding: 0; border: none; font-size:12px;}
+#submit {float: left; border: none;  cursor: pointer;  padding:8px 20px; 
+font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial; text-decoration:none; margin:10px 0 0 0; 
+clear:inherit;  }
+p#cancel-comment-reply {float: right; line-height: 28px; margin: 0;}
+.commform-author div {margin-right: 15px; padding: 5px;}
+.commform-email div { padding: 5px;}
+.commform-url p {margin-left: 15px !important;}
+.commform-url div {margin-left: 15px; padding: 5px;}
+.commform-textarea { padding: 10px; margin-bottom: 10px;}
+.commform-author div , .commform-email div, .commform-url div, .commform-textarea  { background:#fff;}
+.commform-author div input, .commform-email input, .commform-url input { width:204px; }
+
+/* sidebar widget ----------- */
+.sidebar h3 { font-size:17px;  font-weight: bold; margin-bottom:10px; }
+.sidebar { position:relative;  }
+.home .sidebar { position:relative; }
+.sidebar .widget { border-bottom:1px dashed #ccc; }
+
+.latest_posts li, .popular li, #twitter li { height:auto; }
+
+.textwidget img { float:left; margin:0 12px 12px 0; }
+.sidebar #testimonials  blockquote { height:150px;  }
+.sidebar #testimonials  blockquote p { padding-right:30px; }
+.sidebar #testimonials cite { float:right; margin-right:30px; text-align:right; font-size:14px; }
+.sidebar #testimonials cite small { font-size:11px; color:#777; }
+
+.newsletter { padding-bottom:20px; position:relative; }
+.newsletter .field { padding:6px; height:auto; width:220px; padding-right:30px;  }
+.newsletter .btn_submit { display:block; width:15px; height:15px; cursor:pointer; position:absolute; right:40px; bottom:27px; }
+
+
+
+/* booking form ---------------------- */
+#booking { width:958px; margin:0 auto; position:relative; top:0px; padding:0 10px; height:44px; overflow:hidden; clear:both;  }
+#booking h3 { float:left; font-size:17px; margin:0; padding:16px 20px 0 25px; }
+#booking #reservation_frm { padding:0; margin:0; }
+
+.book_row { position:relative; float:left; margin-top:11px; margin-right:10px; }
+
+
+.book_row select { padding:4px 4px 3px 4px; font-size:13px; background:#fff;  }
+.book_row .booking_input { width:110px; font-size:13px;  }
+.book_row .textfield { width:70px  }
+
+.book_row .calendar { padding-right:25px; width:85px; }
+.book_spacer { margin-right:30px; }
+.book_row .adults { width:75px; }
+.book_row .room { width:115px; }
+.book_row .roomtype { width:140px; }
+
+.book_row .textarea { padding:4px; width:226px; font-size:13px;  }
+.book_row .cal {   cursor:pointer; float:right; margin-left:4px; margin-top:1px; }
+
+#booking .b_submit { width:90px; line-height:15px; padding-bottom:2px; font-weight:bold; margin-top:11px; float:left; cursor:pointer; height:27px; }
+
+
+/* booking form sidebar ---------------------- */
+.sidebar .textwidget { padding-bottom:20px; }
+.sidebar #booking { width:auto; padding:0 10px; margin-bottom:35px; padding-bottom:35px; height:auto; overflow:hidden; clear:both;  }
+.sidebar #booking h3 { float:inherit; font-size:17px; font-weight:bold; margin:0; padding:0px 20px 10px 0px; }
+.sidebar #booking p { font-size:12px; }
+.sidebar .book_row .adults { width:117px; }
+.sidebar .book_row { width:200px; } 
+.sidebar .book_row .cal { float:right; margin-right:42px; }
+.sidebar #booking .b_submit { float:inherit; clear:both; margin-top:-10px;  }
+
+/*-----------------------------------------------------------------------------------*/
+/*	 8. Widget
+/*-----------------------------------------------------------------------------------*/
+/* contactus widget----------------- */
+#contact_widget_frm .form_row { display:table; margin-bottom:10px;  } 
+#contact_widget_frm .form_row label { display:block; padding:4px 0; margin-right:5px;  }
+#contact_widget_frm .form_row .textfield {   width:90%; padding:5px; } 
+#contact_widget_frm .form_row .textarea {   width:90%; padding:5px;  } 
+#contact_widget_frm .error, .message_error { display:block; clear:both; padding-top:4px; font:11px   "微软雅黑", "Microsoft YaHei UI", Arial; }
+#contact_widget_frm .b_submit  { font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial; margin-bottom:40px; cursor:pointer; width:90px; 
+padding:8px 20px; text-decoration:none;  }
+#contact_widget_frm p.success_msg { font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial; padding:5px; margin-top:20px; margin-bottom:20px; text-align:center;  }
+#contact_widget_frm .indicates{ font-size:11px; }
+
+
+.google_map_contact { width:350px; float:right; margin:0 0px 30px 40px; }
+
+.content .google_map_contact h3 { margin-top:0; }
+
+/* Google Map widget----------------- */
+.get_direction { padding:10px 0; display:block; font-weight:bold; }
+#container .sidebar .google_map { border-bottom:none; margin-bottom:0; }
+
+
+/* contactus widget----------------- */
+#testimonials{ min-height:158px;  }
+#recentcomments  li { font-size:13px; padding:8px 0; }
+
+.content .widget h3, .content .widget-small h3 { font-size:22px; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   9. Bottom Section
+/*-----------------------------------------------------------------------------------*/
+.bottom { overflow:hidden;  }
+.bottom .widget { margin-bottom:0; }
+.bottom .widget h3 { font-size:17px;  font-weight:bold;  }
+.bottom .widget li { margin-bottom:15px; font-size:14px; line-height:19px; padding-left:20px; }
+.bottom .widget li a.title { font-weight:bold; }
+.widget .resources { padding-top:7px; }
+
+.bottom .widget li a { text-decoration:none; }
+.bottom .widget li .post-date, .bottom .widget li .single_comments { font-size:11px;  }
+.bottom .widget li ul li, .bottom .widget li ul li ul li { padding:9px 5px 0px 5px; margin:0; }
+.bottom .widget p { font-size:12px; margin-bottom:10px; line-height:22px; }
+a.more_lnk { display:block; float:left; padding:5px 10px 5px 20px; text-decoration:none; display:block; font:12px  "微软雅黑", "Microsoft YaHei UI", Arial; }
+.get_direction { font-weight:normal; }
+
+#testimonials blockquote p { padding-left:24px; font-style:normal; }
+#testimonials blockquote cite { font-style:normal; text-align:right; font-weight:bold; float:right; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	 10. Footer
+/*-----------------------------------------------------------------------------------*/
+.footer p {font-size: 12px; }
+p.copyright {float: left;}
+.credits {float: right;}
+
+.credits a { background:url(images/templatic.png) no-repeat left top; text-indent:-9009px;  display:inline-block; width:85px; 
+margin-left:10px; top:-5px; position:relative; height:22px; float:right; }
+
+
+.footer p a { text-decoration:none; }
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	11. Page Templates
+/*-----------------------------------------------------------------------------------*/
+/*----------------- */
+/* contactus 
+----------------- */
+#contact_frm { }
+#contact_frm .form_row { display:block; overflow:hidden; margin-bottom:24px;  } 
+#contact_frm .form_row label { display:block; padding:4px 0; margin-right:10px; font-size:14px; width:130px; float:left; }
+#contact_frm .form_row .textfield { font-size:14px; width:300px; padding:6px; } 
+#contact_frm .form_row .textarea { font-size:14px;width:460px; padding:6px; } 
+#contact_frm .error, .message_error { display:block; padding-top:4px; font-size:11px; padding-left:142px; }
+.sidebar #contact_frm .error, .sidebar .message_error { padding-left:0px; }
+#contact_frm .b_submit  { font-weight:bold; margin-left:140px; width:100px; font:bold 15px  "微软雅黑", "Microsoft YaHei UI", Arial;  margin-bottom:40px; cursor:pointer;  
+padding:8px 20px; text-decoration:none;}
+#content p.success_msg { font-size:14px; font-weight:bold; padding:5px; margin-top:20px; margin-bottom:20px; text-align:center; }
+#contact_frm .indicates{ font-size:11px; }
+.content_3col_right #contact_frm .b_submit, .content_3col_left #contact_frm .b_submit { margin-left:0; }
+
+
+/*----------------- */
+/* gallery 
+----------------- */
+.post-content .page_gallery { margin:0; padding:0; }
+.post-content .page_gallery li { margin:0 30px 34px 0; padding:0; list-style:none; float:left; padding:5px; position:relative;}
+.post-content .page_gallery li img { padding:10px; }
+.gallery_zoom { position:absolute; left:45%; top:45%; width:32px; height:32px; display:none; }
+.post-content .page_gallery li:hover .gallery_zoom { display:block; }
+.content_3col .post-content .page_gallery li, .content_3col_left .post-content .page_gallery li, .content_3col_right .post-content .page_gallery li { margin:0 18px 24px 0;  }
+.content_3col .post-content .page_gallery li img, .content_3col_left .post-content .page_gallery li img, .content_3col_right .post-content .page_gallery li img   { padding:5px; }
+
+
+/*----------------- */
+/* archives 
+----------------- */
+.arclist { margin:0 15px 30px 0; padding:15px; padding-top:0;  }
+.post-content .arclist ul { margin:0 0 0 12px; padding:0; }
+
+/*----------------- */
+/* Advanced Search
+----------------- */
+#advancedsearch { padding:15px; padding-top:0; overflow:hidden;	 }
+.content #advancedsearch h4 { margin:0; padding:14px 0; } 
+
+#advancedsearch .adv_input { padding:5px 8px; font-size:14px; width:73%; }
+#advancedsearch select { padding:5px 0 5px 4px; font-size:13px; width:45%; margin-right:10px; }
+#advancedsearch .adv_submit { border:none; margin-left:110px; width:100px; font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial; cursor:pointer; 
+padding:8px 20px; text-decoration:none; }
+.advanced_left { margin-bottom:10px;   overflow:hidden;  }
+.advanced_left label { float:left; margin-right:10px; margin-bottom:10px; padding-top:5px; width:100px;  }
+.post-content #advancedsearch p { margin:0 0 15px 0; padding:0; clear:both;  overflow:hidden; }
+.advanced_left span { float:left; margin-right:10px; padding-top:5px; } 
+.advanced_left .textfield { padding:4px; float:left; width:120px;  }
+.post-content .adv_calendar { float:left; margin:0 20px 0 10px; cursor:pointer; }
+.advanced_left span.adv_author { float:left; margin-left:10px; padding-top:5px; }
+.advanced_left  .checkbox { margin-top:7px; }
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  13. Shortcodes
+/*-----------------------------------------------------------------------------------*/
+/* buttons --------------------  */
+.small_button {  float:left; margin:0 15px 15px 0; }
+.entry .post-content .small_button a { margin-left:15px; display:block; float:left; font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial;  padding:9px 25px 9px 10px; text-decoration:none;   }
+hr { clear: both;  padding:20px 0 0 0; height:1px; }
+
+
+/* About Author --------------------  */
+.entry .post-content .about_author  {  clear:both; overflow:hidden; padding:20px; margin:20px 0; -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;	-moz-border-radius: 10px; }
+.entry .post-content .about_author img { float:left; margin:0 18px 15px 0; }
+.entry .post-content .about_author h4 { margin-top:0; margin-bottom:5px; }
+.entry .post-content .about_author br { display:none; }
+
+/* check list view --------------------  */
+.post-content .check_list ul {list-style:none; padding-left:0px; margin: 15px 0;}
+.post-content .check_list ul li { list-style:none; margin:0 0 8px 0; padding-left:25px; }
+.post-content .check_list ul li ul  {margin:0 ; padding-left:15px; list-style:none; }
+.post-content .check_list ul li ul li  {margin:8px 0 8px 0 ; }
+
+/* boxes --------------------  */
+.entry .post-content .boxes  {   overflow:hidden; padding:20px; margin:40px 0; 
+ -webkit-border-radius: 10px; -khtml-border-radius: 10px;	-moz-border-radius: 10px;  }
+.entry .post-content .boxes h3 { margin:0;  }
+.entry .post-content .boxes br { display:none; }
+
+.small { width:21%; float:left; margin:0 20px 20px 0 !important; }
+   
+.entry .post-content .warning_box, .entry .post-content .download_box, .entry .post-content .info_box, 
+.entry .post-content .about_box, .entry .post-content .alert_box { padding-left:85px; }
+
+.post-content p.dropcaps {  padding:20px 10px 0 0;  }
+.post-content p.dropcaps:first-letter { font-size:40px; float:left; margin-right:8px; margin-top:5px; line-height:35px;  } 
+
+
+/* content columns define ----------- */
+.two_thirds { width:60%; padding:0 50px 0 0; }
+.two_thirds_last { width:62%;  }
+.two_thirds_last br { display:none; }
+.clear_spacer { clear:both; width:100%; }
+
+.one_half_column, .one_third_column, .one_third_column_last, .one_fourth_column, .one_fourth_column_last { margin-bottom:30px; }
+.one_half_column { width:45%;  }
+.one_third_column { width:30%; padding:0 50px 0 0;  }
+.one_third_column_last { width:29%;   }
+.one_fourth_column { width:20%; padding:0 60px 0 0; }
+.one_fourth_column_last { width:20%;  }
+
+.one_half_column br, .one_third_column br, .one_third_column_last br, .one_fourth_column br, .one_fourth_column_last br    { display:none; }
+
+.post-content .one_half_column h3, .two_thirds h3, .two_thirds_last h3, .post-content .one_third_column h3, .post-content .one_third_column_last h3,
+.post-content .one_fourth_column h3, .post-content .one_fourth_column_last h3,
+.post-content .one_half_column h4, .two_thirds h4, .two_thirds_last h4, .post-content .one_third_column h4, .post-content .one_third_column_last h4,
+.post-content .one_fourth_column h4, .post-content .one_fourth_column_last h4,
+.post-content .one_half_column h5, .two_thirds h5, .two_thirds_last h5, .post-content .one_third_column h5, .post-content .one_third_column_last h5,
+.post-content .one_fourth_column h5, .post-content .one_fourth_column_last h5,
+.post-content .one_half_column h6, .two_thirds h6, .two_thirds_last h6, .post-content .one_third_column h6, .post-content .one_third_column_last h6,
+.post-content .one_fourth_column h6, .post-content .one_fourth_column_last h6
+{ margin-top:0;  }
+
+.form_row .message_note, .form_row .message_error2 {padding-left:5px;  }
+
+/*services -------------------- */
+.content .services { margin:0 0 40px 0; padding:0; list-style:none; }
+.content .services li { margin:0 30px 0 0; padding:0; float:left; width:290px; list-style:none; }
+.content .services li img { float:left; }
+.content .services li h4 { margin-bottom:3px; font-weight:normal; font-size:17px; }
+.content .services li h4, .content .services li p { width:240px; float:right;  }
+.content .services li.hr { width:100%; clear:both; height:30px;  }
+
+.content .photogallery { margin:0 0 40px 0; padding:0; list-style:none; }
+.content .photogallery li { margin:0 30px 0 0; padding:0; float:left; width:180px; list-style:none; position:relative; }
+.content .photogallery li .photo { padding:4px; }
+.content .photogallery li .plus { position:absolute; right:-18px; top:80px;  }
+.content .photogallery li p a:hover, .content .photogallery li:hover p a { cursor:pointer;text-decoration:none; }
+
+
+/* bottom strip top ----------- */
+.bottom_top_strip { padding:4px 0; }
+.bottom_top_strip_in { width:978px; margin:0 auto; }
+.reservation_call { font-size:18px; display:block; float:left; padding:10px 0 10px 20px;  }
+.reservation_call a { text-decoration:none; }
+
+.bottom_top_strip ul { margin:0; padding:0; float:right; }
+.bottom_top_strip ul li { margin:0 0 0 20px; float:left; padding:8px 0 0 38px; font:bold 12px  "微软雅黑", "Microsoft YaHei UI", Arial;  }
+.bottom_top_strip ul li.i_facebook { padding-left:20px; }
+.bottom_top_strip ul li a { text-decoration:none;}
+
+
+
+/*  --------------------------------------------------------------
+slider 
+-------------------------------------------------------------- */
+/* HEADER */
+#slider { height:494px; }
+.sliderimg { width:100%; height:538px; position:absolute; }
+
+
+/* HEADER TEXT */
+#slidertxt { width:978px; margin:0 auto; clear:both; position:relative; top:74px; }
+#firstline { font-size:50px;}
+#secondline { text-decoration:none; font-size:40px;  }
+#secondline:hover { text-decoration:underline; }
+
+#slidertxt p.caption {  display:block;  }
+#slidertxt p.caption  span { padding:12px 20px; line-height:50px; float:left; }
+#slidertxt p.caption  a { padding:12px 20px; line-height:30px; float:left; display:block; clear:both; }
+
+.pictured { font-size:12px; padding:9px 16px; text-transform:uppercase; float:left; display:block; clear:both; margin-top:10px; }
+.pictured a { font-size:16px; font-style:italic; letter-spacing:0; text-transform:none; text-decoration:none; }
+.pictured a:hover { text-decoration:underline; }
+
+/* CONTROLS */
+.btn { height:32px; width:32px; float:left; cursor:pointer; }
+
+/* HEADER HAVIGATION */
+#slidernav-outer { position:relative; top:400px; margin:0 auto; width:960px; }
+#slidernav { padding-left:864px; }
+
+
+/*  Booking Widget Form ------------------*/
+.error_msg_form, .message_error2 { margin-bottom:2px; font-size:11px; clear: both; }
+.message_error2  { font-family: "微软雅黑", "Microsoft YaHei UI", Arial; padding-left:145px; display:block; }
+
+
+.booking_form td.label { font:bold 12px  "微软雅黑", "Microsoft YaHei UI", Arial; vertical-align:top; padding-top:10px; width:70px;  }
+.booking_form td { padding-bottom:10px; }
+.booking_form label.note, .booking_form .note, .booking_form_display .note  { font:11px  "微软雅黑", "Microsoft YaHei UI", Arial; display:block; clear:both; padding:3px 0 3px 2px;}
+.booking_form .note { padding-left:143px; }
+
+.content h3.btitle { margin:0; padding:0; padding-bottom:5px; margin-bottom:10px; }
+.booking span { display:block; clear:both; padding-bottom:10px;  margin-bottom:10px; }
+.booking_label { width:150px; float:left; padding-right:10px; font-size:14px; }
+div.booking { padding-bottom:30px;   }
+
+.booking_form_display .booking_label { width:135px;font-size:14px; line-height:normal; }
+
+div.booking_form_display { line-height:30px; padding:5px; width:600px; }
+div.booking_form_display .cal {   cursor:pointer; float:right; margin-left:4px; margin-top:1px; }
+
+.textfield { padding:5px; width:200px; font-size:12px; }
+.select { padding:5px; width:200px; font-size:12px;  }
+.small_s { width:100px; margin-right:10px; }
+
+ 
+.bfr { display: table; padding-bottom:10px; }
+.bfr .booking_label small { color:#900; }
+.bfrl { display:table;  }
+.bfr_service { display:block; width:452px; float:right;  }
+
+
+.booking_form .button { float:left;  display:block; padding:8px 20px; 
+font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial;  text-decoration:none;  margin:10px 0 0 152px; clear:inherit;  }
+.booking_form  .button { clear:inherit;  }
+.booking_form .button:hover { cursor:pointer; }
+.booking_form .button_spacer { margin-left:200px !important; }
+.social_media { height:auto; }
+
+.book_left{ float:left;display:block; padding:8px 20px; 
+font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial;  text-decoration:none; cursor:pointer; }
+.book_right{ float:right;display:block; padding:8px 20px; 
+font:bold 14px  "微软雅黑", "Microsoft YaHei UI", Arial;  text-decoration:none; cursor:pointer; }
+
+/* payment method ------------- */
+.content .booking .payment_method { margin:0; padding:0; list-style:none; }
+.content .booking .payment_method li { margin:0 0 10px 0; padding:0; list-style:none; }
+.content .booking .payment_method li { padding-bottom:10px; }
+
+
+#authorizenetoptions { margin-left:20px; }
+#authorizenetoptions td { padding:10px; }
+
+
+/* Room Type Page tpl --------------- */
+.roomtype { height:100%; overflow:hidden; clear:both; padding-bottom:25px; margin-bottom:25px;  }
+.roomtype .divimg { float:left; width:auto; padding:5px; margin:0 13px 13px 0;  }
+.roomtype h3 { margin:0 0 10px 0; padding:0;  }
+.roomtype .divdesc { width:490px; float:right; padding-top:4px; }
+.roomtype a.more_link { font-size:12px;  }
+
+
+
+/* hotel details page --------------- */
+.hotel_detail { clear:both;  display:block; padding-bottom:10px; height:100%; overflow:hidden; }
+.hotel_img { padding:5px; float:left; width:150px; margin:10px 20px 20px 0 }
+
+.hotel_thumb img { float:left; margin:0 12px 12px 0; padding:4px; }
+.hotel_desc { float:right; width:490px; }
+
+
+/* Room detail page slider ------------- */
+.galleria-container{position:relative;overflow:hidden; height:570px; margin-bottom:30px; }
+.galleria-thumbnails-container { }
+.galleria-container img{-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;}
+.galleria-stage{position:absolute;top:10px;bottom:80px;left:0px;right:10px;overflow:hidden;}
+.galleria-thumbnails-container{height:65px;bottom:0;position:absolute;left:0px;right:10px;z-index:2;}
+.galleria-carousel .galleria-thumbnails-list{margin-left:30px;margin-right:30px;}
+.galleria-thumbnails .galleria-image{height:50px;width:60px; margin:0 13px 0 0; float:left;cursor:pointer;}
+.galleria-counter{position:absolute;bottom:10px;left:10px;text-align:right; font:normal 11px/1  "微软雅黑", "Microsoft YaHei UI", Arial;z-index:2;}
+.galleria-loader{ width:20px;height:20px;position:absolute;top:10px;right:10px;z-index:2;display:none;}
+.galleria-info{width:50%;top:15px;left:15px;z-index:2;position:absolute;}
+.galleria-info-text{ padding: 12px;display:none;}
+.galleria-info-title{font:bold 12px/1.1 arial,sans-serif;margin:0; }
+.galleria-info-description{font:italic 12px/1.4 georgia,serif;margin:0; }
+.galleria-info-title+.galleria-info-description{margin-top:7px;}
+.galleria-info-close{width:9px;height:9px;position:absolute;top:5px;right:5px; opacity:.5;cursor:pointer;display:none;}
+.galleria-info-link{ opacity:.8;position:absolute;width:20px;height:20px;cursor:pointer; }
+.galleria-info-link:hover,
+.galleria-info-close:hover{opacity:.5;}
+.galleria-image-nav{position:absolute;top:50%;margin-top:-15px;width:100%;height:31px;left:0;}
+.galleria-image-nav-left,
+.galleria-image-nav-right{opacity:.7;cursor:pointer;width:16px;height:31px;position:absolute;left:10px;z-index:2;}
+.galleria-image-nav-right{left:auto;right:10px; z-index:2;}
+.galleria-image-nav-left:hover,
+.galleria-image-nav-right:hover{opacity:1.0;}
+.galleria-thumb-nav-left,
+.galleria-thumb-nav-right{cursor:pointer;display:none; position:absolute;left:0;top:0;height:60px;width:23px;z-index:3;opacity:1.0;}
+.galleria-thumb-nav-right{ right:0;left:auto;}
+.galleria-thumbnails-container .disabled,
+.galleria-thumbnails-container .disabled:hover{opacity:.6;cursor:default;}
+.galleria-thumb-nav-left:hover,
+.galleria-thumb-nav-right:hover{opacity:1;/*background-color:#111;*/}
+.galleria-carousel .galleria-thumb-nav-left,
+.galleria-carousel .galleria-thumb-nav-right{display:block;}
+
+
+#framework_wrap #content table { border:none; }
+.table td.title {
+    border-bottom: 2px solid #DDDDDD;
+    border-top: 2px solid #DDDDDD;
+    color: #333333;
+}
+.table td.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.table td {
+    padding: 5px 10px;
+    vertical-align: top;
+}
+.table .row1 {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    color: #444444;
+}
+.total_amount_title {
+    background: none repeat scroll 0 0 #E8E8E8;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+	color:#000000;
+}
+.total_amount_title {
+    font-size: 16px;
+   }
+.table .row1 {
+    font-size: 12px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.credits a{ top:-20px; }
+}

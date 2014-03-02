@@ -1,0 +1,355 @@
+/** 
+ * 7.1
+ * Logged in user
+ */
+body{
+	&.admin-bar{
+		#page-cover{
+			top: 27px;
+		}		
+	}
+
+	&.logged-in{
+		#respond{
+			.submit-comment-avatar{
+				background: #f6f4f2;
+				border: 1px solid $crem_dark;
+				border-bottom: none;
+				padding: 10px;				
+			}
+		}
+	}
+}
+
+/** 
+ * 7.2
+ * Tablet & Desktop (Above 783px)
+ */
+@media all and (min-width: 783px){
+	body{
+		font-size: 25px;
+
+		&.logged-in{
+			#respond{
+				.submit-comment-avatar{
+					padding: 25px !important;
+
+					.left-info{
+						margin-right: 25px;
+					}
+				}				
+			}
+		}
+	}
+
+	#content,
+	.wrap{
+		width: 680px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#header{
+		.wrap{
+			padding-top: 240px;
+		}
+
+		&.single{
+			.wrap{
+				padding-top: 250px;
+			}
+
+			.page-theme{
+				font-size: 1.05em;
+			}
+		}
+	}
+
+	.page-theme{
+		font-size: 2em;
+	}
+
+	.page-theme-description{
+		font-size: .8em;
+	}	
+	
+	#header,
+	#page-cover{
+		height: 600px;
+	}
+	
+	body.expanded #top-nav,
+	#top-nav{
+		background: $green;
+
+		#home{
+			opacity: 1;
+			padding-top: 1px;
+
+			img{
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		#home-name{
+			font-size: .85em;
+			margin: 3px 0 0 15px;
+		}
+
+		#top-nav-toggle{
+			margin-top: 8px;
+		}
+
+		.top-nav-container{
+			top: 51px;
+
+			ul{
+				width: 680px;
+				margin: 0 auto 51px;
+			}
+
+			.sub-menu{
+				margin-left: 40px !important;
+			}
+		}
+	}
+
+	body.admin-bar{
+		#top-nav{
+			.top-nav-container{
+				top: 83px;
+
+				ul{
+					margin-bottom: 83px;
+				}
+			}
+		}
+	}
+
+	#content{
+		margin-top: -62px;
+
+		article{
+			margin-bottom: 60px;
+
+			.entry-header{
+				.entry-meta{
+					padding: 20px;
+
+					.entry-author,
+					.entry-author-action{
+						display: inline-block;
+					}					
+				}
+
+				.entry-title{
+					padding: 40px 80px;
+					font-size: 1.3em;
+					line-height: 1.2;
+				}				
+
+				.entry-original-link{
+					a{
+						padding-left: 113px;
+
+						&:before{
+							left: 75px;
+							top: 7px;
+							font-size: 32px;
+						}
+					}
+				}
+			}
+
+			.entry-content{
+				padding: 60px 80px;
+			}
+
+			.entry-footer{
+				padding: 20px 20px 20px 75px;
+			}
+		}
+	}
+
+	.entry-content{
+		p, ul, ol, address, pre, table,
+		input[type="text"], input[type="password"]{
+			margin-bottom: 25px;
+		}		
+	}
+
+	#nav-below{
+		margin-bottom: 80px;
+
+		a{
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			&:after{
+				top: 14px;
+			}			
+		}
+
+		.nav-previous{
+			a{
+				padding-left: 30px;
+				padding-right: 50px;
+			}
+		}
+		
+		.nav-next{
+			a{
+				padding-right: 30px;
+				padding-left: 50px;
+			}
+		}
+	}
+
+	#comments{
+		.comment{
+			margin-bottom: 20px;
+
+			.children{
+				margin-top: 20px;
+			}
+
+			.comment-wrap{
+				
+				.comment-avatar{
+					position: absolute;
+					top: 30px;
+					left: 30px;
+					width: 60px;
+					height: 60px;
+
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}				
+				.comment-content{
+					padding: 25px 40px 15px 110px;
+				}
+			}
+		}
+
+		.pingback{
+			.comment-wrap{
+				.comment-content{
+					padding: 25px 40px 15px 40px;					
+				}
+			}
+		}
+	}
+
+	#respond{
+		margin: 80px 0;
+
+		input.comment-input{
+			margin-bottom: 15px;
+
+			&.email{
+				width: 49%;
+			}
+
+			&.author{
+				width: 49%;
+				margin-right: 2%;
+			}
+		}
+
+		textarea{
+			margin-bottom: 15px;
+		}
+
+		input[type="submit"]{
+			padding: 15px 20px 13px;
+		}
+	}	
+
+	#secondary{
+		.wrap{
+			padding-top: 60px;
+		}
+	}
+}
+
+/**
+ * 7.3
+ * Mobile (below 600px)
+ */
+@media all and (max-width: 600px){
+	body{
+		&.admin-bar{
+			#top-nav{
+				.top-nav-container{
+					top: 86px;
+				}
+			}
+		}
+
+		#top-nav{
+			&.scrolled{
+				top: 0;
+
+				.top-nav-container{
+					top: 40px;
+				}
+			}
+		}
+	}
+}
+
+/** 
+ * 7.4
+ * Phablet / Big Phones ( 501px - 679px)
+ * Gallery requires specific styling for mobile view
+ */
+@media all and (min-width: 501px) and (max-width: 679px){
+	.gallery{
+		.gallery-item{
+			img{
+				width: 120px;
+				height: 120px;
+			}
+		}
+	}
+}
+
+/** 
+ * 7.5
+ * Smart Phone (Below 500px)
+ */
+@media all and (max-width: 500px){
+	.gallery{
+		.gallery-item{
+			img{
+				width: 75px;
+				height: 75px;
+			}
+		}
+
+		&.gallery-columns-4{
+			.gallery-item{
+				img{
+					width: 50px;
+					height: 50px;
+				}
+			}			
+		}
+	}
+}
+
+// Smaller screens need content optimization
+@media all and (max-width: 410px){
+	.entry-content{
+		font-size: .66em;
+	}
+
+	.comment{
+		.entry-content{
+			font-size: .75em;
+		}
+	}
+}

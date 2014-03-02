@@ -1,0 +1,6 @@
+div.gallery{ display:block; float:left; padding:5px; width:130px; margin:4px; text-align:center;height:100px;}
+div.gallery img{border:none;}
+.divimg{ float:left;width:180px;margin:5px;}
+.divdesc{float:left;width:400px;text-align:justify;}
+.leftbtn{float:left;width:200px;}
+.rightbtn{float:right;width:200px;}
